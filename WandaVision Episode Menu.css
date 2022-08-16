@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0D20E549227FFDC3B1207DBA9F5F94C2EB53783E7CAE0BF8E37ECEE899F03087/scale?width=2880&aspectRatio=1.78&format=jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+}
+.WandaVision {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+p {
+  font-family: arial;
+  font-size: large;
+  text-align: justify; 
+  width: [width of image];
+  color: white;
+}
+.episodeOne {
+  margin-left: 4%;
+}
+.episodeTwo {
+  margin-left: 11.5%;
+}
+.episodeThree {
+  margin-left: 25%;
+}
+.episodeFour {
+  margin-left: 7%;
+}
+.episodeFive {
+  margin-left: 7%;
+}
+.episodeSix {
+  margin-left: 5%;
+}
+.episodeSeven {
+margin-left: 8.5%;
+}
+.episodeEight {
+  margin-left: 17%
+}
+.episodeNine {
+    margin-left: 22.5%;
+}
+table {
+  margin-bottom: -2px;
+  margin-top: -2px;
+}
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: -2px;
+}
+td {
+  width: 50%;
+}

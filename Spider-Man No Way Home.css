@@ -1,0 +1,34 @@
+body {
+  background-image: url("https://is2-ssl.mzstatic.com/image/thumb/Video116/v4/14/62/b1/1462b1cf-79be-40af-7498-e2bac42d4531/SPE_SPIDERMAN_NO_WAY_HOME_TH_WIDE_US_ARTWORK_4320x3240_3358QV00000N8A.png/2000x1125sr.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+}
+.Spidey {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+p {
+  font-family: arial;
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+  color: white;
+}
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+}
+iframe {
+  border-radius: 25px;
+}

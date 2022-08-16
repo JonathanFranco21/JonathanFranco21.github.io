@@ -1,0 +1,109 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FA067D32C9A564BE1736D4087008BBB83658102AA4F9FF785A304C2454BAF526/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+
+.ms-marvel {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+p {
+  font-family: arial;
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 450px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px blue;
+}
+
+.ms-marvel-episodes {
+  margin: 0 32px auto;
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+img {
+  width: 450px;
+  height: 250px;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 3%;
+  text-shadow: 0px 2px 5px blue;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px blue;
+}
+
+.ms-marvel-logo {
+  box-shadow: none;
+}

@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://images.hdqwalls.com/wallpapers/disney-plus-avengers-endgame-4k-jv.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+b {
+  font-family: arial;
+  font-size: 40pt;
+  color: white;
+}
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: -2px;
+}
+p {
+  font-family: arial;
+  color: white;
+}
+li {
+  font-family: arial;
+  color: white;
+}
+.Endgame {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a {
+  color: white;
+}

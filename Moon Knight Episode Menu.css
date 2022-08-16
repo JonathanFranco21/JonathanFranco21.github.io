@@ -1,0 +1,97 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9529C6490A9B920DB578100A0B28B5C69BE0B7EC59C3EB26DBE4A5496CD846B9");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+.MoonKnight {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+p {
+  font-family: arial;
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+h3 {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+h4 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+
+iframe {
+  border-radius:25px;
+  text-shadow: 0px 2px 5px blue;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 450px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px blue;
+}
+
+table {
+  width: 100%;
+}
+
+img {
+  width: 450px;
+  height: 250px;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 3%;
+  text-shadow: 0px 2px 5px blue;
+}
+
+.nextInstallment {
+  margin-left: 34%;
+  margin-right: 50%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

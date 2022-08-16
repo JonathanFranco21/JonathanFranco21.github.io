@@ -1,0 +1,155 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  margin: 0 64px auto;
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+p {
+  font-family: arial;
+  font-size: large;
+  color: white;
+  text-align: justify;
+  text-shadow: 0px 2px 5px red;
+}
+
+th, td, tr {
+  padding: 10px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
+}
+
+table {
+  width: 100%;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 450px;
+}
+
+img {
+  width: 450px;
+  height: 250px;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 3%;
+  text-shadow: 0px 2px 5px red;
+}
+
+.nextInstallment {
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+.futurePhaseFour {
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.placeholder {
+  width: 450px;
+  height: 250px;
+}
+
+.review-schedule {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 25px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.release-schedule {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 25px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+th {
+  padding-bottom: 20px;
+}
+
+.available-phase-one {
+  padding-bottom: 0;
+}

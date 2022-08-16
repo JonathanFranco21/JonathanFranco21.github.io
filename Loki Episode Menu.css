@@ -1,0 +1,107 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1EBD834DF653DEE962A8B3F109C07EECF2FD345A9CEB940C8131D006185BE14A/scale?width=2880&aspectRatio=1.78&format=jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+.Loki {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: green;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+table {
+  margin-bottom: -2px;
+  margin-top: -2px;
+}
+
+p {
+  font-family: arial;
+  font-size: large;
+  text-align: justify; 
+  width: [width of image];
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+h4 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+td {
+  width: 50%;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: -2px;
+}
+
+#logo {
+  box-shadow: 0px 0px 0px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px green;
+}
+
+iframe {
+  border-radius: 20px;
+  box-shadow: 0px 2px 25px green;
+}
+
+.episodeOne {
+  margin-left: 13%;
+}
+
+.episodeTwo {
+  margin-left: 20%;
+}
+
+.episodeThree {
+  margin-left: 27%;
+}
+
+.episodeFour {
+  margin-left: 13%;
+}
+
+.episodeFive {
+  margin-left: 13%;
+}
+
+.episodeSix {
+  margin-left: 19%;
+}

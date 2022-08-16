@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/45BD3F510A9BC1E3055125DB7BCB68D9B9F278AAD6418B3257345D9A1BFF6D85/scale?width=2880&aspectRatio=1.78&format=jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+b {
+  font-family: arial;
+  font-size: 40pt;
+  color: white;
+}
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: -2px;
+}
+p {
+  font-family: arial;
+  color: white;
+}
+li {
+  font-family: arial;
+  color: white;
+}
+.Malekith {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a {
+  color: white;
+}

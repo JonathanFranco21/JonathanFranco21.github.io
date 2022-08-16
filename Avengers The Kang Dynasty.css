@@ -1,0 +1,30 @@
+body {
+    /* background-image: url(https://wallpaperaccess.com/full/1186033.jpg); */
+    background-color: black;
+    background-size: cover;
+  }
+  b {
+    font-family: arial;
+    font-size: 50pt;
+    color: white;
+  }
+  .kang-dynasty {
+    font-family: arial;
+    font-size: xx-large;
+    background-color: red;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  p {
+    font-family: arial;
+    font-size: xx-large;
+    text-align: justify;
+    width: [width of img];
+    color: white;
+  }
+  h2 {
+    font-family: arial;
+    font-size: 25pt;
+    color: white;
+  }

@@ -1,0 +1,69 @@
+body {
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");*/
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  b {
+    font-family: arial;
+    font-size: 50pt;
+    color: white;
+    text-shadow: 0px 2px 5px red;
+  }
+  
+  th, td, tr {
+    padding: 10px;
+    color: white;
+    font-family: arial;
+    text-shadow: 0px 2px 5px red;
+    font-size: 24px;
+  }
+  
+  table {
+    box-shadow: 0px 2px 5px red;
+    width: 100%;
+    border-radius: 10px;
+    border: 5px solid white;
+  }
+  
+  table, th, tr, td {
+    border: 5px solid white;
+    border-collapse: collapse;
+  }
+  
+  img {
+    width: "450";
+    height: "250";
+  }
+  
+  .Schedule {
+    font-family: arial;
+    font-size: xx-large;
+    background-color: red;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px;
+  }
+  
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: red;
+    text-decoration: none;
+  }

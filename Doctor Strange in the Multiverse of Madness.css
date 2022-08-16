@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3C1DBBA7E69F6DC03B76A999495F09FA0B3D3E8F318B55E477516BC049709E15/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+.DocStrange2 {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+p {
+  font-family: arial;
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+iframe {
+  border-radius:25px;
+  text-shadow: 0px 2px 5px red;
+}

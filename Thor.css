@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1581454C6F6791415E306265408F4246F6B858A72C677DBB3C7A633FD7459C02/scale?aspectRatio=1.78&format=jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+b {
+  font-family: arial;
+  font-size: 40pt;
+  color: white;
+}
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: -2px;
+}
+p {
+  font-family: arial;
+  color: white;
+}
+li {
+  font-family: arial;
+  color: white;
+}
+.Odinson {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a {
+  color: white;
+}

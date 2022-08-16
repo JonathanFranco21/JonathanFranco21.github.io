@@ -1,0 +1,104 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A4084974A3AEED7B5F94C37EDD816BB8D192505F5D53BD8CABF4E0F82BA3ABB2/scale?width=2880&aspectRatio=1.78&format=jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+}
+
+.WhatIf {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 25px;
+}
+
+p {
+  font-family: arial;
+  font-size: large;
+  text-align: justify;
+  width: [width of img];
+  color: white;
+}
+
+table {
+  margin-bottom: -2px;
+  margin-top: -2px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+}
+
+h4 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+}
+
+img {
+  border-radius: 10px;
+}
+
+iframe {
+  border-radius:25px;
+}
+
+td {
+  width: 50%;
+}
+
+.episodeOne {
+  margin-left: 10.5%;
+}
+
+.episodeTwo {
+<<<<<<< HEAD
+  margin-left: 17%;
+}
+
+.episodeThree {
+  margin-left: 20%;
+}
+
+.episodeFour {
+  margin-left: 10%;
+}
+
+.episodeFive {
+  margin-left: 15%;
+}
+
+.episodeSix {
+  margin-left: 18%;
+}
+
+.episodeSeven {
+  margin-left: 3%;
+}
+
+.episodeEight {
+  margin-left: 12%;
+}
+.episodeNine {
+  margin-left: 20%;
+=======
+  margin-left: 15%;
+>>>>>>> 7cd2942d7224002396fbc25d4808ab2cbd7c9d24
+}
