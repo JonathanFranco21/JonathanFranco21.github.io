@@ -3,21 +3,21 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  margin: 0 64px auto;
 }
 
 b {
   font-family: arial;
-  font-size: 50pt;
+  font-size: 50px;
   color: white;
   text-shadow: 0px 2px 5px red;
 }
 
 h2 {
   font-family: arial;
-  font-size: 50pt;
+  font-size: 50px;
   color: white;
   text-shadow: 0px 2px 5px red;
+  margin: 0;
 }
 
 p {
@@ -32,25 +32,31 @@ th, td, tr {
   padding: 10px;
 }
 
-img {
-  border-radius: 10px;
-  box-shadow: 0px 2px 25px red;
-}
-
 table {
   width: 100%;
+}
+
+b {
+  margin-bottom: 64px;
+}
+
+.row {
+  margin: 0 auto;
 }
 
 div.item {
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  width: 450px;
+  margin: 32px 0 auto;
+  width: 100%;
 }
 
 img {
-  width: 450px;
-  height: 250px;
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
 }
 
 .caption {
@@ -152,4 +158,68 @@ th {
 
 .available-phase-one {
   padding-bottom: 0;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 50pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
 }
