@@ -18,9 +18,6 @@ body {
     width: 200px;
     margin: 0 auto;
     margin-top: 50px;
-}
-
-a {
     color: white;
     font-family: arial;
     background-color: red;
@@ -31,13 +28,24 @@ a {
     align-content: center;
     font-size: 24px;
     border-radius: 8px;
-    text-transform: none;
+    text-decoration: none;
+    border: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
-    text-transform: underline;
+    text-decoration: underline;
 }
 
 a:active {
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
     color: white;
 }
