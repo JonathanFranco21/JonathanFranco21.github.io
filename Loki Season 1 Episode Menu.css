@@ -16,11 +16,6 @@ b {
   box-shadow: none;
 }
 
-iframe {
-  border-radius: 25px;
-  box-shadow: 0px 10px 15px green;
-}
-
 p {
   font-family: arial;
   font-size: large;
