@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4B08A633656DEEB149CF902B17C610C41DE2EEE02312453E4CA7896697CC1899/scale?width=2880&aspectRatio=1.78&format=jpeg");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CFA33C88B6B2C96A6F302BA936ED43806EE37B868E7B2F3704711B499B60C4D9/scale?width=2880&aspectRatio=1.78&format=jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -9,10 +9,10 @@ b {
   font-family: arial;
   font-size: 50pt;
   color: white;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px red;
 }
 
-.Panther {
+.werewolf {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
@@ -40,17 +40,17 @@ p {
   text-align: justify;
   width: [width of img];
   color: white;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px red;
 }
 
 iframe {
   border-radius: 25px;
-  box-shadow: 0px 10px 15px purple;
+  box-shadow: 0px 10px 15px red;
 }
 
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px red;
 }
