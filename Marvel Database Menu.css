@@ -1,184 +1,40 @@
 body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;   
 }
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
-}
+
 h2 {
   font-family: arial;
   font-size: 50pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
+  margin-bottom: 64px;
+  margin-top: 0px;
 }
-p {
-  font-family: arial;
-  font-size: large;
-  color: white;
-  text-align: justify;
-  width: [width of img];
-}
-td {
-  width: 50%;
-}
-.Login {
+
+.universe {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
   border: none;
   text-transform: uppercase;
   color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 5px red;
 }
-.Register {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
+
+a:link {
+  text-decoration: none;
   color: white;
 }
-.ironman {
-  margin-left: 22%;
+
+a:hover, a:active {
+  text-decoration: underline;
 }
-.theincrediblehulk {
-  margin-left: 14%;
-}
-.ironman2 {
-  margin-left: 27%;
-}
-.thor{
-  margin-left: 25%;
-}
-.captainamerica {
-  margin-left: 4%;
-}
-.avengers {
-  margin-left: 22%;
-}
-.ironman3 {
-  margin-left: 19%;
-}
-.thor2 {
-  margin-left: 13%;
-}
-.captainamerica2 {
-  margin-left: 3%;
-}
-.gotg {
-  margin-left: 10%;
-}
-.avengers2 {
-  margin-left: 11%;
-}
-.antman {
-  margin-left: 29%;
-}
-.captainamerica3 {
-  margin-left: 8.5%;
-}
-.doctorstrange {
-  margin-left: 18%;
-}
-.gotg2 {
-  margin-left: 8%;
-}
-.spiderman {
-  margin-left: 8%;
-}
-.thor3 {
-  margin-left: 17%;
-}
-.blackpanther {
-  margin-left: 24.5%;
-}
-.avengers3 {
-  margin-left: 13%;
-}
-.antman2 {
-  margin-left: 12%;
-}
-.captainmarvel {
-  margin-left: 22%;
-}
-.avengers4 {
-  margin-left: 14%;
-}
-.spiderman2 {
-  margin-left: 8%;
-}
-.wandavision {
-  margin-left: 24%;
-}
-.tfatws {
-  margin-left: 37.5%;
-}
-.loki {
-  margin-left: 25%;
-}
-.whatif {
-  margin-left: 22%;
-}
-.blackwidow {
-  margin-left: 24%;
-}
-.shangchi {
-  margin-left: 18%;
-}
-.eternals {
-  margin-left: 22%;
-}
-.spiderman3 {
-  margin-left: 11%;
-}
-.msmarvel {
-  margin-left: 19%;
-}
-.hawkeye {
-  margin-left: 22%;
-}
-.doctorstrange2 {
-  margin-left: 20%;
-}
-.thor4 {
-  margin-left: 10%;
-}
-.blackpanther2 {
-  margin-left: 18%;
-}
-.captainmarvel2 {
-  margin-left: 20%;
-}
-.shehulk {
-  margin-left: 20%;
-}
-.moonknight {
-  margin-left: 19%;
-}
-.tgotghs {
-  margin-left: 21%;
-}
-.iamgroot {
-  margin-left: 20%;
-}
-.gotg3 {
-  margin-left: 7%;
-}
-.secretinvasion {
-  margin-left: 22%;
-}
-.ironheart {
-  margin-left: 20%;
-}
-.armorwars {
-  margin-left: 20%;
-}
-.antman3 {
-  margin-left: 25%;
-}
-.blade {
-  margin-left: 25%;
-}
-.fantasticfour {
-  margin-left: 23%;
+
+a:visited {
+  color: white;
 }
