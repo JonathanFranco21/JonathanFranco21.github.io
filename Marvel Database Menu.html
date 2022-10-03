@@ -7,12 +7,46 @@
 </head>
 
 <body>
-	<h2>
-    <center>
+	
+  <center>
+    <h2>
       THE MARVEL DATABASE
-    </center>
-  </h2>
+    </h2>
+  </center>
 
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' SHE-HULK: ATTORNEY AT LAW EPISODE 8 RELEASES ON DISNEY+ IN:
+    </h2>
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' SHE-HULK: ATTORNEY AT LAW EPISODE 9 RELEASES ON DISNEY+ IN:
+    </h2>-->
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' THE GUARDIANS OF THE GALAXY HOLIDAY SPECIAL RELEASES ON DISNEY+ IN:
+    </h2>-->
+    <p id="timer1"></p>
+  </center>
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' SPECIAL PRESENTATION WEREWOLF BY NIGHT RELEASES ON DISNEY+ IN:
+    </h2>
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' BLACK PANTHER: WAKANDA FOREVER RELEASES IN THEATERS:
+    </h2>-->
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' ANT-MAN AND THE WASP: QUANTUMANIA RELEASES IN THEATERS:
+    </h2>-->
+    <p id="timer2"></p>
+  </center>
+
+  <center>
+    <button class="review-schedule">
+      <a href="Review Schedule.html">
+        Review Schedule
+      </a>
+    </button>
+  </center>
 
   <center>
     <h2>
@@ -57,7 +91,7 @@
 
   <center>
     <button class="universe">
-      <a href="The Defenders Saga Choose Menu.html">
+      <a href="The Defenders Saga.html">
         THE DEFENDERS SAGA
     </button>
   </center>
@@ -75,6 +109,43 @@
         MARVEL LEGACY MOVIES
     </button>
   </center>
+</body>
 
-  </body>
+<script>
+  var countDownDate1 = new Date("Oct 6, 2022 00:00:00").getTime();
+  // var countDownDate1 = new Date("Oct 13, 2022 00:00:00").getTime();
+  // var countDownDate1 = new Date("Dec 31, 2022 00:00:00").getTime();
+  var countDownDate2 = new Date("Oct 7, 2022 00:00:00").getTime();
+  // var countDownDate2 = new Date("Nov 11, 2022 00:00:00").getTime();
+  // var countDownDate2 = new Date("Feb 19, 2023 00:00:00").getTime();
+  
+  var timer1= document.getElementById("timer1")
+  var timer2= document.getElementById("timer2")
+  
+  function countdown(finish_date, timer){
+    var x = setInterval(function() {
+  
+      var now = new Date().getTime();
+  
+      var distance = finish_date - now;
+  
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+      timer.innerHTML = days + " day(s), " + hours + " hour(s), " + minutes + " minute(s), " + seconds + " second(s)";
+  
+  
+      if (distance < 0) {
+        clearInterval(x);
+        timer.innerHTML = "NOW AVAILABLE";
+        }
+      }, 1000);
+    }
+  
+  countdown(countDownDate1, timer1)
+  countdown(countDownDate2, timer2)
+</script>
+
 </html> 

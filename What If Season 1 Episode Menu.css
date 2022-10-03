@@ -57,48 +57,9 @@ img {
 }
 
 iframe {
-  border-radius:25px;
+  border-radius: 25px;
 }
 
 td {
   width: 50%;
-}
-
-.episodeOne {
-  margin-left: 10.5%;
-}
-
-.episodeTwo {
-<<<<<<< HEAD
-  margin-left: 17%;
-}
-
-.episodeThree {
-  margin-left: 20%;
-}
-
-.episodeFour {
-  margin-left: 10%;
-}
-
-.episodeFive {
-  margin-left: 15%;
-}
-
-.episodeSix {
-  margin-left: 18%;
-}
-
-.episodeSeven {
-  margin-left: 3%;
-}
-
-.episodeEight {
-  margin-left: 12%;
-}
-.episodeNine {
-  margin-left: 20%;
-=======
-  margin-left: 15%;
->>>>>>> 7cd2942d7224002396fbc25d4808ab2cbd7c9d24
 }

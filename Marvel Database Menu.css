@@ -14,6 +14,39 @@ h2 {
   margin-top: 0px;
 }
 
+.timer_message {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin: 0 32px auto;
+}
+
+#timer1, #timer2 {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin: 16px 64px auto;
+  margin-bottom: 64px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.review-schedule {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
 .universe {
   font-family: arial;
   font-size: xx-large;

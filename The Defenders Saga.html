@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="The Defenders Saga.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+  <title>
+    The Defenders Saga
+  </title>
+</head>
+
+<body>
+  <b>
+    <center>
+      THE DEFENDERS SAGA
+    </center>
+  </b>
+
+  <br />
+  <br />
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' SHE-HULK: ATTORNEY AT LAW EPISODE 8 RELEASES ON DISNEY+ IN:
+    </h2>
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' SHE-HULK: ATTORNEY AT LAW EPISODE 9 RELEASES ON DISNEY+ IN:
+    </h2>-->
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' THE GUARDIANS OF THE GALAXY HOLIDAY SPECIAL RELEASES ON DISNEY+ IN:
+    </h2>-->
+    <p id="timer1"></p>
+  </center>
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' SPECIAL PRESENTATION WEREWOLF BY NIGHT RELEASES ON DISNEY+ IN:
+    </h2>
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' BLACK PANTHER: WAKANDA FOREVER RELEASES IN THEATERS:
+    </h2>-->
+    <!--<h2 class="timer_message">
+      MARVEL STUDIOS' ANT-MAN AND THE WASP: QUANTUMANIA RELEASES IN THEATERS:
+    </h2>-->
+    <p id="timer2"></p>
+  </center>
+
+  <center>
+    <button class="review-schedule">
+      <a href="Review Schedule.html">
+        Review Schedule
+      </a>
+    </button>
+  </center>
+
+  <br />
+  <br />
+ 
+  <div class="item">
+    <a href="Daredevil Choose Season Menu.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/51549B21334AB3968E620AB93B4F20F3D18D43E0C3B0655C775BA61819650A81/"
+        alt="Marvel's Daredevil" title="Marvel's Daredevil" height="250" width="450" />
+    </a>
+    <span class="caption">
+      Marvel's Daredevil
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="Jessica Jones Choose Season Menu.html">
+      <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F28B125A65F9EF4185E4DBCE3A56B44E02BA254906275F4ADAE3959DCD34BC3/"
+        alt="Marvel's Jessica Jones" title="Marvel's Jessica Jones" height="250"
+        width="450" />
+    </a>
+    <span class="caption">
+      Marvel's Jessica Jones
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="Luke Cage Choose Season Menu.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2CD18CF04EF1C338EE996B3E7DFC041E74AC62019F604667311B62B64B972F5C/"
+        alt="Marvel's Luke Cage" title="Marvel's Luke Cage" height="250" width="450" />
+    </a>
+    <span class="caption">
+      Marvel's Luke Cage
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="Iron Fist Choose Season Menu.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5822A3CC675963E548C94208B5D295CE6D00E43124541083D68371BEA0EBBF11/"
+        alt="Marvel's Iron Fist" title="Marvel's Iron Fist" height="250" width="450" />
+    </a>
+    <span class="caption">
+      Marvel's Iron Fist
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="The Defenders Choose Season Menu.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F7D481B74EA679AB6719392CF1F1D1B7E785E88C955A4D2FA848245B612D2A8F/"
+        alt="Marvel's The Defenders" title="Marvel's The Defenders" height="250" width="450" />
+    </a>
+    <span class="caption">
+      Marvel's The Defenders
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="The Punisher Choose Season Menu.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/96E6E17ED171F87F76032434762995F16A837CC0C75D1D991A27FBC017BD5868/"
+        alt="Marvel's The Punisher" title="Marvel's The Punisher" height="250" width="450" />
+    </a>
+    <span class="caption">
+      Marvel's The Punisher
+    </span>
+  </div>
+
+  <button class="back">
+    <a href="Marvel Database Menu.html"/>
+    Back
+  </button>
+</body>
+
+<script>
+  var countDownDate1 = new Date("Oct 6, 2022 00:00:00").getTime();
+  // var countDownDate1 = new Date("Oct 13, 2022 00:00:00").getTime();
+  // var countDownDate1 = new Date("Dec 31, 2022 00:00:00").getTime();
+  var countDownDate2 = new Date("Oct 7, 2022 00:00:00").getTime();
+  // var countDownDate2 = new Date("Nov 11, 2022 00:00:00").getTime();
+  // var countDownDate2 = new Date("Feb 19, 2023 00:00:00").getTime();
+  
+  var timer1= document.getElementById("timer1")
+  var timer2= document.getElementById("timer2")
+  
+  function countdown(finish_date, timer){
+    var x = setInterval(function() {
+  
+      var now = new Date().getTime();
+  
+      var distance = finish_date - now;
+  
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+      timer.innerHTML = days + " day(s), " + hours + " hour(s), " + minutes + " minute(s), " + seconds + " second(s)";
+  
+  
+      if (distance < 0) {
+        clearInterval(x);
+        timer.innerHTML = "NOW AVAILABLE";
+        }
+      }, 1000);
+    }
+  
+    countdown(countDownDate1, timer1)
+    countdown(countDownDate2, timer2)
+  </script>
+</html>
