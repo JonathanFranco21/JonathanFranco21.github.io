@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/732563993167BE6BC7BEA97133BABCE3504E6819C903D6C4A21DD7D29E511ED5/");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -10,7 +10,7 @@ b {
   font-family: arial;
   font-size: 50px;
   color: white;
-  text-shadow: 0px 2px 5px red;
+  text-shadow: 0px 2px 5px yellow;
   margin-bottom: 64px;
 }
 
@@ -18,8 +18,13 @@ h2 {
   font-family: arial;
   font-size: 50px;
   color: white;
-  text-shadow: 0px 2px 5px red;
+  text-shadow: 0px 2px 5px yellow;
   margin: 0;
+}
+
+.watxm-logo {
+  box-shadow: none;
+  margin-left: 52px;
 }
 
 p {
@@ -27,57 +32,7 @@ p {
   font-size: large;
   color: white;
   text-align: justify;
-  text-shadow: 0px 2px 5px red;
-}
-
-.timer_message {
-  font-family: arial;
-  font-size: 35px;
-  color: white;
-  text-shadow: 0px 2px 5px red;
-  margin: 0 32px auto;
-}
-
-#timer1, #timer2 {
-  font-family: arial;
-  font-size: 35px;
-  color: white;
-  text-shadow: 0px 2px 5px red;
-  margin: 16px 64px auto;
-  margin-bottom: 64px;
-  text-align: center;
-  font-weight: 700;
-}
-
-.review-schedule {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 10px;
-  margin: 0 auto;
-  align-content: center;
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.release-schedule, .back {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 10px;
-  margin: 0 auto;
-  align-content: center;
-  text-align: center;
-}
-
-.back {
-  margin-top: 32px;
+  text-shadow: 0px 2px 5px yellow;
 }
 
 div.item {
@@ -92,7 +47,7 @@ img {
   width: 250px;
   height: 135px;
   border-radius: 10px;
-  box-shadow: 0px 2px 25px red;
+  box-shadow: 0px 2px 25px yellow;
 }
 
 .caption {
@@ -101,17 +56,10 @@ img {
   font-size: large;
   color: white;
   margin-top: 16px;
-  text-shadow: 0px 2px 5px red;
+  text-shadow: 0px 2px 5px yellow;
 }
 
-.item.spider-man-ffh {
-  margin: 32px 0 auto;
-  align-content: center;
-  text-align: center;
-  width: 100%;
-}
-
-.item.werewolf-by-night, .item.item.black-panther-wf, .item.tgotghs {
+.item.watxm-ep25, .item.watxm-ep26 {
   margin: 32px 0 auto;
   align-content: center;
   text-align: center;
@@ -164,20 +112,6 @@ a:active {
 }
 
 @media screen and (min-width: 800px) {
-  .item.daredevil-ba, .item.armor-wars {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 100%;
-  }
-
-  .item.werewolf-by-night {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 50%;
-  }
-
   div.item {
     width: 49%;
   }
@@ -185,6 +119,13 @@ a:active {
   img {
     width: 350px;
     height: 185px;
+  }
+
+  .item.watxm-ep25, .item.watxm-ep26 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 50%;
   }
 }
 
@@ -213,32 +154,18 @@ a:active {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.black-panther-wf, .item.thunderbolts {
+  .item.watxm-ep25 {
     margin: 32px 0 auto;
     align-content: center;
     text-align: center;
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.tgofghs, .item.daredevil-ba {
+  .item.watxm-ep26 {
     margin: 32px 0 auto;
     align-content: center;
     text-align: center;
     width: 33%;
-  }
-
-  .item.she-hulk-aal, .item.avengers-sw, .item.armor-wars {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 33%;
-  }
-
-  .item.werewolf-by-night, .item.avengers-sw {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 100%;
   }
 
   div.item {
