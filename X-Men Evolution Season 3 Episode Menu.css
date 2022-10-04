@@ -1,0 +1,176 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BD69166DAA661D33464F7B1FAF8EE0173F1FE63AFF08934EF59E952BE73DEC1B/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  padding-bottom: 32px;
+}
+
+b {
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin-bottom: 64px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.x-men-evolution-logo {
+  height: 200px;
+  width: 350px;
+  box-shadow: none;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 185px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px blue;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px blue;
+}
+
+.item.x-men-evolution-s3e13 {
+  margin: 32px 0 auto;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.x-men-evolution {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+.back {
+  margin-top: 32px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    width: 300px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .x-men-evolution-logo {
+    height: 300px;
+    width: 550px;
+    box-shadow: none;
+  } 
+
+  .item.x-men-evolution-s1e13 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 35pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.x-men-evolution-s3e13 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 260px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 400px;
+    height: 300px;
+  }
+}
