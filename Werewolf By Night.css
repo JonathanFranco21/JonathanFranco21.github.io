@@ -22,6 +22,11 @@ b {
   border-radius: 10px;
 }
 
+img {
+  height: 200px;
+  width: 350px;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -44,6 +49,8 @@ p {
 }
 
 iframe {
+  width: 350px;
+  height: 200px;
   border-radius: 25px;
   box-shadow: 0px 10px 15px gray;
 }
@@ -52,5 +59,31 @@ h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-  text-shadow: 0px 2px 5px gray;
+  text-shadow: 0px 2px 5px #808080;
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    width: 475px;
+    height: 275px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  iframe {
+    width: 750px;
+    height: 425px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  iframe {
+    width: 900px;
+    height: 500px;
+  }
+
+  img {
+    height: 300px; 
+    width: 500px;
+  }
 }

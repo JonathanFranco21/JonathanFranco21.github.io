@@ -118,7 +118,7 @@ img {
   width: 100%;
 }
 
-.watxm {
+.back {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
@@ -213,7 +213,7 @@ a:active {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.black-panther-wf, .item.thunderbolts {
+  .item.avengers-endgame, .item.black-panther-wf, .item.blade {
     margin: 32px 0 auto;
     align-content: center;
     text-align: center;
