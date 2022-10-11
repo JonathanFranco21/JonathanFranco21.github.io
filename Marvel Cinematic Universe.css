@@ -111,7 +111,7 @@ img {
   width: 100%;
 }
 
-.item.werewolf-by-night, .item.item.black-panther-wf, .item.tgotghs {
+.item.werewolf-by-night, .item.black-panther-wf, .item.tgotghs {
   margin: 32px 0 auto;
   align-content: center;
   text-align: center;
@@ -213,28 +213,21 @@ a:active {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.black-panther-wf, .item.blade {
+  .item.avengers-endgame, .item.item.werewolf-by-night, .item.blade {
     margin: 32px 0 auto;
     align-content: center;
     text-align: center;
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.tgofghs, .item.daredevil-ba {
+  .item.spider-man-ffh, .item.tgofghs, .item.daredevil-ba, .item.she-hulk-aal, .item.black-panther-wf, .item.avengers-sw, .item.armor-wars {
     margin: 32px 0 auto;
     align-content: center;
     text-align: center;
     width: 33%;
   }
 
-  .item.she-hulk-aal, .item.avengers-sw, .item.armor-wars {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 33%;
-  }
-
-  .item.werewolf-by-night, .item.avengers-sw {
+  .item.avengers-sw {
     margin: 32px 0 auto;
     align-content: center;
     text-align: center;
