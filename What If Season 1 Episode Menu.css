@@ -9,6 +9,7 @@ b {
   font-family: arial;
   font-size: 50pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
 
 .WhatIf {
@@ -21,45 +22,127 @@ b {
   border-radius: 25px;
 }
 
+.what-if-logo {
+  height: 300px;
+  width: 550px;
+  box-shadow: none;
+}
+
 p {
   font-family: arial;
   font-size: large;
   text-align: justify;
   width: [width of img];
   color: white;
-}
-
-table {
-  margin-bottom: -2px;
-  margin-top: -2px;
+  text-shadow: 0px 2px 5px red;
 }
 
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-}
-
-h3 {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
-}
-
-h4 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
+  text-shadow: 0px 2px 5px red;
 }
 
 img {
   border-radius: 10px;
+  box-shadow: 0px 2px 5px red;
+  height: 250px;
+  width: 450px;
 }
 
 iframe {
   border-radius: 25px;
+  box-shadow: 0px 2px 5px red;
 }
 
-td {
-  width: 50%;
+@media screen and (min-width: 500px) {
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .item.amatwq, .item.armor-wars {
+    width: 100%;
+  }
+
+  .item.black-panther-wf {
+    width: 49%;
+  }
+
+  .item.werewolf-by-night, .item.tgotghs, .item.daredevil-ba {
+    width: 50%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 50pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.avengers-endgame {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .item.spider-man-ffh, .item.she-hulk-aal, .item.werewolf-by-night, .item.black-panther-wf,.item.tgotghs, .item.blade, .item.avengers-sw, .item.armor-wars {
+    width: 33%;
+  }
+
+  .item.daredevil-ba, .item.avengers-sw {
+    width: 100%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
 }

@@ -1,7 +1,8 @@
 body {
-  /*background-image: url("https://besthqwallpapers.com/Uploads/14-3-2020/124457/thumb2-neon-blue-background-hexagon-neon-3d-background-neon-abstraction-hexagon-texture-blue-neon-light-abstraction.jpg");*/
-  background-color: black;
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/847B8F8DAB774FB7C2E6C0A6872D30B34AA63DFCA816FF65DA6B41B70451FE72");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 b {

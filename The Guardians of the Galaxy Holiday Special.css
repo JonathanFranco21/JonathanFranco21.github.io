@@ -1,13 +1,17 @@
 body {
-  /*background-image: url("https://img.freepik.com/free-vector/christmas-snowy-background_1048-9078.jpg?size=626&ext=jpg");*/
-  background-color: black;
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3A6039DC01F52C33B5EDC4853CB73005DA03250A6C27C03840B727D0BB00F8DC");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
+
 .Holiday {
   font-family: arial;
   font-size: xx-large;
@@ -15,26 +19,42 @@ b {
   border: none;
   text-transform: uppercase;
   color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-top: 32px;  
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
 p {
   font-family: arial;
   font-size: xx-large;
   text-align: justify;
   width: [width of img];
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
+
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
-h3 {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
-}
-h4 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px red;
 }
