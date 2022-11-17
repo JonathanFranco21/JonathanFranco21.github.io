@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="Marvel Cinematic Universe One Shots.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+  <title>
+    Marvel Cinematic Universe One Shot
+  </title>
+</head>
+
+<body>
+  <b>
+    <center>
+      MARVEL CINEMATIC UNIVERSE ONE SHOT
+    </center>
+  </b>
+
+  <br />
+  <br />
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' THE GUARDIANS OF THE GALAXY HOLIDAY SPECIAL RELEASES ON DISNEY+ IN:
+    </h2>
+    <p id="timer1"></p>
+  </center>
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' ANT-MAN AND THE WASP: QUANTUMANIA RELEASES IN THEATERS:
+    </h2>
+    <p id="timer2"></p>
+  </center>
+
+  <center>
+    <button class="review-schedule">
+      <a href="Review Schedule.html">
+        Review Schedule
+      </a>
+    </button>
+  </center>
+
+  <br />
+  <br />
+ 
+  <div class="item">
+    <a href="The Consultant.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9368431603C1B207DF7523B348AEBAF7ECA9B661846F8575959550614038E963"
+        alt="Marvel Studios One Shot: The Consultant" 
+        title="Marvel Studios One Shot: The Consultant" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: The Consultant
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="A Funny Thing Happened On The Way To Thor's Hammer.html">
+      <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0194FCBA6B6CEFD562E5730E799463C6F4834ECFD63811674A63586009623FBC"
+        alt="Marvel Studios One Shot: A Funny Thing Happened On The Way To Thor's Hammer" 
+        title="Marvel Studios One Shot: A Funny Thing Happened On The Way To Thor's Hammer" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: A Funny Thing <br /> Happened On The Way To Thor's Hammer
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="Item 47.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B6CAEED97BDF911E1D95BF4C4B606A07068601456BEF02ED420441D306B1BA04"
+        alt="Marvel Studios One Shot: Item 47" 
+        title="Marvel Studios One Shot: Item 47" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: Item 47
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="Agent Carter.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2C6B2803982F5DC023FE70A3648DC317476D7D6FC298DD2D07ED380562CA3BC7"
+        alt="Marvel Studios One Shot: Agent Carter" 
+        title="Marvel Studios One Shot: Agent Carter" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: Agent Carter
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="All Hail The King.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/530916EA9E30B9A1256D7C4D296F4A64F9B303A4DD0450E5D969A51F7E6C680C"
+        alt="Marvel Studios One Shot: All Hail The King" 
+        title="Marvel Studios One Shot: All Hail The King" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: All Hail The King
+    </span>
+  </div>
+
+  <div class="item">
+    <a href="Team Thor Part 1.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/64C5B2C2625BFA390EEF52EEBE258746006BE696B085994364C4CA5295CA5D60"
+        alt="Marvel Studios One Shot: Team Thor Part 1" 
+        title="Marvel Studios One Shot: Team Thor Part 1" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: Team Thor Part 1
+    </span>
+  </div>
+
+  <div class="item thor_2">
+    <a href="Team Thor Part 2.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/89AE93B92FC00456FC8A6AFB2B05E96ED42DB7E944188DBBADAEBB04E7CE3D34"
+        alt="Marvel Studios One Shot: Team Thor Part 2" 
+        title="Marvel Studios One Shot: Team Thor Part 2" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: Team Thor Part 2
+    </span>
+  </div>
+
+  <div class="item darryl">
+    <a href="Team Darryl.html">
+      <img
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B6CE7E9D83C611CDFCBA20A3E8E501C7C0AE71FE1E5E9937107739E182EA6038"
+        alt="Marvel Studios One Shot: Team Darryl" 
+        title="Marvel Studios One Shot: Team Darryl" />
+    </a>
+    <span class="caption">
+      Marvel Studios One Shot: Team Darryl
+    </span>
+  </div>
+
+  <button class="back">
+    <a href="Marvel Database Menu.html"/>
+    Back
+  </button>
+</body>
+
+<script>
+  var countDownDate1 = new Date("Nov 25, 2022 00:00:00").getTime();
+  var countDownDate2 = new Date("Feb 19, 2023 00:00:00").getTime();
+  
+  var timer1= document.getElementById("timer1")
+  var timer2= document.getElementById("timer2")
+  
+  function countdown(finish_date, timer){
+    var x = setInterval(function() {
+  
+      var now = new Date().getTime();
+  
+      var distance = finish_date - now;
+  
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+      timer.innerHTML = days + " day(s), " + hours + " hour(s), " + minutes + " minute(s), " + seconds + " second(s)";
+  
+  
+      if (distance < 0) {
+        clearInterval(x);
+        timer.innerHTML = "NOW AVAILABLE";
+        }
+      }, 1000);
+    }
+  
+    countdown(countDownDate1, timer1)
+    countdown(countDownDate2, timer2)
+  </script>
+</html>

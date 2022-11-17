@@ -1,0 +1,175 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3CBBCD5D90FEFFBE6C1F94A819BC4555351AB10A4B4BBA1D8A6BD89B5D53C137/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  padding-bottom: 32px;
+}
+
+b {
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 2px 5px yellow;
+  margin-bottom: 64px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px yellow;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.x-men-tas-logo {
+  height: 200px;
+  width: 350px;
+  box-shadow: none;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 185px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px yellow;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px yellow;
+}
+
+.item.x-men-tas-s2e13 {
+  margin: 32px 0 auto;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.x-men-tas {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+.back {
+  margin-top: 32px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    width: 300px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .x-men-tas-logo {
+    height: 300px;
+    width: 550px;
+    box-shadow: none;
+  } 
+
+  .item.x-men-tas-s2e13 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+  }
+
+  div.item {
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 35pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.x-men-tas-s2e13 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 260px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 400px;
+    height: 300px;
+  }
+}
