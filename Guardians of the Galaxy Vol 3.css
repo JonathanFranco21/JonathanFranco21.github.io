@@ -1,13 +1,22 @@
 body {
-  /*background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-purple-light-effect-electronic-technology-background-backgrounddatabusinessblueelectronictechnologyintelligentblue-backgroundtechnology-backgroundlightcool-image_78722.jpg");*/
-  background-color: black;
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3FD72B6C945316D71F93B869C1680501CF72195875D52EBCC3C43A5475D92F6D");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
+
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
+  text-shadow: 0px 2px 5px yellow;
 }
+
+img {
+  width: 525px;
+  height: 300px;
+}
+
 .guardians3 {
   font-family: arial;
   font-size: xx-large;
@@ -15,16 +24,40 @@ b {
   border: none;
   text-transform: uppercase;
   color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
 }
-p {
-  font-family: arial;
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
+
+a:link {
   color: white;
+  text-decoration: none;
 }
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
+  text-shadow: 0px 2px 5px yellow;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px yellow;
 }
