@@ -1,0 +1,63 @@
+body {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FC84E58F82A97E99FD7FCCA21EEC7E45FC7F89BDFE56FE571E9ADD40FE4E7A5F");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  padding-bottom: 32px;
+}
+
+b {
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin-bottom: 64px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.x-men-evolution-logo {
+  height: 200px;
+  width: 350px;
+  box-shadow: none;
+}
+
+.x-men-evolution {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
