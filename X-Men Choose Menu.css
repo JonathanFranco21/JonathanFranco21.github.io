@@ -1,15 +1,16 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D41FD1F80E88C295274046F5C694B0A71EA09E4F5E2D9124910C3064C06413D3/scale?aspectRatio=1.78&format=jpeg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0 64px auto;
 }
 
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
+  margin-bottom: 64px;
 }
 
 .Cerebro {
@@ -24,53 +25,33 @@ b {
 p {
   font-family: arial;
   font-size: large;
-  text-align: justify; 
-  width: [width of image];
   color: white;
-}
-
-table {
-  margin-bottom: -2px;
-  margin-top: -2px;
+  text-align: justify;
+  text-shadow: 0px 2px 5px red;
 }
 
 h2 {
   font-family: arial;
-  font-size: 25pt;
+  font-size: 50px;
   color: white;
-  margin-bottom: -2px;
+  text-shadow: 0px 2px 5px red;
+  margin: 0;
 }
 
 div.item {
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  width: 450px;
-}
-
-img {
-  border-radius: 10px;
-  box-shadow: 0px 2px 25px silver;
-}
-
-table {
+  align-content: center;
+  margin: 32px 0 auto;
   width: 100%;
 }
 
-.item {
-  margin-bottom: 30px;
-}
-
-th, td, tr {
-  padding: 10px;
-}
-
-.item {
-  margin-bottom: 32px;
-}
-
-th {
-  padding-bottom: 20px;
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
 }
 
 .caption {
@@ -79,7 +60,7 @@ th {
   font-size: large;
   color: white;
   margin-top: 3%;
-  text-shadow: 0px 2px 5px silver;
+  text-shadow: 0px 2px 5px red;
 }
 
 .container {
@@ -91,9 +72,6 @@ th {
   display: block;
   width: 100%;
   height: auto;
-}
-td {
-  width: 50%;
 }
 
 .cerebro {
@@ -118,7 +96,97 @@ a:visited {
   color: white;
 }
 
-.placeholder {
-  width: 450px;
-  height: 250px;
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .item.item.the-new-mutants, .item.item.astonishing-x-men {
+    width: 100%;
+  }
+
+  .item.gifted {
+    width: 49%;
+  }
+
+  .item.legion {
+    width: 50%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 50pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.legion {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .item.gifted {
+    width: 33%;
+  }
+
+  .item.the-new-mutants, .item.astonishing-x-men {
+    width: 100%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
 }

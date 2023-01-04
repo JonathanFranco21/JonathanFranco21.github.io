@@ -127,26 +127,6 @@ img {
   margin-top: 32px;
 }
 
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: blue;
-  text-decoration: none;
-}
-
-a:active {
-  color: red;
-  text-decoration: none;
-}
-
 .item {
   margin-bottom: 32px;
 }
