@@ -14,6 +14,11 @@ b {
   text-shadow: 0px 2px 5px red;
 }
 
+.marvelstudios {
+  width: 200px;
+  margin: 0 auto;
+}
+
 .iron-man-logo {
   height: 250px;
   width: 450px;
@@ -91,6 +96,11 @@ li {
 }
 
 @media screen and (min-width: 800px) {
+  .marvelstudios {
+    width: 200px;
+    margin: 0 auto;
+  }
+
   iframe {
     height: 420px;
     width: 750px;
@@ -98,6 +108,11 @@ li {
 }
 
 @media screen and (min-width: 1000px) {
+  .marvelstudios {
+    width: 200px;
+    margin: 0 auto;
+  }
+
   .iron-man-logo {
     height: 300px;
     width: 500px;
@@ -106,5 +121,11 @@ li {
   iframe {
     height: 500px;
     width: 900px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .marvelstudios {
+    width: 500px;
   }
 }

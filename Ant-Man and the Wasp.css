@@ -3,26 +3,27 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0 20px auto;
+  padding: 32px 0 32px 0;
 }
+
 b {
   font-family: arial;
   font-size: 40pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
-h2 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
-  margin-bottom: -2px;
+
+.marvelstudios {
+  width: 200px;
+  margin: 0 auto;
 }
-p {
-  font-family: arial;
-  color: white;
+
+.ant-man-and-the-wasp-logo {
+  height: 250px;
+  width: 450px;
 }
-li {
-  font-family: arial;
-  color: white;
-}
+
 .Quantum {
   font-family: arial;
   font-size: xx-large;
@@ -30,11 +31,101 @@ li {
   border: none;
   text-transform: uppercase;
   color: white;
+  border-radius: 10px;
 }
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+p {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px red;
+  height: 250px;
+  width: 450px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+li {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
 .overview {
   margin-left: 25%;
   margin-right: 25%;
+  text-shadow: 0px 2px 5px red;
+  text-align: center;
 }
-a {
-  color: white;
+
+.imax {
+  width: 200px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px red;
+}
+
+.custom-rating {
+  margin-left: 15px;
+}
+
+.rating {
+  width: 50px;
+  box-shadow: 0px 2px 5px red;
+}
+
+@media screen and (min-width: 800px) {
+  .marvelstudios {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .marvelstudios {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .ant-man-and-the-wasp-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .marvelstudios {
+    width: 500px;
+  }
 }
