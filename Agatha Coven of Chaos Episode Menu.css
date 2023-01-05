@@ -1,16 +1,27 @@
 body {
-  background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  /*background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
+  background-color: black;
   background-size: cover;
+  margin: 0 20px auto;
+  padding: 32px 0 32px 0;
 }
+
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
 }
-img {
-  height: 300px;
-  width: 500px;
+
+.marvelstudios {
+  width: 200px;
+  margin: 0 auto;
 }
+
+.agatha-coven-of-chaos-logo {
+  height: 200px;
+  width: 350px;
+}
+
 .Agatha {
   font-family: arial;
   font-size: xx-large;
@@ -18,7 +29,22 @@ img {
   border: none;
   text-transform: uppercase;
   color: white;
+  border-radius: 10px;
 }
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
 p {
   font-family: arial;
   font-size: xx-large;
@@ -26,8 +52,44 @@ p {
   width: [width of img];
   color: white;
 }
+
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
+  text-shadow: 0px 2px 5px purple;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px
+}
+
+@media screen and (min-width: 800px) {
+  .marvelstudios {
+    width: 300px;
+  }
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .marvelstudios {
+    width: 400px;
+  }
+
+  .agatha-coven-of-chaos-logo {
+    height: 300px;
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .marvelstudios {
+    width: 500px;
+  }
 }
