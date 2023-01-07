@@ -5,6 +5,7 @@ body {
   background-attachment: fixed; 
   margin: 0 20px auto;
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 b {
@@ -115,7 +116,7 @@ li {
     width: 400px;
   }
 
-  .eternals-logo {
+  .black-panther-wakanda-forever-logo {
     height: 300px;
     width: 500px;
   }

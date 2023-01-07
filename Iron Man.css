@@ -80,6 +80,12 @@ li {
   text-align: center;
 }
 
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px
+}
+
 .imax {
   width: 200px;
   border-radius: 7px;

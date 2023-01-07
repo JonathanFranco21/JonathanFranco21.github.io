@@ -24,6 +24,15 @@ b {
   width: 350px;
 }
 
+a.reference:link {
+  text-decoration: underline;
+  color: white;
+}
+
+a.reference:visited {
+  color: white;
+}
+
 .Quantumania {
   font-family: arial;
   font-size: xx-large;
@@ -90,7 +99,7 @@ h2 {
     width: 400px;
   }
 
-  .eternals-logo {
+  .ant-man-and-the-wasp-quantumania-logo {
     height: 300px;
     width: 500px;
   }
