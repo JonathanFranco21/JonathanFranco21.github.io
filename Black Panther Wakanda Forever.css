@@ -57,8 +57,8 @@ p {
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px purple;
-  height: 250px;
-  width: 450px;
+  height: 200px;
+  width: 360px;
 }
 
 h2 {
@@ -98,6 +98,32 @@ li {
 .rating {
   width: 50px;
   box-shadow: 0px 2px 5px purple;
+}
+
+@media screen and (min-width: 300px) {
+  .black-panther-wakanda-forever-logo {
+    height: 175px;
+    width: 300px;
+  }
+
+  iframe {
+    height: 155px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 800px) {
