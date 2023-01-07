@@ -65,8 +65,8 @@ p {
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px blue;
-  height: 250px;
-  width: 450px;
+  height: 200px;
+  width: 360px;
 }
 
 h2 {
@@ -81,6 +81,38 @@ h2 {
   margin-right: 25%;
   text-shadow: 0px 2px 5px blue;
   text-align: center
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px
+}
+
+@media screen and (min-width: 300px) {
+  .ant-man-and-the-wasp-quantumania-logo {
+    height: 175px;
+    width: 300px;
+  }
+
+  iframe {
+    height: 155px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 800px) {
