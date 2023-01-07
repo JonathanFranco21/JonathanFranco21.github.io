@@ -2,12 +2,27 @@ body {
   /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
   background-color: black;
   background-size: cover;
+  margin: 0 20px auto;
+  padding: 32px 0 32px 0;
 }
+
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
+
+.marvelstudios {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.ironheart-logo {
+  height: 180px;
+  width: 320px;
+}
+
 .Ironheart {
   font-family: arial;
   font-size: xx-large;
@@ -15,26 +30,122 @@ b {
   border: none;
   text-transform: uppercase;
   color: white;
+  border-radius: 10px;
 }
-p {
-  font-family: arial;
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
+
+a:link {
+  text-decoration: none;
   color: white;
 }
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+p {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
+
 h3 {
   font-family: arial;
-  font-size: 50pt;
+  font-size: 35pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
 }
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px
+}
+
 h4 {
   font-family: arial;
   font-size: 25pt;
   color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+@media screen and (min-width: 300px) {
+  .ironheart-logo {
+    height: 160px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .ironheart-logo {
+    height: 180px;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .ironheart-logo {
+    height: 225px;
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .ironheart-logo {
+    height: 300px;
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .marvelstudios {
+    width: 300px;
+  }
+
+  .ironheart-logo {
+    height: 370px;
+    width: 660px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .marvelstudios {
+    width: 300px;
+  }
+
+  .ironheart-logo {
+    height: 430px;
+    width: 780px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .marvelstudios {
+    width: 400px;
+  }
+
+  h3 {
+    font-size: 50pt;
+  }
+
+  .ironheart-logo {
+    height: 450px;
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .marvelstudios {
+    width: 500px;
+  }
 }
