@@ -45,7 +45,11 @@ body {
     border: none;
     text-transform: uppercase;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 32px;
   }
   
   a:link {

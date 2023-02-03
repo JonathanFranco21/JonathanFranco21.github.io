@@ -80,6 +80,19 @@ p {
   margin-top: 32px;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
 div.item {
   vertical-align: top;
   display: inline-block;
@@ -109,10 +122,6 @@ img {
   width: 100%;
 }
 
-.item.werewolf-by-night, .item.black-panther-wf, .item.tgotghs {
-  width: 100%;
-}
-
 .back {
   font-family: arial;
   font-size: xx-large;
@@ -139,15 +148,11 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  .item.amatwq, .item.armor-wars {
+  .item.amatwq, .item.gotgv3, .item.what-if-s2, .item.armor-wars {
     width: 100%;
   }
 
-  .item.black-panther-wf {
-    width: 49%;
-  }
-
-  .item.werewolf-by-night, .item.tgotghs, .item.daredevil-ba {
+  .item.daredevil-ba {
     width: 50%;
   }
 
@@ -186,14 +191,14 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame {
+  .item.avengers-endgame, .item.daredevil-ba {
     margin: 32px 0 auto;
     align-content: center;
     text-align: center;
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.she-hulk-aal, .item.werewolf-by-night, .item.black-panther-wf,.item.tgotghs, .item.blade, .item.daredevil-ba, .item.avengers-sw, .item.armor-wars {
+  .item.spider-man-ffh, .item.what-if-s2, .item.avengers-sw, .item.armor-wars {
     width: 33%;
   }
 
