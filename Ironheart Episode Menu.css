@@ -13,11 +13,6 @@ b {
   text-shadow: 0px 2px 5px red;
 }
 
-.marvelstudios {
-  width: 200px;
-  margin: 0 auto;
-}
-
 .ironheart-logo {
   height: 180px;
   width: 320px;
@@ -108,10 +103,6 @@ h4 {
 }
 
 @media screen and (min-width: 700px) {
-  .marvelstudios {
-    width: 300px;
-  }
-
   .ironheart-logo {
     height: 370px;
     width: 660px;
@@ -119,10 +110,6 @@ h4 {
 }
 
 @media screen and (min-width: 800px) {
-  .marvelstudios {
-    width: 300px;
-  }
-
   .ironheart-logo {
     height: 430px;
     width: 780px;
@@ -130,10 +117,6 @@ h4 {
 }
 
 @media screen and (min-width: 1000px) {
-  .marvelstudios {
-    width: 400px;
-  }
-
   h3 {
     font-size: 50pt;
   }
@@ -145,7 +128,4 @@ h4 {
 }
 
 @media screen and (min-width: 1200px) {
-  .marvelstudios {
-    width: 500px;
-  }
 }

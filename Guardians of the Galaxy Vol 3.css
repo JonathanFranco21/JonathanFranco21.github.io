@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3FD72B6C945316D71F93B869C1680501CF72195875D52EBCC3C43A5475D92F6D");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6D0DCB3626913DB76910BB0A16DD198301487D5529B8F0C9A8D57D226C61E3B7");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -11,17 +11,13 @@ b {
   font-family: arial;
   font-size: 50pt;
   color: white;
-  text-shadow: 0px 2px 5px yellow;
-}
-
-.marvelstudios {
-  width: 200px;
-  margin: 0 auto;
+  text-shadow: 0px 2px 5px purple;
 }
 
 .guardians-of-the-galaxy-vol-3-logo {
   width: 340px;
   height: 200px;
+  margin: 0 auto;
 }
 
 a.reference:link {
@@ -59,12 +55,12 @@ a:visited {
 p {
   font-family: arial;
   color: white;
-  text-shadow: 0px 2px 5px yellow;
+  text-shadow: 0px 2px 5px purple;
 }
 
 iframe {
   border-radius: 25px;
-  box-shadow: 0px 10px 15px yellow;
+  box-shadow: 0px 10px 15px purple;
   height: 200px;
   width: 360px;
 }
@@ -73,13 +69,13 @@ h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-  text-shadow: 0px 2px 5px yellow;
+  text-shadow: 0px 2px 5px purple;
 }
 
 .overview {
   margin-left: 25%;
   margin-right: 25%;
-  text-shadow: 0px 2px 5px yellow;
+  text-shadow: 0px 2px 5px purple;
   text-align: center
 }
 

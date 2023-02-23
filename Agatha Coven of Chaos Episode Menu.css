@@ -12,11 +12,6 @@ b {
   color: white;
 }
 
-.marvelstudios {
-  width: 200px;
-  margin: 0 auto;
-}
-
 .agatha-coven-of-chaos-logo {
   height: 200px;
   width: 350px;
@@ -67,21 +62,9 @@ h2 {
 }
 
 @media screen and (min-width: 800px) {
-  .marvelstudios {
-    width: 300px;
-  }
-
-  iframe {
-    height: 420px;
-    width: 750px;
-  }
 }
 
 @media screen and (min-width: 1000px) {
-  .marvelstudios {
-    width: 400px;
-  }
-
   .agatha-coven-of-chaos-logo {
     height: 300px;
     width: 500px;
@@ -89,7 +72,4 @@ h2 {
 }
 
 @media screen and (min-width: 1200px) {
-  .marvelstudios {
-    width: 500px;
-  }
 }
