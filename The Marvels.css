@@ -1,9 +1,78 @@
 body {
-  /*background-image: url("https://image.freepik.com/free-vector/linear-neon-red-blue-lights-background-design_1017-25202.jpg");*/
-  background-color: black;
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EA1EA126856DC3CADB764377616605E89CD430DA958FDE90189B476BCFDCB59B");
   background-size: cover;
-  margin: 0 20px auto;
-  padding: 32px 0 32px 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 b {
@@ -11,16 +80,19 @@ b {
   font-size: 50pt;
   color: white;
   text-shadow: 0px 2px 5px red;
-}
-
-.marvelstudios {
-  width: 200px;
-  margin: 0 auto;
+  margin: 20px;
 }
 
 .the-marvels-logo {
-  height: 180px;
-  width: 320px;
+  height: 160px;
+  width: 280px;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px red;
+  height: 200px;
+  width: 360px;
 }
 
 .Danvers {
@@ -31,6 +103,7 @@ b {
   text-transform: uppercase;
   color: white;
   border-radius: 10px;
+  margin-left: 20px;
 }
 
 a:link {
@@ -50,6 +123,7 @@ p {
   font-family: arial;
   color: white;
   text-shadow: 0px 2px 5px red;
+  margin: 20px;
 }
 
 h2 {
@@ -57,12 +131,26 @@ h2 {
   font-size: 25pt;
   color: white;
   text-shadow: 0px 2px 5px red;
+  margin: 20px;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
 }
 
 @media screen and (min-width: 300px) {
-  .the-marvels-logo {
-    height: 160px;
+  iframe {
+    height: 155px;
     width: 280px;
+  } 
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
   }
 }
 
@@ -78,6 +166,11 @@ h2 {
     height: 225px;
     width: 420px;
   }
+
+    iframe {
+    height: 250px;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -88,10 +181,6 @@ h2 {
 }
 
 @media screen and (min-width: 700px) {
-  .marvelstudios {
-    width: 300px;
-  }
-
   .the-marvels-logo {
     height: 370px;
     width: 660px;
@@ -99,29 +188,25 @@ h2 {
 }
 
 @media screen and (min-width: 800px) {
-  .marvelstudios {
-    width: 300px;
-  }
-
   .the-marvels-logo {
     height: 430px;
     width: 780px;
   }
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-  .marvelstudios {
-    width: 400px;
-  }
-
   .the-marvels-logo {
     height: 450px;
     width: 800px;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .marvelstudios {
-    width: 500px;
+  iframe {
+    height: 500px;
+    width: 900px;
   }
 }

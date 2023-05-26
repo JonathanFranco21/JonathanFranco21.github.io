@@ -3,8 +3,76 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0 20px auto;
-  padding: 32px 0 32px 0;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: yellow;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 b {
@@ -14,14 +82,9 @@ b {
   text-shadow: 0px 2px 5px yellow;
 }
 
-.marvelstudios {
-  width: 200px;
-  margin: 0 auto;
-}
-
 .eternals-logo {
-  height: 200px;
-  width: 350px;
+  height: 175px;
+  width: 300px;
 }
 
 .Eternals {
@@ -32,6 +95,7 @@ b {
   text-transform: uppercase;
   color: white;
   border-radius: 10px;
+  margin-left: 20px;
 }
 
 a:link {
@@ -51,13 +115,14 @@ p {
   font-family: arial;
   color: white;
   text-shadow: 0px 2px 5px yellow;
+  margin: 20px;
 }
 
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px yellow;
-  height: 250px;
-  width: 450px;
+  width: 280px;
+  height: 155px;
 }
 
 h2 {
@@ -65,6 +130,7 @@ h2 {
   font-size: 25pt;
   color: white;
   text-shadow: 0px 2px 5px yellow;
+  margin: 20px;
 }
 
 li {
@@ -99,6 +165,20 @@ li {
 .rating {
   width: 50px;
   box-shadow: 0px 2px 5px yellow;
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }  
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 800px) {

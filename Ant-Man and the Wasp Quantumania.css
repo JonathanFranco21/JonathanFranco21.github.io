@@ -1,10 +1,92 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4CC42B56D82617F15F79B8C549BFB1AA4768310663B7125BC70B8F462543CADA");
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: yellow;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.AMATWQ, .GOTGV3, .TGOTGHS {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0 20px auto;
-  padding: 32px 0 32px 0;
+  padding-bottom: 32px;  
+}
+
+.AMATWQ {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2DAE3601A504ABA3A5588D173A6FE4106E81EB1F87BC365388AEFA7E83879C31");
+}
+
+.GOTGV3 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6D0DCB3626913DB76910BB0A16DD198301487D5529B8F0C9A8D57D226C61E3B7");
+}
+
+.TGOTGHS {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2CB6E9F712372DB68C20F8918BEEBC077C193CD279110215087DE51EE2F317C1");
 }
 
 b {
@@ -12,11 +94,6 @@ b {
   font-size: 50pt;
   color: white;
   text-shadow: 0px 2px 5px blue;
-}
-
-.marvelstudios {
-  width: 200px;
-  margin: 0 auto;
 }
 
 .ant-man-and-the-wasp-quantumania-logo {
@@ -33,7 +110,7 @@ a.reference:visited {
   color: white;
 }
 
-.Quantumania {
+.Quantumania, .next {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
@@ -41,6 +118,11 @@ a.reference:visited {
   text-transform: uppercase;
   color: white;
   border-radius: 10px;
+  margin-left: 20px;
+}
+
+.next {
+  margin: 100px;
 }
 
 a:link {
@@ -69,9 +151,19 @@ iframe {
   width: 360px;
 }
 
+ul, li, p, h2, button {
+  margin: 10px 20px auto;
+}
+
 h2 {
   font-family: arial;
   font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+
+li {
+  font-family: arial;
   color: white;
   text-shadow: 0px 2px 5px blue;
 }
@@ -83,10 +175,72 @@ h2 {
   text-align: center
 }
 
+h3 {
+  font-family: arial;
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 2px 5px blue;
+  margin: 0 20px auto;
+}
+
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, .proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
+}
+
+.custom-rating {
+  margin-left: 15px;
+}
+
+.rating {
+  width: 50px;
+  box-shadow: 0px 2px 5px red;
+}
+
+.pg-13-rating {
+  position: relative;
+  bottom: 55px;
+  left: 20px;
+  width: 250px;
+  height: 250px;
+  filter: invert(1);
+  object-fit: cover;
+}
+
 .disneyplus {
   width: 150px;
   position: relative;
   bottom: -22px
+}
+
+.imax {
+  width: 200px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px blue;
+}
+
+.custom-rating {
+  margin-left: 15px;
+}
+
+.rating {
+  width: 50px;
+  box-shadow: 0px 2px 5px blue;
+}
+
+.guardians-of-the-galaxy-vol-3-logo, 
+.the-guardians-of-the-galaxy-holiday-special-logo {
+  width: 340px;
+  height: 200px;
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 300px) {
@@ -97,6 +251,12 @@ h2 {
 
   iframe {
     height: 155px;
+    width: 280px;
+  }
+
+  .guardians-of-the-galaxy-vol-3-logo,
+  .the-guardians-of-the-galaxy-holiday-special-logo {
+    height: 160px;
     width: 280px;
   }
 }
@@ -115,22 +275,28 @@ h2 {
   }
 }
 
-@media screen and (min-width: 800px) {
-  .marvelstudios {
-    width: 300px;
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
   }
+}
+
+@media screen and (min-width: 800px) {
+
 
   iframe {
     height: 420px;
     width: 750px;
   }
+
+  .guardians-of-the-galaxy-vol-3-logo,
+  .the-guardians-of-the-galaxy-holiday-special-logo {
+    height: 260px;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-  .marvelstudios {
-    width: 400px;
-  }
-
   .ant-man-and-the-wasp-quantumania-logo {
     height: 300px;
     width: 500px;
@@ -140,10 +306,10 @@ h2 {
     height: 500px;
     width: 900px;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .marvelstudios {
+  .guardians-of-the-galaxy-vol-3-logo,
+  .the-guardians-of-the-galaxy-holiday-special-logo {
+    height: 300px;
     width: 500px;
   }
 }

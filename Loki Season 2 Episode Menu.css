@@ -1,0 +1,198 @@
+body {
+  /*background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
+  background-color: black;
+  background-size: cover;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+.loki-season-2-logo {
+  height: 180px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.loki {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+p {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 35pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px
+}
+
+h4 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+@media screen and (min-width: 300px) {
+  .loki-season-2-logo {
+      height: 160px;
+      width: 280px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .loki-season-2-logo {
+        height: 180px;
+        width: 320px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .loki-season-2-logo {
+      height: 225px;
+      width: 420px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .loki-season-2-logo {
+      height: 260px;
+      width: 470px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .marvelstudios {
+      width: 300px;
+  }
+
+  .loki-season-2-logo {
+      height: 280px;
+      width: 500px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .marvelstudios {
+        width: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h3 {
+      font-size: 50pt;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
