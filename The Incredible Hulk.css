@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://cdn.suwalls.com/wallpapers/movies/the-incredible-hulk-16873-1920x1200.jpg");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/388A7D6509E4133B25F9FDF5335B790BE862F4FBF9D4BF299517AA4AD716B613");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,13 +14,8 @@ b {
   text-shadow: 0px 2px 5px green;
 }
 
-.marvelstudios {
-  width: 200px;
-  margin: 0 auto;
-}
-
 .the-incredible-hulk-logo {
-  height: 150px;
+  height: 250px;
   width: 450px;
 }
 
@@ -60,7 +55,6 @@ iframe {
   width: 450px;
 }
 
-
 h2 {
   font-family: arial;
   font-size: 25pt;
@@ -97,11 +91,6 @@ li {
 }
 
 @media screen and (min-width: 800px) {
-  .marvelstudios {
-    width: 200px;
-    margin: 0 auto;
-  }
-
   iframe {
     height: 420px;
     width: 750px;
@@ -115,7 +104,7 @@ li {
   }
 
   .the-incredible-hulk-logo {
-    height: 175px;
+    height: 290px;
     width: 500px;
   }
 
@@ -126,7 +115,5 @@ li {
 }
 
 @media screen and (min-width: 1200px) {
-  .marvelstudios {
-    width: 500px;
-  }
+
 }

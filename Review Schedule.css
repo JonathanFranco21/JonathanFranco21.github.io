@@ -11,6 +11,7 @@ b, h2 {
   color: white;
   text-shadow: 0px 2px 5px red;
   text-align: center;
+  display: flex;
 }
 
 h2 {

@@ -1,10 +1,5 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2CB6E9F712372DB68C20F8918BEEBC077C193CD279110215087DE51EE2F317C1");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   margin: 0;
-  padding-bottom: 32px;
 }
 
 .navbar {
@@ -75,6 +70,30 @@ body {
   display: block;
 }
 
+.TGOTGHS, .BPWF, .AMATWQ {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.TGOTGHS {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2CB6E9F712372DB68C20F8918BEEBC077C193CD279110215087DE51EE2F317C1");
+  padding-bottom: 32px;
+}
+
+.BPWF {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D4AF85A95E6E05F2A2DAEED2D23A36FB3DB2CFC8D2D78C151E5181E36C6680A4");
+}
+
+.AMATWQ {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2DAE3601A504ABA3A5588D173A6FE4106E81EB1F87BC365388AEFA7E83879C31");
+}
+
+.AMATWQ, .BPWF {
+  padding-bottom: 200px;
+}
+
 b {
   font-family: arial;
   font-size: 50pt;
@@ -82,7 +101,7 @@ b {
   text-shadow: 0px 2px 5px red;
 }
 
-.Holiday {
+.Holiday, .next {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
@@ -90,10 +109,11 @@ b {
   text-transform: uppercase;
   color: white;
   border-radius: 10px;
-  margin: 0 auto;
-  align-content: center;
-  text-align: center;
   margin-top: 32px;  
+}
+
+.next {
+  margin: 0 100px auto;
 }
 
 a:link {
@@ -110,9 +130,6 @@ a:visited {
 
 p {
   font-family: arial;
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
   color: white;
   text-shadow: 0px 2px 5px red;
 }
@@ -127,4 +144,147 @@ h2 {
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px red;
+}
+
+ul, li, p, h2, button {
+  margin: 10px 20px auto;
+}
+
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-shadow: 0px 2px 5px red;
+  text-align: center
+}
+
+h2.ratings {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 2px 5px red;
+  margin: 0 20px auto;
+}
+
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, .proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
+}
+
+.tv-14-lv-rating, .tv-pg-lv-rating {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  box-shadow: none;
+  border-radius: 0px;
+  margin: 20px;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
+}
+
+.ant-man-and-the-wasp-quantumania-logo,
+.black-panther-wakanda-forever-logo {
+  width: 350px;
+  height: 200px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 300px) {
+  .the-guardians-of-the-galaxy-holiday-special-logo {
+    height: 160px;
+    width: 280px;
+  }
+
+  iframe {
+    height: 155px;
+    width: 280px;
+  }
+
+  .original-rating-area, .proposed-rating-area {
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .ant-man-and-the-wasp-quantumania-logo,
+  .black-panther-wakanda-forever-logo {
+    height: 160px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
+  }
+
+  .original-rating-area, .proposed-rating-area {
+    height: 150px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .the-guardians-of-the-galaxy-holiday-special-logo {
+    height: 260px;
+    width: 450px;
+  }
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+
+  .ant-man-and-the-wasp-quantumania-logo,
+  .black-panther-wakanda-forever-logo {
+    height: 260px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .the-guardians-of-the-galaxy-holiday-special-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  .ant-man-and-the-wasp-quantumania-logo,
+  .black-panther-wakanda-forever-logo {
+    height: 300px;
+    width: 500px;
+  }
 }

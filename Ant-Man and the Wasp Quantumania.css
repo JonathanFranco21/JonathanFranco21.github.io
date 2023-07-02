@@ -74,11 +74,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-bottom: 32px;  
 }
 
 .AMATWQ {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2DAE3601A504ABA3A5588D173A6FE4106E81EB1F87BC365388AEFA7E83879C31");
+  padding-bottom: 32px; 
 }
 
 .GOTGV3 {
@@ -87,6 +87,10 @@ body {
 
 .TGOTGHS {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2CB6E9F712372DB68C20F8918BEEBC077C193CD279110215087DE51EE2F317C1");
+}
+
+.GOTGV3, .TGOTGHS {
+  padding-bottom: 200px;
 }
 
 b {
@@ -122,7 +126,7 @@ a.reference:visited {
 }
 
 .next {
-  margin: 100px;
+  margin: 0 100px auto;
 }
 
 a:link {
@@ -175,6 +179,11 @@ li {
   text-align: center
 }
 
+h2.ratings {
+  margin: 0 auto;
+  text-align: center;
+}
+
 h3 {
   font-family: arial;
   font-size: 20pt;
@@ -193,15 +202,6 @@ h3 {
 .original-rating-area, .proposed-rating-area {
   height: 150px;
   margin: 0 auto;
-}
-
-.custom-rating {
-  margin-left: 15px;
-}
-
-.rating {
-  width: 50px;
-  box-shadow: 0px 2px 5px red;
 }
 
 .pg-13-rating {
@@ -226,15 +226,6 @@ h3 {
   box-shadow: 0px 2px 5px blue;
 }
 
-.custom-rating {
-  margin-left: 15px;
-}
-
-.rating {
-  width: 50px;
-  box-shadow: 0px 2px 5px blue;
-}
-
 .guardians-of-the-galaxy-vol-3-logo, 
 .the-guardians-of-the-galaxy-holiday-special-logo {
   width: 340px;
@@ -252,6 +243,15 @@ h3 {
   iframe {
     height: 155px;
     width: 280px;
+  }
+
+  .original-rating-area, .proposed-rating-area {
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .imax {
+    margin: 25px;
   }
 
   .guardians-of-the-galaxy-vol-3-logo,
@@ -273,17 +273,30 @@ h3 {
     height: 250px;
     width: 450px;
   }
+
+  .imax {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .imax {
+    margin: 25px;
+  }
 }
 
 @media screen and (min-width: 700px) {
   .rating-areas {
     flex-direction: row;
   }
+
+  .original-rating-area, .proposed-rating-area {
+    height: 150px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 800px) {
-
-
   iframe {
     height: 420px;
     width: 750px;
@@ -293,6 +306,12 @@ h3 {
   .the-guardians-of-the-galaxy-holiday-special-logo {
     height: 260px;
     width: 450px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .imax {
+    margin: 0;
   }
 }
 

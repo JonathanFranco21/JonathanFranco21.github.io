@@ -3,6 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0;
 }
 
 b {
@@ -11,30 +12,249 @@ b {
   color: white;
 }
 
-.Thor4 {
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+b {
+  font-family: arial;
+  font-size: 40pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+.IM {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/35B7F58526D0EBEE5E7B2914315B2E2EC97B6B9AA95F77DC9FE44BEFEF6A55A4");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 32px;
+}
+
+ul, li, p, h2, button {
+  margin: 0 20px auto;
+}
+
+.TIH {
+  background-image: url("https://cdn.suwalls.com/wallpapers/movies/the-incredible-hulk-16873-1920x1200.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 32px;
+}
+
+.iron-man-logo {
+  height: 175px;
+  width: 300px;
+}
+
+.the-incredible-hulk-logo {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  height: 100px;
+  width: 300px;
+}
+
+.Thor4, .next {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
   border: none;
   text-transform: uppercase;
   color: white;
+  border-radius: 10px;
+}
+
+.Thor4, .next a {
+  text-decoration: none;
+}
+
+.next {
+  margin: 100px;
+}
+
+a:link {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
 }
 
 p {
   font-family: arial;
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
   color: white;
+  text-shadow: 0px 2px 5px blue;
+}
+
+iframe {
+  border-radius:25px;
+  box-shadow: 0px 10px 15px blue;
+  width: 280px;
+  height: 155px;
 }
 
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin: 20px 0 10px 20px;
 }
 
-iframe {
-  border-radius:25px;
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
   text-shadow: 0px 2px 5px blue;
+  text-align: center;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 2px 5px blue;
+  margin: 0 20px auto;
+}
+
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, .proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
+}
+
+.custom-rating {
+  margin-left: 15px;
+}
+
+.rating {
+  width: 50px;
+  box-shadow: 0px 2px 5px red;
+}
+
+.pg-13-rating {
+  position: relative;
+  bottom: 55px;
+  left: 20px;
+  width: 250px;
+  height: 250px;
+  filter: invert(1);
+  object-fit: cover;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px
+}
+
+.imax {
+  width: 200px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px blue;
+}
+
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .thor-love-and-thunder-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  .ms-marvel-logo {
+    height: 175px;
+    width: 500px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
 }

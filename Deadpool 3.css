@@ -2,6 +2,80 @@ body {
   /* background-image: url(https://wallpaperaccess.com/full/1186033.jpg); */
   background-color: black;
   background-size: cover;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:link {
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 b {
@@ -51,4 +125,75 @@ h2 {
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px red;
+}
+
+@media screen and (min-width: 300px) {
+  iframe {
+    height: 155px;
+    width: 280px;
+  } 
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .the-marvels-logo {
+    height: 180px;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .the-marvels-logo {
+    height: 225px;
+    width: 420px;
+  }
+
+    iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .the-marvels-logo {
+    height: 300px;
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .the-marvels-logo {
+    height: 370px;
+    width: 660px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .the-marvels-logo {
+    height: 430px;
+    width: 780px;
+  }
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .the-marvels-logo {
+    height: 450px;
+    width: 800px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
 }

@@ -112,7 +112,7 @@ p {
   margin: 0 32px auto;
 }
 
-#timer1, #timer2 {
+#timer1, #timer2, #timer3, #timer4 {
   font-family: arial;
   font-size: 35px;
   color: white;
@@ -192,6 +192,7 @@ img {
   text-align: center;
   margin-top: 32px;
   margin-left: 20px;
+  display: flex;
 }
 
 .item {
@@ -210,11 +211,11 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  .item.secret-invasion, .item.armor-wars {
+  .item.secret-invasion, .item.loki-s2, .item.what-if-s2 {
     width: 100%;
   }
 
-  .item.ironheart {
+  .item.ironheart, .item.what-if-s2 {
     width: 50%;
   }
 
@@ -253,18 +254,15 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.amatwq {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
+  .item.avengers-endgame, .item.spider-man-fy {
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.gotgv3, .item.avengers-sw, .item.armor-wars {
+  .item.spider-man-ffh, .item.gotg3, .item.secret-invasion, .item.ironheart, .item.marvel-zombies  {
     width: 33%;
   }
 
-  .item.ironheart, .item.avengers-sw {
+  .item.what-if-s2, .item.avengers-sw {
     width: 100%;
   }
 
