@@ -32,7 +32,7 @@ b {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 16px;
     border: none;
     outline: none;
     color: white;
@@ -42,7 +42,8 @@ b {
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
     background-color: red;
     font-family: arial;
 }
@@ -52,7 +53,7 @@ b {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -77,10 +78,9 @@ b {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-  
 
 .captain-america-brave-new-world-logo {
-    height: 300px;
+    height: 200px;
     width: 650px;
 }
 
@@ -106,3 +106,103 @@ h2 {
     color: white;
     text-shadow: 0px 2px 5px red;
 }
+
+@media screen and (min-width: 300px) {
+    .ant-man-and-the-wasp-quantumania-logo {
+      height: 175px;
+      width: 300px;
+    }
+  
+    iframe {
+      height: 155px;
+      width: 280px;
+    }
+  
+    .original-rating-area, .proposed-rating-area {
+      height: 200px;
+      margin: 0 auto;
+    }
+  
+    .imax {
+      margin: 25px;
+    }
+  
+    .guardians-of-the-galaxy-vol-3-logo,
+    .the-guardians-of-the-galaxy-holiday-special-logo {
+      height: 160px;
+      width: 280px;
+    }
+  }
+  
+  @media screen and (min-width: 350px) {
+    iframe {
+      height: 190px;
+      width: 340px;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    iframe {
+      height: 250px;
+      width: 450px;
+    }
+  
+    .imax {
+      margin: 0;
+    }
+  }
+  
+  @media screen and (min-width: 600px) {
+    .imax {
+      margin: 25px;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .rating-areas {
+      flex-direction: row;
+    }
+  
+    .original-rating-area, .proposed-rating-area {
+      height: 150px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    iframe {
+      height: 420px;
+      width: 750px;
+    }
+  
+    .guardians-of-the-galaxy-vol-3-logo,
+    .the-guardians-of-the-galaxy-holiday-special-logo {
+      height: 260px;
+      width: 450px;
+    }
+  }
+  
+  @media screen and (min-width: 850px) {
+    .imax {
+      margin: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .ant-man-and-the-wasp-quantumania-logo {
+      height: 300px;
+      width: 500px;
+    }
+  
+    iframe {
+      height: 500px;
+      width: 900px;
+    }
+  
+    .guardians-of-the-galaxy-vol-3-logo,
+    .the-guardians-of-the-galaxy-holiday-special-logo {
+      height: 300px;
+      width: 500px;
+    }
+  }
+  

@@ -1,68 +1,319 @@
 body {
-    /*background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
-    background-color: black;
-    background-size: cover;
-  }
+  /*background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
+  background-color: black;
+  background-size: cover;
+  margin: 0;
+}
 
-  b {
-    font-family: arial;
-    font-size: 50pt;
-    color: yellow;
-    text-shadow: 0px 2px 5px red;
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: yellow;
+  text-shadow: 0px 2px 5px red;
+}
+
+.x-men-97-logo {
+  height: 160px;
+  width: 280px;
+  box-shadow: none;
+}
+
+img {
+  height: 300px;
+  width: 500px;
+}
+
+.x-men-97 {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+p {
+  font-family: arial;
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+  color: yellow;
+  text-shadow: 0px 2px 5px red;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: yellow;
+  text-shadow: 0px 2px 5px red;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: yellow;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px red;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 40pt;
+  color: yellow;
+  text-shadow: 0px 2px 5px red;
+}
+
+h4 {
+  font-family: arial;
+  font-size: 20pt;
+  color: yellow;
+  text-shadow: 0px 2px 5px red;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 300px) {
+  iframe {
+    height: 155px;
+    width: 280px;
+  } 
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .x-men-97-logo {
+    height: 180px;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  b, h2 {
+    font-size: 50px;
   }
 
   img {
+    width: 400px;
+    height: 225px;
+  }
+
+  .x-men-97-logo {
+    height: 225px;
+    width: 420px;
+  }
+
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .x-men-97-logo {
     height: 300px;
-    width: 500px;
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .x-men-97-logo {
+    height: 370px;
+    width: 660px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .x-men-97-logo {
+    height: 430px;
+    width: 780px;
   }
 
-  .x-men-97 {
-    font-family: arial;
-    font-size: xx-large;
-    background-color: red;
-    border: none;
-    text-transform: uppercase;
-    color: white;
-    border-radius: 10px;
-
+  iframe {
+    height: 420px;
+    width: 750px;
   }
 
-  a:link {
-    text-decoration: none;
+  img {
+    width: 325px;
+    height: 185px;
   }
-  
-  a:hover, a:active {
-    text-decoration: underline;
-  }
-  
-  a:visited {
-    color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .x-men-97-logo {
+    height: 450px;
+    width: 800px;
   }
 
-  p {
-    font-family: arial;
-    font-size: xx-large;
-    text-align: justify;
-    width: [width of img];
-    color: yellow;
-    text-shadow: 0px 2px 5px red;
+  iframe {
+    height: 500px;
+    width: 900px;
   }
-  h2 {
-    font-family: arial;
-    font-size: 25pt;
-    color: yellow;
-    text-shadow: 0px 2px 5px red;
-  }
-  h3 {
-    font-family: arial;
+
+  b {
     font-size: 50pt;
-    color: yellow;
-    text-shadow: 0px 2px 5px red;
   }
-  h4 {
-    font-family: arial;
-    font-size: 20pt;
-    color: yellow;
-    text-shadow: 0px 2px 5px red;
+
+  h2 {
+    font-size: 50pt;
   }
-  
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+
+  .item.episode10 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
+}
