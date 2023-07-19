@@ -1,0 +1,312 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:link {
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+b {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin-bottom: 64px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.characterAlphabet {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.characterAlphabet a {
+  margin: 0 auto;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  text-shadow: 0px 2px 5px red;
+}
+
+h2, h4 {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin: 0;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;  
+}
+
+h4 {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+p {
+  font-family: arial;
+  font-size: large;
+  color: white;
+  text-align: justify;
+  text-shadow: 0px 2px 5px red;
+}
+
+.timer_message {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin: 0 32px auto;
+}
+
+#timer1, #timer2, #timer3, #timer4 {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin: 16px 64px auto;
+  margin-bottom: 64px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.review-schedule, .release-schedule {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px red;
+}
+
+.item.spider-man-ffh {
+  width: 100%;
+}
+
+.back {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-top: 32px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 500px) {
+  b, h2 {
+    font-size: 50px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .item.secret-invasion, .item.loki-s2, .item.what-if-s2, .item.i-am-groot-s2 {
+    width: 100%;
+  }
+
+  .item.ironheart, .item.what-if-s2 {
+    width: 50%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 325px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 50pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.avengers-endgame, .item.spider-man-fy, .item.what-if-s2 {
+    width: 55%;
+  }
+  
+  .item.spider-man-ffh, .item.gotg3, .item.secret-invasion, .item.ironheart, .item.i-am-groot-s2, .item.marvel-zombies  {
+    width: 33%;
+  }
+
+  .item.avengers-sw {
+    width: 100%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
+}
