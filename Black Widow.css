@@ -1,39 +1,285 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A136A89F4B8E0F29C3698E01F29B35864DC69D5DC1F3A1D6DB6ECE2EFC84FBB");
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: arial;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.BW, .WIS1, .WIS1E1,.LS1, .LS1E6 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
+.BW {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A136A89F4B8E0F29C3698E01F29B35864DC69D5DC1F3A1D6DB6ECE2EFC84FBB");
+  padding-bottom: 32px;
 }
 
-.BlackWidow {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
+.WIS1, .WIS1E1,.LS1, .LS1E6 {
+  padding-bottom: 200px;
 }
 
-p {
-  font-family: arial;
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
-  color: white;
+.WIS1 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A4084974A3AEED7B5F94C37EDD816BB8D192505F5D53BD8CABF4E0F82BA3ABB2");
 }
 
-h2 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
+.WIS1E1 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B2238CBB51E5A3F835B428033FACF5DBEB8266F3C06FA463526F2968DDECF2AB");
+}
+
+.LS1 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/99C02621082774A9F5BD6F646D0F2E628F68ABCDC490F2533BA501B8EA132A4E");
+}
+
+.LS1E6 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DC8164FA6A93FC80F2DB18601B88BC52A1DFD6669ADA99778BE1A68C8D371724");
+}
+
+.black-widow-logo,
+.what-if-season-1-logo,
+.loki-season-1-logo,
+iframe {
+  margin: auto;
+  display: block;
+}
+
+.black-widow-logo,
+.what-if-season-1-logo,
+.loki-season-1-logo {
+  height: 160px;
+  width: 280px;
 }
 
 iframe {
   border-radius: 25px;
+  box-shadow: 0px 10px 15px red;
+  height: 155px;
+  width: 280px;
+}
+
+h2, h3, p {
+  font-family: arial;
+  color: white;  
+  text-shadow: 0px 2px 5px red;  
+  text-align: center;  
+}
+
+h2 {
+  font-size: 25pt;
+  margin: 50px 0 20px 0;
+}
+
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center
+}
+
+h3 {
+  font-size: 20pt;
+  margin: 0 20px auto;
+}
+
+a.reference:link,
+a.reference:visited {
+  color: white;
+}
+
+.black-widow, 
+.next {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-top: 32px;  
+  margin: 10px 20px auto;  
+}
+
+.black-widow a,
+.next a:link {
+  text-decoration: none;
+}
+
+.black-widow a:visited {
+  color: white;
+}
+
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, 
+.proposed-rating-area {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.pg-13-rating {
+  position: relative;
+  bottom: 55px;
+  left: 20px;
+  width: 250px;
+  height: 250px;
+  filter: invert(1);
+  object-fit: cover;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
+}
+
+.imax {
+  position: relative;
+  top: 2px;
+  width: 200px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px red;
+}
+
+.what-if-season-1-logo,
+.loki-season-1-logo {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.next {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.next a:link,
+.next a:visited {
+  color: white;
+}
+
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .black-widow-logo,
+  .what-if-season-1-logo,
+  .loki-season-1-logo {
+    width: 350px;
+    height: 200px;
+  }
+
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
+  }
+
+  .original-rating-area, 
+  .proposed-rating-area {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .black-widow-logo,
+  .what-if-season-1-logo,
+  .loki-season-1-logo {
+    height: 260px;
+    width: 450px;
+  }
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .black-widow-logo,
+  .what-if-season-1-logo,
+  .loki-season-1-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
 }

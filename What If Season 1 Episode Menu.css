@@ -134,7 +134,8 @@ a.reference:visited {
 }
 
 .next {
-  margin: 0 100px auto;
+  display: block;
+  margin: auto;
 }
 
 a:link {
@@ -212,7 +213,7 @@ li {
   text-shadow: 0px 2px 5px red;
 }
 
-.overview {
+p.overview {
   margin-left: 25%;
   margin-right: 25%;
   text-shadow: 0px 2px 5px red;
