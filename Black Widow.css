@@ -1,14 +1,16 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A136A89F4B8E0F29C3698E01F29B35864DC69D5DC1F3A1D6DB6ECE2EFC84FBB/scale?width=2880&aspectRatio=1.78&format=jpeg");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A136A89F4B8E0F29C3698E01F29B35864DC69D5DC1F3A1D6DB6ECE2EFC84FBB");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
 }
+
 .BlackWidow {
   font-family: arial;
   font-size: xx-large;
@@ -17,6 +19,7 @@ b {
   text-transform: uppercase;
   color: white;
 }
+
 p {
   font-family: arial;
   font-size: xx-large;
@@ -24,11 +27,13 @@ p {
   width: [width of img];
   color: white;
 }
+
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
 }
+
 iframe {
   border-radius: 25px;
 }

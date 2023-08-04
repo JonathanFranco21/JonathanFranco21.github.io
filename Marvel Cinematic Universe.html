@@ -73,30 +73,23 @@
 
   <center>
     <h2 class="timer_message">
-      MARVEL STUDIOS' GUARDIANS OF THE GALAXY VOL. 3 RELEASES ON DISNEY+ IN:
+      MARVEL STUDIOS' SECRET INVASION WILL ALSO STREAM ON HULU FOR:
     </h2>
     <p id="timer1"></p>
   </center>
 
   <center>
     <h2 class="timer_message">
-      MARVEL STUDIOS' SECRET INVASION WILL ALSO STREAM ON HULU FOR:
+      MARVEL STUDIOS' LOKI SEASON 2 EPISODE 1 RELEASES ON DISNEY+ IN:
     </h2>
     <p id="timer2"></p>
   </center>
 
   <center>
     <h2 class="timer_message">
-      MARVEL STUDIOS' LOKI SEASON 2 EPISODE 1 RELEASES ON DISNEY+ IN:
-    </h2>
-    <p id="timer3"></p>
-  </center>
-
-  <center>
-    <h2 class="timer_message">
       MARVEL STUDIOS' THE MARVELS RELEASES IN THEATERS IN:
     </h2>
-    <p id="timer4"></p>
+    <p id="timer3"></p>
   </center>
 
   <center>
@@ -583,9 +576,9 @@
   </div>
 
   <div class="item">
-    <a href="I Am Groot Shorts Menu.html">
+    <a href="I Am Groot Season 1 Menu.html">
       <img
-        src="https://lumiere-a.akamaihd.net/v1/images/9ea90321d07c35c0b24701fa0021531a_2000x1412_f40ac72d.jpeg?region=0%2C144%2C2000%2C1125"
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/17CA7E600F3CC6AD5FA942C4C9EADE9BE7248A6C133D5BA504D9774E337B8FFD"
         alt="Marvel Studios' I Am Groot Season 1" 
         title="Marvel Studios' I Am Groot Season 1" />
     </a>
@@ -670,7 +663,7 @@
   <div class="item gotgv3">
     <a href="Guardians of the Galaxy Vol 3.html">
       <img
-        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/275EF64FD7937E94E787A02E45325330A6AE2D228DA6185178388E8596AEEA91"
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/08E3DD10C09615B51E2F79F19E726E2BFE1D1A25104BFB64FEFEE51FE0F69842"
         alt="Marvel Studios' Guardians of the Galaxy Vol. 3"
         title="Marvel Studios' Guardians of the Galaxy Vol. 3" />
     </a>
@@ -859,7 +852,7 @@
   </div>
 
   <div class="item i-am-groot-s2">
-    <a href="I Am Groot Shorts Menu.html">
+    <a href="I Am Groot Season 2 Menu.html">
       <img
         src="https://lumiere-a.akamaihd.net/v1/images/9ea90321d07c35c0b24701fa0021531a_2000x1412_f40ac72d.jpeg?region=0%2C144%2C2000%2C1125"
         alt="Marvel Studios' I Am Groot Season 2" 
@@ -967,56 +960,13 @@
 
 
   <button class="back">
-    <a href="Marvel Database Menu.html"/>
-    Back
+    <a href="Marvel Database Menu.html">
+      Back
+    </a>
   </button>
 </body>
 
-<script>
-var countDownDate1 = new Date("Aug 2, 2023 00:00:00").getTime();
-var countDownDate2 = new Date("Aug 17, 2023 00:00:00").getTime();
-var countDownDate3 = new Date("Oct 6, 2023 00:00:00").getTime();
-//var countDownDate3 = new Date("Oct 13, 2023 00:00:00").getTime();
-//var countDownDate3 = new Date("Oct 20, 2023 00:00:00").getTime();
-//var countDownDate3 = new Date("Oct 27, 2023 00:00:00").getTime();
-//var countDownDate3 = new Date("Nov 3, 2023 00:00:00").getTime();
-var countDownDate4 = new Date("Nov 10, 2023 00:00:00").getTime();
-//var countDownDate4 = new Date("Nov 10, 2023 00:00:00").getTime();
-//var countDownDate4 = new Date("Nov 10, 2023 00:00:00").getTime();
-//var countDownDate4 = new Date("Nov 29, 2023 00:00:00").getTime();
-
-var timer1 = document.getElementById("timer1");
-var timer2 = document.getElementById("timer2");
-var timer3 = document.getElementById("timer3");
-var timer4 = document.getElementById("timer4");
-
-function countdown(finish_date, timer){
-  var x = setInterval(function() {
-
-    var now = new Date().getTime();
-
-    var distance = finish_date - now;
-
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    timer.innerHTML = days + " day(s), " + hours + " hour(s), " + minutes + " minute(s), " + seconds + " second(s)";
-
-
-    if (distance < 0) {
-      clearInterval(x);
-      timer.innerHTML = "NOW AVAILABLE";
-      }
-    }, 1000);
-  }
-
-  countdown(countDownDate1, timer1)
-  countdown(countDownDate2, timer2)
-  countdown(countDownDate3, timer3)
-  countdown(countDownDate4, timer4)
-  countdown(countDownDate5, timer5)
+<script src="functions.js">
 </script>
 
 </html>

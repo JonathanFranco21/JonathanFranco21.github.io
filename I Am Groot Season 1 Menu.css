@@ -1,6 +1,8 @@
 body {
-  background-color: black;
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DD8FF4D6D04837E32F1BC5D880E9AF01D8F874E4C982088820DFD92497699FB1");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   margin-bottom: 32px;
 }
