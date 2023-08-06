@@ -1,9 +1,5 @@
 body {
-  /*background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
-  background-color: black;
-  background-size: cover;
-  margin: 0 auto;
-  padding-bottom: 32px;
+  margin: 0;
 }
 
 .navbar {
@@ -19,7 +15,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-family: arial;
-  color: black;
+  color: white;
 }
 
 .dropdown {
@@ -74,6 +70,37 @@ body {
   display: block;
 }
 
+.LS2, .LS2E1, .TM, .SI, .SIE6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.LS2, .LS2E1 {
+  background-color: black;  
+}
+
+.LS2 {
+  /*background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A4084974A3AEED7B5F94C37EDD816BB8D192505F5D53BD8CABF4E0F82BA3ABB2");*/
+  padding-bottom: 32px; 
+}
+
+.TM {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EA1EA126856DC3CADB764377616605E89CD430DA958FDE90189B476BCFDCB59B");
+}
+
+.SI {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0F536C481F5589394D22E66D6B8E638F562A3EC7D743D8ECCBA50789F330B4A0");
+}
+
+.SIE6 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/94B32143F72FFF0B553072BE527C79BEFA94B05C0A38F037B4E03D9ACD20B826");
+}
+
+.LS2E1, .TM, .SI, .SIE6 {
+  padding-bottom: 200px;
+}
+
 b {
   font-family: arial;
   font-size: 50pt;
@@ -81,13 +108,96 @@ b {
   text-shadow: 0px 2px 5px green;
 }
 
-.loki-season-2-logo {
-  height: 180px;
-  width: 320px;
-  margin: 0 auto;
+.loki-season-2-logo,
+.loki-season-2-bottom-logo,
+.the-marvels-logo,
+.secret-invasion-logo {
+  height: 160px;
+  width: 280px;
+  display: block;
+  margin: auto;
+  box-shadow: none;  
 }
 
-.loki {
+.loki-season-2-logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+iframe {
+  height: 155px;
+  width: 280px;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: 0px 10px 25px green;
+} 
+
+h2, h3, h4 {
+  font-family: arial;  
+  color: white;
+  text-shadow: 0px 2px 5px green;  
+  text-align: center;
+}
+
+h2, h4 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+button a:link, 
+button a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+p {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px green;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px green;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px green;
+}
+
+.disneyplus {
+  height: 75px;
+  width: 130px;
+  position: relative;
+  bottom: -18px;
+  box-shadow: none;
+}
+
+.loki, .next {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
@@ -97,102 +207,133 @@ b {
   border-radius: 10px;
 }
 
-a:link {
-  text-decoration: none;
-  color: white;
+.next {
+  display: block;
+  margin: auto;
 }
 
-a:hover, a:active {
-  text-decoration: underline;
+.loki-season-2-bottom-logo,
+.the-marvels-logo,
+.secret-invasion-logo {
+  padding-top: 200px;
+  margin-bottom: 50px;
 }
 
-a:visited {
-  color: white;
-}
-
-p {
-  font-family: arial;
-  color: white;
-  text-shadow: 0px 2px 5px green;
-}
-
-h2 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
-  text-shadow: 0px 2px 5px green;
-}
-
-h3 {
-  font-family: arial;
-  font-size: 35pt;
-  color: white;
-  text-shadow: 0px 2px 5px green;
-}
-
-.disneyplus {
-  width: 150px;
-  position: relative;
-  bottom: -22px
-}
-
-h4 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
-  text-shadow: 0px 2px 5px green;
-}
-
-@media screen and (min-width: 300px) {
-  .loki-season-2-logo {
-      height: 160px;
-      width: 280px;
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
   }
 }
 
 @media screen and (min-width: 400px) {
   .loki-season-2-logo {
-        height: 180px;
-        width: 320px;
+    height: 180px;
+    width: 320px;
   }
 }
 
 @media screen and (min-width: 500px) {
-  .loki-season-2-logo {
-      height: 225px;
-      width: 420px;
+  .loki-season-2-logo,
+  .loki-season-2-bottom-logo {
+    height: 225px;
+    width: 420px;
   }
+
+  .the-marvels-logo,
+  .secret-invasion-logo {
+    height: 200px;
+    width: 350px;
+  }    
 }
 
 @media screen and (min-width: 600px) {
-  .loki-season-2-logo {
-      height: 260px;
-      width: 470px;
+  .loki-season-2-logo,
+  .loki-season-2-bottom-logo {
+    height: 260px;
+    width: 470px;
   }
 }
 
 @media screen and (min-width: 700px) {
-  .marvelstudios {
-      width: 300px;
-  }
-
-  .loki-season-2-logo {
-      height: 280px;
-      width: 500px;
+  .loki-season-2-logo,
+  .loki-season-2-bottom-logo {
+    height: 230px;
+    width: 500px;
   }
 }
 
-@media screen and (min-width: 800px) {
-  .marvelstudios {
-        width: 300px;
+@media screen and (min-width: 800px) { 
+  iframe {
+    height: 420px;
+    width: 750px;
   }
+
+  img {
+    width: 325px;
+    height: 185px;
+  }
+
+  .the-marvels-logo,
+  .secret-invasion-logo {
+    height: 260px;
+    width: 450px;
+  }  
 }
 
 @media screen and (min-width: 1000px) {
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  b {
+    font-size: 50pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+
   h3 {
       font-size: 50pt;
-  }
+  }  
+
+  .the-marvels-logo,
+  .secret-invasion-logo {
+    height: 300px;
+    width: 500px;
+  }  
 }
 
 @media screen and (min-width: 1200px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
 }

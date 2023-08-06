@@ -10,7 +10,7 @@ body {
     overflow: hidden;
     background-color: #333;
     width: 100%;
-    }
+}
 
     .navbar a {
     float: left;
@@ -177,7 +177,7 @@ h4 {
     }
   
     .echo-logo {
-        height: 280px;
+        height: 210px;
         width: 500px;
     }
 }
