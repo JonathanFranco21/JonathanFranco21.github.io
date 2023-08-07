@@ -27,7 +27,7 @@ button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
-.agatha-coven-of-chaos-logo {
+.thunderbolts-logo {
   display: block;
 }
 
@@ -145,7 +145,6 @@ button a:hover, a:active {
   padding-top: 50px;
   padding-bottom: 180px;
   margin: auto;
-	display: block
 }
 
 @media screen and (min-width: 400px) {
