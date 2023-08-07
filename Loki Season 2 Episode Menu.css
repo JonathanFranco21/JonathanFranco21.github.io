@@ -14,7 +14,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: arial;
+  font-family: avenir-light;
   color: white;
 }
 
@@ -30,13 +30,13 @@ body {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: arial;
+  font-family: avenir-light;
   margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: green;
-  font-family: arial;
+  font-family: avenir-light;
 }
 
 .dropdown-content {
@@ -55,7 +55,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
-  font-family: arial;
+  font-family: avenir-light;
 }
 
 .dropdown-content a:hover {
@@ -102,7 +102,7 @@ body {
 }
 
 b {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 50pt;
   color: white;
   text-shadow: 0px 2px 5px green;
@@ -134,7 +134,7 @@ iframe {
 } 
 
 h2, h3, h4 {
-  font-family: arial;  
+  font-family: avenir-light;  
   color: white;
   text-shadow: 0px 2px 5px green;  
   text-align: center;
@@ -159,7 +159,7 @@ a:hover, a:active {
 }
 
 p {
-  font-family: arial;
+  font-family: avenir-light;
   color: white;
   text-shadow: 0px 2px 5px green;
 }
@@ -182,7 +182,7 @@ img {
 
 .caption {
   display: block;
-  font-family: arial;
+  font-family: avenir-light;
   font-size: large;
   color: white;
   margin-top: 16px;
@@ -198,7 +198,7 @@ img {
 }
 
 .loki, .next {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: xx-large;
   background-color: red;
   border: none;

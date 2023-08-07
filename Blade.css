@@ -1,30 +1,196 @@
 body {
-  /*background-image: url("https://wallpaperaccess.com/full/2413558.jpg");*/
-  background-color: black;
-  background-size: cover;
+  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
+  margin: auto;
+  background-color: black;  
 }
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
+
+.B {
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.Blade {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.agatha-coven-of-chaos-logo {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
   border: none;
-  text-transform: uppercase;
-  color: white;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
 }
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+h2, h3, h4, p, button {
+  margin: 0 20px;  
+}
+
+h2, h3, h4, p {
+  text-shadow: 0px 2px 5px red;
+}
+
 p {
-  font-family: arial;
   font-size: xx-large;
   text-align: justify;
   width: [width of img];
-  color: white;
 }
-h2 {
-  font-family: arial;
+
+h2, h4 {
   font-size: 25pt;
-  color: white;
+}
+
+h3 {
+  font-size: 50pt;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
+}
+
+.blade {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+
+.blade-logo {
+  height: 80px;
+  width: 280px;
+  padding-top: 50px;
+  padding-bottom: 260px;
+  margin: auto;
+	display: block
+}
+
+@media screen and (min-width: 400px) {
+	.blade-logo {
+		height: 90px;
+		width: 320px;
+		padding-bottom: 340px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.blade-logo {
+		height: 120px;
+		width: 420px;
+		padding-bottom: 400px;				
+	}
+}
+
+@media screen and (min-width: 800px) {
+  .blade-logo {
+    height: 140px;
+    width: 500px;
+    padding-bottom: 430px;
+  }	
+}
+
+@media screen and (min-width: 1000px) {
+  .blade-logo {
+    height: 160px;
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .blade-logo {
+    height: 180px;
+    width: 600px;
+    padding-bottom: 400px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .blade-logo {
+    height: 200px;
+    width: 650px;
+    padding-bottom: 300px;
+  }
 }

@@ -20,7 +20,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: arial;
+  font-family: avenir-light;
   color: black;
 }
 
@@ -36,13 +36,13 @@ body {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: arial;
+  font-family: avenir-light;
   margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
-  font-family: arial;
+  font-family: avenir-light;
 }
 
 .dropdown-content {
@@ -61,7 +61,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
-  font-family: arial;
+  font-family: avenir-light;
 }
 
 .dropdown-content a:link {
@@ -81,7 +81,7 @@ body {
 }
 
 b {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 35px;
   color: white;
   text-shadow: 0px 2px 5px red;
@@ -89,7 +89,7 @@ b {
 }
 
 h2 {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 35px;
   color: white;
   text-shadow: 0px 2px 5px red;
@@ -97,7 +97,7 @@ h2 {
 }
 
 p {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: large;
   color: white;
   text-align: justify;
@@ -105,7 +105,7 @@ p {
 }
 
 .timer_message {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 35px;
   color: white;
   text-shadow: 0px 2px 5px red;
@@ -113,7 +113,7 @@ p {
 }
 
 #timer1, #timer2, #timer3, #timer4, #timer5 {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 35px;
   color: white;
   text-shadow: 0px 2px 5px red;
@@ -124,7 +124,7 @@ p {
 }
 
 .review-schedule, .release-schedule {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: xx-large;
   background-color: red;
   border: none;
@@ -168,7 +168,7 @@ img {
 
 .caption {
   display: block;
-  font-family: arial;
+  font-family: avenir-light;
   font-size: large;
   color: white;
   margin-top: 16px;
@@ -180,7 +180,7 @@ img {
 }
 
 .back {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: xx-large;
   background-color: red;
   border: none;
@@ -211,12 +211,8 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  .item.secret-invasion, .item.loki-s2, .item.what-if-s2, .item.i-am-groot-s2 {
+  .item.secret-invasion, .item.what-if-s2, .item.i-am-groot-s2, .item.what-if-s2 {
     width: 100%;
-  }
-
-  .item.ironheart, .item.what-if-s2 {
-    width: 50%;
   }
 
   div.item {
@@ -254,11 +250,11 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.spider-man-fy, .item.what-if-s2 {
+  .item.avengers-endgame, .item.spider-man-fy, .item.blade  {
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.gotg3, .item.secret-invasion, .item.ironheart, .item.i-am-groot-s2, .item.marvel-zombies  {
+  .item.spider-man-ffh, .item.gotg3, .item.secret-invasion, .item.item.what-if-s2, .item.marvel-zombies  {
     width: 33%;
   }
 

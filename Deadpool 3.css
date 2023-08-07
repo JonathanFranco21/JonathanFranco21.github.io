@@ -5,42 +5,69 @@ body {
   margin: 0;
 }
 
+.DP3 {
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.deadpool-3-logo, iframe {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
 .navbar {
-  overflow: hidden;
   background-color: #333;
   width: 100%;
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: arial;
-  color: black;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
+.navbar a, .dropdown .dropbtn {
   font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
   border: none;
   outline: none;
-  color: white;
-  padding: 14px 16px;
   background-color: inherit;
-  font-family: arial;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-  font-family: arial;
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: yellow;
 }
 
 .dropdown-content {
@@ -52,86 +79,83 @@ body {
   z-index: 1;
 }
 
-.dropdown-content a {
-  float: none;
+.dropdown-content a, 
+.dropdown-content a:visited {
   color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-family: arial;
 }
 
-.dropdown-content a:link {
-  color: black;
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-.dropdown-content a:visited {
-  color: black;
+h2, h3, h4, p, button {
+  margin: 0 20px;  
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
+h2, h3, h4, p {
   text-shadow: 0px 2px 5px red;
-}
-
-.deadpool_3 {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 10px;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: white;
 }
 
 p {
-  font-family: arial;
   font-size: xx-large;
   text-align: justify;
   width: [width of img];
-  color: white;
 }
 
-h2 {
-  font-family: arial;
+h2, h4 {
   font-size: 25pt;
-  color: white;
-  text-shadow: 0px 2px 5px red;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 50pt;
+}
+
+.deadpool-3-logo {
+  height: 160px;
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+	display: block
 }
 
 iframe {
+  height: 155px;
+  width: 280px;
   border-radius: 25px;
   box-shadow: 0px 10px 15px red;
+  margin: auto;
 }
 
-@media screen and (min-width: 300px) {
-  iframe {
-    height: 155px;
-    width: 280px;
-  } 
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
+}
+
+.deadpool-3 {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 350px) {
@@ -142,58 +166,58 @@ iframe {
 }
 
 @media screen and (min-width: 400px) {
-  .the-marvels-logo {
-    height: 180px;
-    width: 320px;
-  }
+	.deadpool-3-logo {
+		height: 180px;
+		width: 350px;
+	}
 }
 
 @media screen and (min-width: 500px) {
-  .the-marvels-logo {
-    height: 225px;
-    width: 420px;
-  }
+	.deadpool-3-logo {
+		height: 230px;
+		width: 440px;				
+	}
 
-    iframe {
+  iframe {
     height: 250px;
     width: 450px;
   }
 }
 
-@media screen and (min-width: 600px) {
-  .the-marvels-logo {
-    height: 300px;
-    width: 470px;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .the-marvels-logo {
-    height: 370px;
-    width: 660px;
-  }
-}
-
 @media screen and (min-width: 800px) {
-  .the-marvels-logo {
-    height: 430px;
-    width: 780px;
-  }
+  .deadpool-3-logo {
+    height: 280px;
+    width: 520px;
+  }	
 
   iframe {
     height: 420px;
     width: 750px;
-  }
+  }  
 }
 
 @media screen and (min-width: 1000px) {
-  .the-marvels-logo {
-    height: 450px;
-    width: 800px;
+  .deadpool-3-logo {
+    height: 300px;
+    width: 580px;
   }
 
   iframe {
     height: 500px;
     width: 900px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+  .deadpool-3-logo {
+    height: 340px;
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .deadpool-3-logo {
+    height: 360px;
+    width: 700px;
   }
 }

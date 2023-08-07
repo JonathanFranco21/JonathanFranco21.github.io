@@ -1,58 +1,198 @@
 body {
-  /*background-image: url("https://wallpapercave.com/wp/wp4063163.jpg");*/
-  background-color: black;
-  background-size: cover;
+  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
+  margin: auto;
+  background-color: black;  
 }
 
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
+.AW {
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 20px;
 }
 
-.armor-wars {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 10px;
-  margin: 0 auto;
-  align-content: center;
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.agatha-coven-of-chaos-logo {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
   text-align: center;
 }
 
-a:link {
-  color: white;
+.navbar a {
   text-decoration: none;
 }
 
-a:visited {
-  color: white;
-  text-decoration: none;
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
 }
 
-a:hover {
-  color: blue;
-  text-decoration: none;
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: blue;
 }
 
-a:active {
-  color: red;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
   text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+h2, h3, h4, p {
+  text-shadow: 0px 2px 5px blue;
 }
 
 p {
-  font-family: arial;
   font-size: xx-large;
   text-align: justify;
   width: [width of img];
-  color: white;
 }
 
-h2 {
-  font-family: arial;
+h2, h4 {
   font-size: 25pt;
-  color: white;
 }
+
+h3 {
+  font-size: 50pt;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
+}
+
+.armor-wars {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+
+.armor-wars-logo {
+  height: 160px;
+  width: 280px;
+  padding-top: 50px;
+  padding-bottom: 180px;
+  margin: auto;
+	display: block
+}
+
+@media screen and (min-width: 400px) {
+	.armor-wars-logo {
+		height: 180px;
+		width: 320px;
+		padding-bottom: 200px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.armor-wars-logo {
+		height: 240px;
+		width: 420px;
+		padding-bottom: 220px;				
+	}
+}
+
+@media screen and (min-width: 800px) {
+  .armor-wars-logo {
+    height: 300px;
+    width: 500px;
+    padding-bottom: 100px;
+  }	
+}
+
+@media screen and (min-width: 1000px) {
+  .armor-wars-logo {
+    height: 330px;
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .armor-wars-logo {
+    height: 370px;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .armor-wars-logo {
+    height: 400px;
+    width: 650px;
+  }
+}
+
+  
+
+  
+
+  
+
