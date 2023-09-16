@@ -2,74 +2,6 @@ body {
   margin: 0;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: arial;
-  color: black;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: arial;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: yellow;
-  font-family: arial;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-family: arial;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown-content a:visited {
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 .AMATWQ, .GOTGV3, .TGOTGHS {
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,59 +25,158 @@ body {
   padding-bottom: 200px;
 }
 
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
-  text-shadow: 0px 2px 5px blue;
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:link,
+button a:visited,
+a:visited,
+a.reference:link,
+a.reference:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.ant-man-and-the-wasp-quantumania-logo,
+.guardians-of-the-galaxy-vol-3-logo,
+.the-guardians-of-the-galaxy-holiday-special-logo,
+iframe, .next {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.ant-man-and-the-wasp-quantumania-logo,
+.guardians-of-the-galaxy-vol-3-logo,
+.the-guardians-of-the-galaxy-holiday-special-logo,
+iframe {
+  margin: auto;
+}
+
+.ant-man-and-the-wasp-quantumania-logo,
+.guardians-of-the-galaxy-vol-3-logo,
+.the-guardians-of-the-galaxy-holiday-special-logo {
+  height: 200px;  
+}
+
+.guardians-of-the-galaxy-vol-3-logo, 
+.the-guardians-of-the-galaxy-holiday-special-logo {
+  width: 340px;
+  padding-top: 200px;
+  padding-bottom: 50px;
 }
 
 .ant-man-and-the-wasp-quantumania-logo {
-  height: 200px;
   width: 350px;
+}
+
+h2, h3, p { 
+  text-shadow: 0px 2px 5px blue;   
+}
+
+h2 {
+  font-size: 25pt;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 20pt;
+  margin: 0 20px auto;
 }
 
 a.reference:link {
   text-decoration: underline;
-  color: white;
 }
 
-a.reference:visited {
-  color: white;
-}
-
-.Quantumania, .next {
-  font-family: arial;
+.quantumania, .next {
   font-size: xx-large;
   background-color: red;
   border: none;
-  text-transform: uppercase;
-  color: white;
   border-radius: 10px;
   margin-left: 20px;
 }
 
 .next {
-  margin: 0 100px auto;
+  margin: auto;
+  margin-top: 100px;
 }
 
 a:link {
   text-decoration: none;
-  color: white;
 }
 
 a:hover, a:active {
   text-decoration: underline;
-}
-
-a:visited {
-  color: white;
-}
-
-p {
-  font-family: arial;
-  color: white;
-  text-shadow: 0px 2px 5px blue;
 }
 
 iframe {
@@ -155,42 +186,9 @@ iframe {
   width: 360px;
 }
 
-ul, li, p, h2, button {
-  margin: 10px 20px auto;
-}
-
-h2 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
-  text-shadow: 0px 2px 5px blue;
-}
-
-li {
-  font-family: arial;
-  color: white;
-  text-shadow: 0px 2px 5px blue;
-}
-
 .overview {
   margin-left: 25%;
   margin-right: 25%;
-  text-shadow: 0px 2px 5px blue;
-  text-align: center
-}
-
-h2.ratings {
-  margin: 0 auto;
-  text-align: center;
-}
-
-h3 {
-  font-family: arial;
-  font-size: 20pt;
-  color: white;
-  text-align: center;
-  text-shadow: 0px 2px 5px blue;
-  margin: 0 20px auto;
 }
 
 .rating-areas {
@@ -199,7 +197,8 @@ h3 {
   margin: 0 auto;
 }
 
-.original-rating-area, .proposed-rating-area {
+.original-rating-area, 
+.proposed-rating-area {
   height: 150px;
   margin: 0 auto;
 }
@@ -224,15 +223,10 @@ h3 {
   width: 200px;
   border-radius: 7px;
   box-shadow: 0px 2px 5px blue;
+  position: relative;
+  top: 5px;
 }
 
-.guardians-of-the-galaxy-vol-3-logo, 
-.the-guardians-of-the-galaxy-holiday-special-logo {
-  width: 340px;
-  height: 200px;
-  margin-top: 200px;
-  margin-bottom: 50px;
-}
 
 @media screen and (min-width: 300px) {
   .ant-man-and-the-wasp-quantumania-logo {

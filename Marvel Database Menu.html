@@ -19,16 +19,44 @@
 
   <center>
     <h2 class="timer_message">
-      MARVEL STUDIOS' WHAT IF SEASON 2 RELEASES ON DISNEY+ IN:
+      MARVEL STUDIOS' LOKI SEASON 2 EPISODE 1 RELEASES ON DISNEY+ IN:
     </h2>
     <p id="timer1"></p>
   </center>
 
   <center>
     <h2 class="timer_message">
-      MARVEL STUDIOS' ANT-MAN AND THE WASP: QUANTUMANIA RELEASES IN THEATERS:
+      MARVEL STUDIOS' SPECIAL PRESENTATION: WEREWOLF BY NIGHT IN COLOR RELEASES ON DISNEY+ IN:
     </h2>
     <p id="timer2"></p>
+  </center>  
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' SPECIAL PRESENTATION: WEREWOLF BY NIGHT IS ALSO STREAMING ON HULU FOR:
+    </h2>
+    <p id="timer3"></p>
+  </center>
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' THE MARVELS RELEASES IN THEATERS IN:
+    </h2>
+    <p id="timer4"></p>
+  </center>
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' WHAT IF...? SEASON 2 EPISODE 1 RELEASES ON DISNEY+ IN:
+    </h2>
+    <p id="timer5"></p>
+  </center>
+
+  <center>
+    <h2 class="timer_message">
+      MARVEL STUDIOS' ECHO RELEASES ON DISNEY+ IN:
+    </h2>
+    <p id="timer6"></p>
   </center>
 
   <center>
@@ -144,37 +172,7 @@
   </center>
 </body>
 
-<script>
-  var countDownDate1 = new Date("Jan 31, 2023 00:00:00").getTime();
-  var countDownDate2 = new Date("Feb 19, 2023 00:00:00").getTime();
-  
-  var timer1= document.getElementById("timer1")
-  var timer2= document.getElementById("timer2")
-  
-  function countdown(finish_date, timer){
-    var x = setInterval(function() {
-  
-      var now = new Date().getTime();
-  
-      var distance = finish_date - now;
-  
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-      timer.innerHTML = days + " day(s), " + hours + " hour(s), " + minutes + " minute(s), " + seconds + " second(s)";
-  
-  
-      if (distance < 0) {
-        clearInterval(x);
-        timer.innerHTML = "NOW AVAILABLE";
-        }
-      }, 1000);
-    }
-  
-  countdown(countDownDate1, timer1)
-  countdown(countDownDate2, timer2)
+<script src="functions.js">
 </script>
 
 </html> 

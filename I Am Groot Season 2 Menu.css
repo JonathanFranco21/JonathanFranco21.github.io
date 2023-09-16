@@ -1,0 +1,340 @@
+body {
+  margin: auto;
+}
+
+.IAGS2 {
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.IAGS2 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B880F7CDAE0BA44C88F4921C383C500450895D293E5A1DED2D50B74E55F30FEE");  
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, .caption, 
+button, button a:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.daredevil-born-again-logo {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.daredevil-born-again-logo {
+  height: 70px;
+  width: 280px;  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+h2, h3, h4, p {
+  text-shadow: 0px 2px 5px green;
+}
+
+p {
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+}
+
+h2, h4 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 50pt;
+}
+
+.disneyplus {
+  width: 150px;
+  height: 75px;
+  position: relative;
+  bottom: -18px;
+  right: 15px;
+}
+
+.i-am-groot-logo, .disneyplus {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px green;
+  margin: 0;
+}
+
+.groot-episodes {
+  margin: 0 32px auto;
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px green;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px green;  
+}
+
+.caption {
+  display: block;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px green;
+}
+
+.groot {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-top: 32px;  
+  margin-left: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 300px) {
+  iframe {
+    height: 155px;
+    width: 280px;
+  } 
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+
+  .item.short_5 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  b {
+    font-size: 50pt;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.short_4 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .item.short_5 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 33%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
+}
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 500px) {
+  .daredevil-born-again-logo {
+    height: 100px;
+    width: 460px;  
+  }  
+}
+
+@media screen and (min-width: 800px) {
+  .daredevil-born-again-logo {
+    height: 120px;
+    width: 500px;  
+  } 
+}
+
+@media screen and (min-width: 1000px) {
+  .daredevil-born-again-logo {
+    padding-top: 100px;
+    padding-bottom: 200px; 
+  }
+}

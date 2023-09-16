@@ -2,87 +2,16 @@ body {
   margin: 0;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: arial;
-  color: white;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: arial;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-  font-family: arial;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-family: arial;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown-content a:visited {
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 .BW, .WIS1, .WIS1E1,.LS1, .LS1E6 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0 20px;
 }
 
 .BW {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A136A89F4B8E0F29C3698E01F29B35864DC69D5DC1F3A1D6DB6ECE2EFC84FBB");
   padding-bottom: 32px;
-}
-
-.WIS1, .WIS1E1,.LS1, .LS1E6 {
-  padding-bottom: 200px;
 }
 
 .WIS1 {
@@ -101,44 +30,127 @@ body {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DC8164FA6A93FC80F2DB18601B88BC52A1DFD6669ADA99778BE1A68C8D371724");
 }
 
+.WIS1, .WIS1E1,.LS1, .LS1E6 {
+  padding-bottom: 200px;
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:link,
+button a:visited,
+a.reference:link,
+a.reference:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.black-widow-logo,
+.what-if-season-1-logo,
+.loki-season-1-logo,
+iframe {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
 .black-widow-logo,
 .what-if-season-1-logo,
 .loki-season-1-logo,
 iframe {
   margin: auto;
-  display: block;
 }
 
 .black-widow-logo,
 .what-if-season-1-logo,
 .loki-season-1-logo {
-  height: 160px;
-  width: 280px;
+  height: 155px;
+  width: 260px;
 }
 
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px red;
-  height: 155px;
-  width: 280px;
+  height: 150px;
+  width: 260px;
 }
 
-h2, h3, p {
-  font-family: arial;
-  color: white;  
-  text-shadow: 0px 2px 5px red;  
-  text-align: center;  
+h2, h3, p { 
+  text-shadow: 0px 2px 5px red;   
 }
 
 h2 {
   font-size: 25pt;
-  margin: 50px 0 20px 0;
-}
-
-.overview {
-  margin-left: 25%;
-  margin-right: 25%;
-  text-align: center
 }
 
 h3 {
@@ -146,9 +158,10 @@ h3 {
   margin: 0 20px auto;
 }
 
-a.reference:link,
-a.reference:visited {
-  color: white;
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center
 }
 
 .black-widow, 
@@ -200,7 +213,7 @@ a.reference:visited {
 
 .imax {
   position: relative;
-  top: 2px;
+  top: 4px;
   width: 200px;
   border-radius: 7px;
   box-shadow: 0px 2px 5px red;

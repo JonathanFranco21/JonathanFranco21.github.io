@@ -1,89 +1,323 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1A09E9B311E359AAB744602B0F400C6B3B3A4D2B5CD245C6A4F5F27993889507/");
+  margin: 0;
+}
+
+.WBN, .WIS1E1, .SCATLOTTR, .BW {
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
+  padding: 0 20px;
 }
 
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
-  text-shadow: 0px 2px 5px gray;
+.WBN {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1A09E9B311E359AAB744602B0F400C6B3B3A4D2B5CD245C6A4F5F27993889507");
+  padding-bottom: 32px; 
 }
 
-.werewolf {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 10px;
+.WIS1E1 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B2238CBB51E5A3F835B428033FACF5DBEB8266F3C06FA463526F2968DDECF2AB");
 }
 
-img {
-  height: 200px;
-  width: 350px;
+.SCATLOTTR {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3DA93D3A28329F036FB2A9ABB1DCA052812297D98C1A68318ECA726A6E18BD4E");
 }
 
-a:link {
+.BW {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A136A89F4B8E0F29C3698E01F29B35864DC69D5DC1F3A1D6DB6ECE2EFC84FBB");
+}
+
+.SCATLOTTR, .WIS1E1, .BW {
+  padding-bottom: 200px;
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:link,
+button a:visited,
+a:visited,
+a.reference:link,
+a.reference:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.werewolf-by-night-logo,
+.black-panther-wakanda-forever-logo,
+.she-hulk-attorney-at-law-logo, iframe,
+.tv-14-lv-rating, 
+.tv-ma-lv-rating {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
   text-decoration: none;
 }
 
-a:hover, a:active {
-  text-decoration: underline;
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
 }
 
-a:visited {
-  color: white;
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: gray;
 }
 
-p {
-  font-family: arial;
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
-  color: white;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.werewolf-by-night-logo,
+.shang-chi-and-the-legend-of-the-ten-rings-logo,
+.what-if-season-1-bottom-logo,
+.black-widow-logo, iframe,
+.tv-14-lv-rating, 
+.tv-ma-lv-rating {
+  margin: auto;
+}
+
+.werewolf-by-night-logo,
+.shang-chi-and-the-legend-of-the-ten-rings-logo,
+.what-if-season-1-bottom-logo,
+.black-widow-logo {
+  height: 155px;
+  width: 260px;
+  box-shadow: none;
+}
+
+.shang-chi-and-the-legend-of-the-ten-rings-logo, 
+.what-if-season-1-bottom-logo {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.what-if-season-1-logo,
+.what-if-season-1-bottom-logo {
+  padding-left: 10px;
+}
+
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-shadow: 0px 2px 5px gray;
+  text-align: center
+}
+
+h2, h3, p {
   text-shadow: 0px 2px 5px gray;
 }
 
-iframe {
-  width: 350px;
-  height: 200px;
-  border-radius: 25px;
-  box-shadow: 0px 10px 15px gray;
+h2, h4 {
+  font-size: 25pt;
 }
 
-h2 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
-  text-shadow: 0px 2px 5px #808080;
+h3 {
+  font-size: 20pt;
+  margin: 0;
+}
+
+.disneyplus, .hulu, .werewolf-by-night-logo-small {
+  position: relative;
+  box-shadow: none;
+}
+
+.disneyplus, .hulu {
+  width: 150px;  
+  height: 91.07px;  
+  bottom: -22px;  
+}
+
+.disneyplus {
+  height: 75px;
+  width: 150px;
+  position: relative;
+  bottom: -17px;
+  box-shadow: none;
+  right: 17px;
+}
+
+.hulu {
+  padding: 0 10px; 
+  top: 30px;
+}
+
+.werewolf-by-night-logo-small {
+  width: 200px;
+  height: 120px;
+  padding: 0 10px; 
+  top: 40px;
+}
+
+
+.werewolf, .next {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.next {
+  display: block;
+  margin: auto;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px gray;
+  height: 150px;
+  width: 260px;
+}
+
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, 
+.proposed-rating-area {
+  height: 150px;
+  margin: 30px 0 auto;
+}
+
+.tv-14-lv-rating, 
+.tv-ma-lv-rating {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  box-shadow: none;
+  border-radius: 0px;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }  
 }
 
 @media screen and (min-width: 500px) {
+  .werewolf-by-night-logo,
+  .shang-chi-and-the-legend-of-the-ten-rings-logo,
+  .what-if-season-1-bottom-logo,
+  .black-widow-logo {
+    height: 200px;
+    width: 350px;
+  }
+
   iframe {
-    width: 475px;
-    height: 275px;
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
+  }
+
+  .original-rating-area, .proposed-rating-area {
+    height: 150px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 800px) {
+  .werewolf-by-night-logo,
+  .shang-chi-and-the-legend-of-the-ten-rings-logo,
+  .what-if-season-1-bottom-logo,
+  .black-widow-logo {
+    height: 260px;
+    width: 450px;
+  }
+
   iframe {
+    height: 420px;
     width: 750px;
-    height: 425px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  iframe {
-    width: 900px;
-    height: 500px;
+  h2 {
+    font-size: 25pt;
   }
 
-  img {
-    height: 300px; 
+  .werewolf-by-night-logo,
+  .shang-chi-and-the-legend-of-the-ten-rings-logo,
+  .what-if-season-1-bottom-logo,
+  .black-widow-logo {
+    height: 300px;
     width: 500px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
   }
 }

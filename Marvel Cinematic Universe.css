@@ -113,7 +113,7 @@ p {
 }
 
 #timer1, #timer2, #timer3, 
-#timer4, #timer5 {
+#timer4, #timer5, #timer6 {
   font-family: avenir-light;
   font-size: 35px;
   color: white;
@@ -229,7 +229,7 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  .item.secret-invasion, .item.what-if-s2, .item.i-am-groot-s2, .item.what-if-s2 {
+  .item.loki-s2 {
     width: 100%;
   }
 
@@ -268,15 +268,15 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.spider-man-fy, .item.blade  {
+  .item.avengers-endgame, .item.add, .item.spider-man-fy  {
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.gotg3, .item.secret-invasion, .item.item.what-if-s2, .item.marvel-zombies  {
+  .item.spider-man-ffh, .item.marvel-zombies  {
     width: 33%;
   }
 
-  .item.avengers-sw {
+  .item.i-am-groot-s2 {
     width: 100%;
   }
 
