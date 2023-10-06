@@ -1,12 +1,11 @@
-var countDownDate1 = new Date("Oct 6, 2023 00:00:00").getTime();
-//var countDownDate1 = new Date("Oct 13, 2023 00:00:00").getTime();
-//var countDownDate1 = new Date("Oct 20, 2023 00:00:00").getTime();
+var countDownDate1 = new Date("Oct 12, 2023 18:00:00").getTime();
+//var countDownDate1 = new Date("Oct 19, 2023 18:00:00").getTime();
 var countDownDate2 = new Date("Oct 20, 2023 00:00:00").getTime();
-//var countDownDate1 = new Date("Oct 27, 2023 00:00:00").getTime();
+//var countDownDate1 = new Date("Oct 26, 2023 18:00:00").getTime();
 var countDownDate3 = new Date("Nov 1, 2023 00:00:00").getTime();
-//var countDownDate1 = new Date("Nov 3, 2023 00:00:00").getTime();
+//var countDownDate1 = new Date("Nov 2, 2023 18:00:00").getTime();
 var countDownDate4 = new Date("Nov 10, 2023 00:00:00").getTime();
-//var countDownDate1 = new Date("Nov 10, 2023 00:00:00").getTime();
+//var countDownDate1 = new Date("Nov 9, 2023 18:00:00").getTime();
 //var countDownDate3 = new Date("Nov 10, 2023 00:00:00").getTime();
 var countDownDate5 = new Date("Dec 31, 2023 00:00:00").getTime();
 var countDownDate6 = new Date("Jan 31, 2024 00:00:00").getTime();
