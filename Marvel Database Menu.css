@@ -23,7 +23,8 @@ h2 {
 }
 
 #timer1, #timer2, #timer3,
-#timer4, #timer5, #timer6 {
+#timer4, #timer5, #timer6,
+#timer7 {
   font-family: avenir-light;
   font-size: 35px;
   color: white;

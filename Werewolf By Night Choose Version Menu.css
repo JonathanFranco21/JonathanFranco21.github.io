@@ -1,14 +1,14 @@
 body {
-  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
-  margin: auto;
-  background-color: black;  
+  margin: 0;
 }
 
-.ACOC {
-  background-size: cover;  
+.WBN {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CFA33C88B6B2C96A6F302BA936ED43806EE37B868E7B2F3704711B499B60C4D9");  
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 0 20px;
+  padding-bottom: 32px;   
 }
 
 .navbar a, .dropdown .dropbtn, 
@@ -16,7 +16,11 @@ body {
 .dropdown:hover .dropbtn, 
 .dropdown-content a,  
 h2, h3, h4, p, button,
-button a:visited {
+button a:link,
+button a:visited,
+a:visited,
+a.reference:link,
+a.reference:visited {
   font-family: avenir-light;  
   color: white;  
 }
@@ -28,7 +32,7 @@ button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
-.agatha-darkhold-diaries-logo {
+.werewolf-by-night-logo {
   display: block;
 }
 
@@ -67,7 +71,7 @@ button a:visited {
 
 .navbar a:hover, 
 .dropdown:hover .dropbtn {
-  background-color: purple;
+  background-color: gray;
 }
 
 .dropdown-content {
@@ -95,14 +99,15 @@ button a:visited {
   background-color: #ddd;
 }
 
-h2, h3, h4, p {
-  text-shadow: 0px 2px 5px purple;
+.werewolf-by-night-logo {
+  margin: auto;
+  height: 155px;
+  width: 260px;
+  box-shadow: none;
 }
 
-p {
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
+h2, h3, p {
+  text-shadow: 0px 2px 5px gray;
 }
 
 h2, h4 {
@@ -110,16 +115,41 @@ h2, h4 {
 }
 
 h3 {
-  font-size: 50pt;
+  font-size: 20pt;
+  margin: 0;
 }
 
-.disneyplus {
-  width: 150px;
-  position: relative;
-  bottom: -22px;
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  margin: 32px 0 auto;
+  width: 100%;
 }
 
-.agatha {
+div.item:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
+}
+
+.caption {
+  display: block;
+  font-family: avenir-light;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px red;
+}
+
+.werewolf {
   font-size: xx-large;
   background-color: red;
   border: none;
@@ -136,37 +166,61 @@ button a:hover, a:active {
   text-decoration: underline;
 }
 
-.agatha-darkhold-diaries-logo {
-  height: 160px;
-  width: 280px;
-  padding-top: 50px;
-  padding-bottom: 220px;
-  margin: auto;
-}
 
 @media screen and (min-width: 500px) {
-  .agatha-darkhold-diaries-logo {
-    height: 190px;
-    width: 360px;
-    padding-bottom: 280px;
+  .werewolf-by-night-logo {
+    height: 200px;
+    width: 350px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .agatha-darkhold-diaries-logo {
-    height: 280px;
-    width: 500px;
-    padding-bottom: 220px;
+  .werewolf-by-night-logo {
+    height: 260px;
+    width: 450px;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 325px;
+    height: 185px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .agatha-darkhold-diaries-logo {
-    height: 270px;
+  h2 {
+    font-size: 25pt;
+  }
+
+  .werewolf-by-night-logo {
+    height: 300px;
     width: 500px;
-    padding-bottom: 200px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  img {
+    width: 450px;
+    height: 250px;
+  }
 }
