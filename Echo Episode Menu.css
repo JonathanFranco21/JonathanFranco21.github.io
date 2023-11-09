@@ -9,8 +9,7 @@ body {
 }
 
 .E {
-  /*background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B880F7CDAE0BA44C88F4921C383C500450895D293E5A1DED2D50B74E55F30FEE"); */ 
-  background-color: black;
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9ECB3D60E83CB81C826471BB0550F7A541EF93311252A1F362D48158404778B0");
 }
 
 .navbar a, .dropdown .dropbtn, 
@@ -98,7 +97,7 @@ button, button a:visited {
 }
 
 .echo-logo {
-  height: 170px;
+  height: 160px;
   width: 280px;  
   padding-top: 50px;
   padding-bottom: 50px;
@@ -123,14 +122,39 @@ h3 {
   font-size: 50pt;
 }
 
-.disneyplus {
-  width: 150px;
-  height: 75px;
+.disneyplus, .hulu, .echo-logo-small {
   position: relative;
-  bottom: -18px;
+  box-shadow: none;
 }
 
-.echo-logo, .disneyplus {
+.disneyplus, .hulu {
+  width: 150px;  
+  height: 91.07px;  
+  bottom: -22px;  
+}
+
+.disneyplus {
+  height: 75px;
+  width: 150px;
+  position: relative;
+  bottom: -17px;
+  box-shadow: none;
+  right: 17px;
+}
+
+.hulu {
+  padding: 0 10px; 
+  top: 30px;
+}
+
+.echo-logo-small {
+  width: 200px;
+  height: 110px;
+  padding: 0 10px; 
+  top: 35px;
+}
+
+.echo-logo {
   border-radius: 0;
   box-shadow: none;
 }
@@ -229,6 +253,11 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 500px) {
+  .echo-logo {
+    height: 280px;
+    width: 460px;  
+  }  
+
   iframe {
     height: 250px;
     width: 450px;
@@ -241,6 +270,11 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 800px) {
+  .echo-logo {
+    height: 300px;
+    width: 500px;  
+  } 
+
   iframe {
     height: 420px;
     width: 750px;
@@ -269,8 +303,8 @@ button a:hover, a:active {
     width: 900px;
   }
 
-  b {
-    font-size: 50pt;
+  .echo-logo {
+    padding: 50px 0px; 
   }
 
   div.item {
@@ -316,27 +350,5 @@ button a:hover, a:active {
   img {
     width: 450px;
     height: 250px;
-  }
-}
-
-
-@media screen and (min-width: 500px) {
-  .echo-logo {
-    height: 300px;
-    width: 460px;  
-  }  
-}
-
-@media screen and (min-width: 800px) {
-  .echo-logo {
-    height: 320px;
-    width: 500px;  
-  } 
-}
-
-@media screen and (min-width: 1000px) {
-  .echo-logo {
-    padding-top: 100px;
-    padding-bottom: 50px; 
   }
 }
