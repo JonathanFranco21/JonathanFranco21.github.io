@@ -269,11 +269,11 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.armor-wars  {
+  .item.avengers-endgame, .item.avengers-tkd, .item.armor-wars  {
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.add, .item.daredevil-ba, .item.avengers-sw, .item.marvel-zombies  {
+  .item.spider-man-ffh, .item.add, .item.avengers-sw, .item.marvel-zombies  {
     width: 33%;
   }
 
