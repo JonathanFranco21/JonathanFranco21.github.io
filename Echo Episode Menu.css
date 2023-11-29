@@ -68,7 +68,7 @@ button, button a:visited {
 
 .navbar a:hover, 
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: gray;
 }
 
 .dropdown-content {
@@ -135,11 +135,10 @@ h3 {
 
 .disneyplus {
   height: 75px;
-  width: 150px;
+  width: 130px;
   position: relative;
   bottom: -17px;
   box-shadow: none;
-  right: 17px;
 }
 
 .hulu {
