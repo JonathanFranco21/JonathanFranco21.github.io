@@ -230,7 +230,7 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  .item.what-if-s2, .item.daredevil-ba, .item.avengers-sw {
+  .item.what-if-s2, .item.daredevil-ba, .item.marvel-zombies {
     width: 100%;
   }
 
@@ -269,11 +269,11 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.avengers-tkd, .item.armor-wars  {
+  .item.avengers-endgame  {
     width: 55%;
   }
   
-  .item.spider-man-ffh, .item.add, .item.avengers-sw, .item.marvel-zombies  {
+  .item.spider-man-ffh, .item.add, .item.avengers-sw  {
     width: 33%;
   }
 
