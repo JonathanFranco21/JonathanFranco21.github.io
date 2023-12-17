@@ -43,7 +43,8 @@ a.reference:visited {
 .dropdown:hover .dropdown-content,
 .iron-man-logo,
 .the-incredible-hulk-logo,
-iframe, .pg-13-rating {
+iframe, .pg-13-rating,
+.next {
   display: block;
 }
 
@@ -113,7 +114,8 @@ h4, p, .overview, button {
 
 .iron-man-logo,
 .the-incredible-hulk-logo,
-iframe, .pg-13-rating {
+iframe, .pg-13-rating,
+.next {
   margin: auto;
 }
 

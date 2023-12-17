@@ -2,16 +2,19 @@ body {
   background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-size: cover;
 }
+
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
 }
+
 img {
   height: 230px;
   width: 500px;
 }
-.SpideyFreshman {
+
+.Spidey {
   font-family: arial;
   font-size: xx-large;
   background-color: red;
@@ -19,6 +22,7 @@ img {
   text-transform: uppercase;
   color: white;
 }
+
 p {
   font-family: arial;
   font-size: xx-large;
@@ -26,6 +30,7 @@ p {
   width: [width of img];
   color: white;
 }
+
 h2 {
   font-family: arial;
   font-size: 25pt;
