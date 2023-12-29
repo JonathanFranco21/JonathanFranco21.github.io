@@ -189,7 +189,7 @@ img {
   text-shadow: 0px 2px 5px red;
 }
 
-.item.echo, .item.armor-wars {
+.item.echo {
   width: 100%;
 }
 
@@ -270,7 +270,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.ironheart, .item.avengers-tkd  {
+  .item.avengers-endgame, .item.ironheart, .item.avengers-tkd, .item.armor-wars  {
     width: 55%;
   }
   
