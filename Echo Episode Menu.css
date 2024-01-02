@@ -10,6 +10,7 @@ body {
 
 .E {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9ECB3D60E83CB81C826471BB0550F7A541EF93311252A1F362D48158404778B0");
+  padding-bottom: 32px;
 }
 
 .navbar a, .dropdown .dropbtn, 

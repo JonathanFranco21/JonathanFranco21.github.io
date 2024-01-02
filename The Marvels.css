@@ -1,47 +1,99 @@
 body {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EA1EA126856DC3CADB764377616605E89CD430DA958FDE90189B476BCFDCB59B");
+  margin: 0;
+}
+
+.TM, .WIS2, .WIS2E1, .LS2, .LS2E6 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0;
-  padding-bottom: 32px;
+  padding: 0 20px;
+}
+
+.TM {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EA1EA126856DC3CADB764377616605E89CD430DA958FDE90189B476BCFDCB59B");
+}
+
+.WIS2 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/71F9CDE799C548C0B092B49BB9DF95F64796BC1141079EA2EAEBF7BD0361FCC6");
+}
+
+.WIS2E1 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CD602FA558DEC8488CF5A9C22D7AE43B884FA3B8EC837B6569C84DE56FA4EBC7");
+}
+
+.LS2 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E435D3AE241144942F6115D87A90C7A95910583696F33D9A7060DCFB4B6DAAA6");
+}
+
+.LS2E6 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EE5FB8DF9CC2CEC1102ADDF022A4AC04E442F5DAF9137EB630A043C962C2A458");
+}
+
+.WIS2, .WIS2E1, .LS2, .LS2E6 {
+  padding-bottom: 200px;
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:link,
+button a:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.the-marvels-logo,
+.what-if-season-2-logo,
+.loki-season-2-logo, 
+iframe {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
 }
 
 .navbar {
-  overflow: hidden;
   background-color: #333;
   width: 100%;
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: arial;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
+.navbar a, .dropdown .dropbtn {
   font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
   border: none;
   outline: none;
-  color: white;
-  padding: 14px 16px;
   background-color: inherit;
-  font-family: arial;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
   background-color: red;
-  font-family: arial;
 }
 
 .dropdown-content {
@@ -53,105 +105,101 @@ body {
   z-index: 1;
 }
 
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
 .dropdown-content a {
   float: none;
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
   text-align: left;
-  font-family: arial;
 }
 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-.dropdown-content a:visited {
-  color: black;
+.the-marvels-logo,
+.what-if-season-2-logo,
+.loki-season-2-logo {
+  height: 155px;
+  width: 260px;
+  box-shadow: none;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.the-marvels-logo,
+.what-if-season-2-logo,
+.loki-season-2-logo,
+iframe {
+  margin: auto;
 }
 
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
+.what-if-season-2-logo,
+.loki-season-2-logo {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.what-if-season-2-logo {
+  padding-left: 10px;
+}
+
+h2, h3, p {
   text-shadow: 0px 2px 5px red;
-  margin: 20px;
 }
 
-.the-marvels-logo {
-  height: 160px;
-  width: 280px;
+h2, h4 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 30pt;
+}
+
+.disneyplus {
+  height: 75px;
+  width: 130px;
+  position: relative;
+  bottom: -17px;
+  box-shadow: none;
+}
+
+.Danvers, .next {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.next {
+  display: block;
+  margin: auto;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
 }
 
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px red;
-  height: 200px;
-  width: 360px;
-}
-
-.Danvers {
-  font-family: arial;
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 10px;
-  margin-left: 20px;
-}
-
-a:link {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover, a:active {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: white;
-}
-
-p {
-  font-family: arial;
-  color: white;
-  text-shadow: 0px 2px 5px red;
-  margin: 20px;
-}
-
-h2 {
-  font-family: arial;
-  font-size: 25pt;
-  color: white;
-  text-shadow: 0px 2px 5px red;
-  margin: 20px;
-}
-
-.disneyplus {
-  width: 150px;
-  position: relative;
-  bottom: -22px;
-}
-
-@media screen and (min-width: 300px) {
-  iframe {
-    height: 155px;
-    width: 280px;
-  } 
+  height: 150px;
+  width: 260px;
 }
 
 @media screen and (min-width: 350px) {
   iframe {
     height: 190px;
     width: 340px;
-  }
+  }  
 }
 
 @media screen and (min-width: 400px) {
@@ -167,7 +215,13 @@ h2 {
     width: 420px;
   }
 
-    iframe {
+  .what-if-season-2-logo,
+  .loki-season-2-logo {
+    height: 200px;
+    width: 350px;
+  }
+
+  iframe {
     height: 250px;
     width: 450px;
   }
@@ -191,6 +245,12 @@ h2 {
   .the-marvels-logo {
     height: 430px;
     width: 780px;
+  }  
+
+  .what-if-season-2-logo,
+  .loki-season-2-logo {
+    height: 260px;
+    width: 450px;
   }
 
   iframe {
@@ -200,9 +260,27 @@ h2 {
 }
 
 @media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  h3 {
+    font-size: 40pt;
+  }
+
   .the-marvels-logo {
     height: 450px;
     width: 800px;
+  }    
+
+  .what-if-season-2-logo,
+  .loki-season-2-logo {
+    height: 300px;
+    width: 500px;
   }
 
   iframe {
