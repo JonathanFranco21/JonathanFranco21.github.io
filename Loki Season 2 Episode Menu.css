@@ -76,17 +76,17 @@ body {
   background-attachment: fixed;
 }
 
-.LS2, .LS2E1 {
-  background-color: black;  
-}
-
 .LS2 {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E435D3AE241144942F6115D87A90C7A95910583696F33D9A7060DCFB4B6DAAA6");
   padding-bottom: 32px; 
 }
 
+.LS2E1 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7019C34802AE587FB2E92ACEAD08A69CBD322EE8A656E9330B378C0DE8A44568");
+}
+
 .TM {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EA1EA126856DC3CADB764377616605E89CD430DA958FDE90189B476BCFDCB59B");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/83BE23C45F654325CFC68EE5A8162820601E647A86BAC1944A771F36A8F07500");
 }
 
 .SI {
@@ -112,15 +112,15 @@ b {
 .loki-season-2-bottom-logo,
 .the-marvels-logo,
 .secret-invasion-logo {
-  height: 160px;
-  width: 280px;
   display: block;
   margin: auto;
   box-shadow: none;  
 }
 
 .loki-season-2-logo {
-  margin-top: 50px;
+  height: 150px;
+  width: 280px;
+  padding-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -258,7 +258,6 @@ img {
 @media screen and (min-width: 700px) {
   .loki-season-2-logo,
   .loki-season-2-bottom-logo {
-    height: 230px;
     width: 500px;
   }
 }

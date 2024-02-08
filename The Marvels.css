@@ -10,7 +10,7 @@ body {
 }
 
 .TM {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EA1EA126856DC3CADB764377616605E89CD430DA958FDE90189B476BCFDCB59B");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/83BE23C45F654325CFC68EE5A8162820601E647A86BAC1944A771F36A8F07500");
 }
 
 .WIS2 {
@@ -164,6 +164,12 @@ h3 {
   position: relative;
   bottom: -17px;
   box-shadow: none;
+}
+
+.imax {
+  width: 200px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 5px red;
 }
 
 .Danvers, .next {

@@ -248,7 +248,8 @@ button a:hover, a:active {
     width: 280px;
   }
 
-  .original-rating-area, .proposed-rating-area {
+  .original-rating-area, 
+  .proposed-rating-area {
     height: 200px;
     margin: 0 auto;
   }
@@ -279,7 +280,8 @@ button a:hover, a:active {
     flex-direction: row;
   }
 
-  .original-rating-area, .proposed-rating-area {
+  .original-rating-area, 
+  .proposed-rating-area {
     height: 150px;
     margin: 0 auto;
   }
