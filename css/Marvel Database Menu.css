@@ -5,19 +5,34 @@ body {
   background-attachment: fixed;   
 }
 
-h2 {
+h2, .timer_message,
+#timer1, #timer2, #timer3,
+#timer4, #timer5, #timer6,
+#timer7, .review-schedule,
+.universe, a:link,
+a:visited {
+  color: white;  
+}
+
+h2, .timer_message,
+#timer1, #timer2, #timer3,
+#timer4, #timer5, #timer6,
+#timer7, .review-schedule,
+.universe {
   font-family: avenir-light;
+  text-align: center;
+  text-shadow: 0px 2px 5px red;  
+}
+
+h2 {
   font-size: 50pt;
-  color: white;
-  text-shadow: 0px 2px 5px red;
+
   margin-bottom: 64px;
   margin-top: 0px;
 }
 
 .timer_message {
-  font-family: avenir-light;
   font-size: 35px;
-  color: white;
   text-shadow: 0px 2px 5px red;
   margin: 0 32px auto;
 }
@@ -25,10 +40,7 @@ h2 {
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
 #timer7 {
-  font-family: avenir-light;
   font-size: 35px;
-  color: white;
-  text-shadow: 0px 2px 5px red;
   margin: 16px 64px auto;
   margin-bottom: 64px;
   text-align: center;
@@ -36,12 +48,9 @@ h2 {
 }
 
 .review-schedule {
-  font-family: avenir-light;
   font-size: xx-large;
   background-color: red;
   border: none;
-  text-transform: uppercase;
-  color: white;
   border-radius: 10px;
   margin: 0 auto;
   align-content: center;
@@ -50,7 +59,6 @@ h2 {
 }
 
 .universe {
-  font-family: avenir-light;
   font-size: xx-large;
   background-color: red;
   border: none;
@@ -63,13 +71,8 @@ h2 {
 
 a:link {
   text-decoration: none;
-  color: white;
 }
 
 a:hover, a:active {
   text-decoration: underline;
-}
-
-a:visited {
-  color: white;
 }

@@ -2,24 +2,28 @@ body {
     background-color: black;
 }
 
-.welcome,
-.welcome-button,
+h2, .welcome-button,
 a:link, a:active,
 a:visited {
     color: white;    
 }
 
-.welcome, 
-.welcome-button {
+h2, .welcome-button {
     font-family: avenir-light;
     text-align: center;    
 }
 
-.welcome {
+h2 {
     text-shadow: 0px 2px 5px red;
     margin: 0 auto;
-    margin-top: 300px;        
-    font-size: 40px;
+    /*margin-top: 300px;*/
+    margin-top: 200px; 
+    font-size: 30pt;
+}
+
+h2.note {
+    margin-top: 50px;
+    font-size: 20pt;
 }
 
 .welcome-button {
