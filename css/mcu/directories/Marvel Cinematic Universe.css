@@ -80,7 +80,7 @@ body {
   display: block;
 }
 
-b {
+h2 {
   font-family: avenir-light;
   font-size: 35px;
   color: white;
@@ -94,6 +94,7 @@ h2 {
   color: white;
   text-shadow: 0px 2px 5px red;
   margin: 0;
+  text-align: center;
 }
 
 p {
@@ -246,7 +247,7 @@ img {
 }
 
 @media screen and (min-width: 1000px) {
-  b {
+  h2 {
     font-size: 50pt;
   }
 

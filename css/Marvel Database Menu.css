@@ -2,16 +2,32 @@ body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;   
+  background-attachment: fixed; 
+  margin: 0;  
+  margin-bottom: 100px;
 }
 
-h2, .timer_message,
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2,  .timer_message,
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
 #timer7, .review-schedule,
-.universe, a:link,
+.universe,p, button,
+button a:link,
 a:visited {
+  font-family: avenir-light;  
   color: white;  
+}
+
+.navbar a, h2, .timer_message,
+#timer1, #timer2, #timer3,
+#timer4, #timer5, #timer6,
+#timer7, .review-schedule,
+.universe, p, button {
+  text-align: center;
 }
 
 h2, .timer_message,
@@ -19,58 +35,113 @@ h2, .timer_message,
 #timer4, #timer5, #timer6,
 #timer7, .review-schedule,
 .universe {
-  font-family: avenir-light;
-  text-align: center;
   text-shadow: 0px 2px 5px red;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a,
+a:link {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn,
+.review-schedule,
+.universe  {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
 
 h2 {
   font-size: 50pt;
-
-  margin-bottom: 64px;
-  margin-top: 0px;
+  margin: 32px 0 64px 0;
 }
 
-.timer_message {
-  font-size: 35px;
-  text-shadow: 0px 2px 5px red;
+h2.timer_message {
+  font-size: 30pt;
   margin: 0 32px auto;
 }
 
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
 #timer7 {
-  font-size: 35px;
+  font-size: 25pt;
   margin: 16px 64px auto;
   margin-bottom: 64px;
   text-align: center;
   font-weight: 700;
 }
 
-.review-schedule {
-  font-size: xx-large;
-  background-color: red;
-  border: none;
+.review-schedule,
+.universe {
+  font-size: 25pt;
+  border: none; 
   border-radius: 10px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
   align-content: center;
   text-align: center;
-  margin-bottom: 32px;
-}
-
-.universe {
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;   
   box-shadow: 0px 2px 5px red;
-}
-
-a:link {
-  text-decoration: none;
 }
 
 a:hover, a:active {
