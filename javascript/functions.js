@@ -112,7 +112,7 @@ function phase5UpcomingHider() {
   }
 }
 
-function phase6hider() {
+function phase6Hider() {
   var x = document.getElementById("phase6");
   if (x.style.display == "block") {
     x.style.display = "none";
