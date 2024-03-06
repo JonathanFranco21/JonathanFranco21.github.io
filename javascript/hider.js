@@ -73,3 +73,12 @@ function yearRevealAndHide8() {
     y.style.display = "block";
   }
 }
+
+function phase1() {
+  var x = document.getElementById("contentHider");
+  if (y.style.display == "block") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+}

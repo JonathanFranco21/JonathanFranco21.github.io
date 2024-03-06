@@ -40,7 +40,8 @@ body {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
   background-color: red;
   font-family: avenir-light;
 }
@@ -80,20 +81,33 @@ body {
   display: block;
 }
 
-h2 {
+h1 {
   font-family: avenir-light;
-  font-size: 35px;
-  color: white;
-  text-shadow: 0px 2px 5px red;
-  margin-bottom: 64px;
-}
-
-h2 {
-  font-family: avenir-light;
-  font-size: 35px;
+  font-size: 40pt;
   color: white;
   text-shadow: 0px 2px 5px red;
   margin: 0;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+h2.phase,
+h2.next-installment,
+h2.coming-soon  {
+  margin-top: 25pt;
+}
+
+h2, h2.phase,
+h2.next-installment,
+h2.coming-soon  {
+  font-family: avenir-light;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin-bottom: 0px;
   text-align: center;
 }
 
@@ -160,6 +174,41 @@ a:visited {
   color: white;
 }
 
+div#phase1,
+div#phase2,
+div#phase3,
+div#phase4,
+div#phase5,
+div#phase5Next,
+div#phase5Upcoming,
+div#phase6,
+div#phaseUnknown {
+  display: none;
+}
+
+button.contentHider {
+  font-family: avenir-light;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  border: none;
+  background: none;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 40px 0 0 0;
+  text-decoration: underline;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20pt;
+}
+
+button.contentHider.next,
+button.contentHider.upcoming {
+  display: flex;
+  margin: auto;
+  margin-top: 5px;
+}
+
 div.item {
   vertical-align: top;
   display: inline-block;
@@ -190,7 +239,7 @@ img {
   text-shadow: 0px 2px 5px red;
 }
 
-.item.deadpool-3 {
+.item.deadpool-and-wolverine {
   width: 100%;
 }
 
@@ -231,10 +280,10 @@ img {
 }
 
 @media screen and (min-width: 800px) { 
-  .item.daredevil-ba,
+  /*.item.daredevil-ba,
   .item.avengers-sw {
     width: 100%;
-  }
+  }*/
 
   div.item {
     width: 49%;
@@ -247,10 +296,6 @@ img {
 }
 
 @media screen and (min-width: 1000px) {
-  h2 {
-    font-size: 50pt;
-  }
-
   h2 {
     font-size: 50pt;
   }
@@ -271,12 +316,15 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame, .item.what-if-s2, .item.avengers-tkd, .item.armor-wars  {
+  .item.avengers-endgame, 
+  .item.what-if-s2, 
+  .item.ironheart, 
+  .item.armor-wars  {
     width: 55%;
   }
   
   .item.avengers-sw  {
-    width: 33%;
+    width: 100%;
   }
 
   div.item {

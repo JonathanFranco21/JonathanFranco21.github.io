@@ -16,7 +16,7 @@ body {
 
 .TIH {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/388A7D6509E4133B25F9FDF5335B790BE862F4FBF9D4BF299517AA4AD716B613");
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .navbar a, .dropdown .dropbtn, 
@@ -67,7 +67,7 @@ iframe, .pg-13-rating,
 }
 
 .navbar a, h1, h2, h3, 
-h4, p, .overview, button {
+p, .overview, button {
   text-align: center;
 }
 
@@ -140,23 +140,33 @@ ul, li, p, h2, button {
   margin: 0 20px auto;
 }
 
-h1, h2, h3, h4, 
-.overview, p, ul, li,
+h1, h2, h3, 
+p.overview, 
+p, ul, li,
 button.contentHider {
   text-shadow: 0px 2px 5px red;  
 }
 
+h1, p.overview {
+  margin-bottom: 30pt;  
+}
+
 h1 {
-  font-size: 40pt;
+  font-size: 30pt;
 }
 
 h2 {
   font-size: 25pt;
 }
 
-h3, h4 {
+h3 {
   font-size: 20pt;
-  margin: 0;
+  margin-bottom: 0;
+}
+
+h3.age {
+  margin-top: 0;
+  margin-bottom: 20pt;  
 }
 
 iframe {
@@ -197,7 +207,7 @@ button.contentHider {
 }
 
 .next {
-  margin: 100px;
+  margin-top: 100px;
 }
 
 a:link.reference {
@@ -274,7 +284,7 @@ a:visited.reference {
   }
 
   .the-incredible-hulk-logo {
-    height: 175px;
+    height: 290px;
     width: 500px;
   }
 

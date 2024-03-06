@@ -98,11 +98,6 @@ li {
 }
 
 @media screen and (min-width: 1000px) {
-  .marvelstudios {
-    width: 200px;
-    margin: 0 auto;
-  }
-
   .the-incredible-hulk-logo {
     height: 290px;
     width: 500px;

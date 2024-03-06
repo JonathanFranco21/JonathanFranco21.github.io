@@ -1,4 +1,13 @@
 var countDownDate1 = new Date("Mar 20, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("Mar 27, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("Apr 3, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("Apr 10, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("Apr 17, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("Apr 24, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("May 1, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("May 8, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("May 15, 2024 00:00:00").getTime();
+//var countDownDate1 = new Date("May 22, 2024 00:00:00").getTime();
 var countDownDate2 = new Date("Apr 9, 2024 00:00:00").getTime();
 var countDownDate3 = new Date("Jul 26, 2024 00:00:00").getTime();
 
@@ -39,3 +48,84 @@ countdown(countDownDate4, timer4)
 countdown(countDownDate5, timer5)
 countdown(countDownDate6, timer6)
 countdown(countDownDate7, timer7)
+
+function phase1hider() {
+  var x = document.getElementById("phase1");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase2hider() {
+  var x = document.getElementById("phase2");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase3hider() {
+  var x = document.getElementById("phase3");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase4hider() {
+  var x = document.getElementById("phase4");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase5hider() {
+  var x = document.getElementById("phase5");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase5NextHider() {
+  var x = document.getElementById("phase5Next");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase5UpcomingHider() {
+  var x = document.getElementById("phase5Upcoming");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase6hider() {
+  var x = document.getElementById("phase6");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phaseUnknownHider() {
+  var x = document.getElementById("phaseUnknown");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
