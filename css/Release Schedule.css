@@ -7,13 +7,15 @@ body {
   padding: 20px;
 }
 
-h2, table, th, td, tr, .Schedule {
+h2, table, th, 
+td, tr, .Schedule {
   font-family: avenir-light;    
   color: white;
   text-align: center;
 }
 
-h2, table, th, td, tr {
+h2, table, 
+th, td, tr {
   text-shadow: 0px 2px 5px red;
 }
   
@@ -22,7 +24,8 @@ h2 {
   margin: 30px auto;
 }
 
-table, th, tr, td {
+table, th, 
+tr, td {
   border: 5px solid white;
   border-collapse: collapse;
 }
