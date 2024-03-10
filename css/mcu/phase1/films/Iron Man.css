@@ -29,8 +29,24 @@ button a:link,
 button a:visited,
 a:visited, .overview,
 a.reference:link,
+a.reference:visited, 
+a.retailerLink:visited,
+a.retailerLink.physical, 
+a.retailerLink.physical:visited {
+  font-family: avenir-light;    
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a, h1,  
+h2, h3, h4, p, li, 
+ul, button,
+button a:link,
+button a:visited,
+a:visited, .overview,
+a.reference:link,
 a.reference:visited {
-  font-family: avenir-light;  
   color: white;  
 }
 
@@ -67,9 +83,12 @@ iframe, .pg-13-rating,
 }
 
 .navbar a, h1, h2, h3, 
-p, .overview, button {
+p, p.overview, button,
+a.retailerLink.physical {
   text-align: center;
 }
+
+
 
 .navbar a {
   text-decoration: none;
@@ -121,8 +140,8 @@ iframe, .pg-13-rating,
 
 .iron-man-logo,
 .the-incredible-hulk-logo {
-  height: 175px;  
-  width: 300px;
+  height: 150px;  
+  width: 260px;
 }
 
 .the-incredible-hulk-logo {
@@ -130,10 +149,9 @@ iframe, .pg-13-rating,
   padding-bottom: 50px;
 }
 
-.overview {
+p.overview {
   margin-left: 25%;
   margin-right: 25%;
-  text-align: center
 }
 
 ul, li, p, h2, button {
@@ -143,7 +161,8 @@ ul, li, p, h2, button {
 h1, h2, h3, 
 p.overview, 
 p, ul, li,
-button.contentHider {
+button.contentHider,
+button#retailerButton {
   text-shadow: 0px 2px 5px red;  
 }
 
@@ -155,16 +174,18 @@ h1 {
   font-size: 30pt;
 }
 
-h2 {
+h2,
+button#retailerButton {
   font-size: 25pt;
 }
 
 h3 {
-  font-size: 20pt;
+  font-size: 18pt;
   margin-bottom: 0;
 }
 
-h3.age {
+p.age {
+  font-size: 15pt;
   margin-top: 0;
   margin-bottom: 20pt;  
 }
@@ -172,8 +193,8 @@ h3.age {
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px red;
-  width: 280px;
-  height: 155px;
+  width: 260px;
+  height: 145px;
 }
 
 #violenceAndDisturbingContentArea,
@@ -183,18 +204,131 @@ iframe {
   display: none;
 }
 
-button.contentHider {
+h2.retailerHeader {
+  margin: 20pt 0 20pt 0;
+}
+
+button.contentHider,
+button#retailerButton,
+button.apple-tv-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+button.target-button,
+button.walmart-button,
+button.amazon-button,
+button.barnes-and-noble-button,
+button.disney-store-button,
+a.retailerLink:visited,
+a.retailerLink.physical:visited {
   border: none;
   background: none;
-  font-size: 40px;
-  font-weight: 900;
-  margin: 40px 0;
   text-decoration: underline;
 }
 
-.Stark, .next {
+button.contentHider {
+  font-size: 40px;  
+  font-weight: 900;  
+  margin: 40px 0;  
+}
+
+button#retailerButton {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+div.rating-areas,
+div.retailers,
+div.retailer,
+a.retailerLink.physical {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+h2.retailersHeading,
+button.apple-tv-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited,
+a.retailerLink.physical:visited {
+  color: black;
+  text-shadow: none;
+}
+
+div.target-button {
+  margin-top: 4%;
+}
+
+div.barnes-and-noble-button {
+  margin-top: 10%;
+}
+
+a.retailerLink.physical {
+  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2.retailersHeading.physical {
+  margin-top: 80px;
+}
+
+a.retailerLink {
+  font-size: 13pt;
+}
+
+button.apple-tv-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button {
+  margin: auto;
+}
+
+img.apple-TV-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo,
+img.target-logo,
+img.walmart-logo,
+img.amazon-logo,
+img.barnes-and-noble-logo,
+img.disney-store-logo,
+a.retailerLink:visited {
+  margin: auto;
+  width: 150px;
+}
+
+img.amazon-prime-video-logo {
+  border-radius: 25px;
+}
+
+img.google-play-logo {
+  height: 30px;
+  margin-top: 4%;
+}
+
+
+
+img.walmart-logo {
+  height: 65px;
+}
+
+img.amazon-logo {
+  height: 55px;
+}
+
+.Stark, 
+.next {
   font-family: arial;
-  font-size: xx-large;
+  font-size: 25pt;
   background-color: red;
   border: none;
   color: white;
@@ -224,8 +358,7 @@ a:visited.reference {
   color: white;
 }
 
-.rating-areas {
-  display: flex;
+div.rating-areas {
   flex-direction: column;
   margin: 30px 0 50px auto;
 }
@@ -250,13 +383,26 @@ a:visited.reference {
   object-fit: cover;
 }
 
-.disneyplus {
-  width: 150px;
-  position: relative;
-  bottom: -22px
+img.disneyplus,
+img.amcplus,
+img.amc,
+img.philo {
+  position: relative;  
 }
 
-.imax {
+img.disneyplus {
+  width: 150px;   
+  bottom: -22px;
+}
+
+img.amcplus,
+img.amc,
+img.philo {
+  width: 120px; 
+  bottom: -20px;  
+}
+
+img.imax {
   position: relative;
   width: 200px;
   top: 4px;
@@ -264,16 +410,71 @@ a:visited.reference {
   box-shadow: 0px 2px 5px red;
 }
 
+@media screen and (min-width: 500px) {
+  div.retailer {
+    margin-bottom: 15%;
+  }
+
+  button.apple-tv-button,
+  button.amazon-prime-video-button,
+  button.vudu-button,
+  button.google-play-button,
+  button.youtube-button {
+    margin-top: 5%;
+  }
+
+  img.barnes-and-noble-logo,
+  img.walmart-logo {
+    margin-top: 11%;
+  }
+
+  img.amazon-logo {
+    margin-top: 15%;  
+  }
+
+  a.retailerLink.physical {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+}
+
 @media screen and (min-width: 700px) {
-  .rating-areas {
+  div.rating-areas {
     flex-direction: row;
   }
+
+  div.retailer {
+    margin-bottom: 10%;
+  }  
 }
 
 @media screen and (min-width: 800px) {
   iframe {
     height: 420px;
     width: 750px;
+  }
+
+  p.overview {
+    margin-bottom: 0px;
+  }
+
+  h3 {
+    font-size: 20pt;
+  }
+
+  div.rating-areas {
+    flex-direction: row;
+  }
+
+  div.retailer {
+    flex-direction: row;
+    margin: auto;
+    margin-top: 20pt;
+  }
+
+  div.retailerRow {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -292,4 +493,71 @@ a:visited.reference {
     height: 500px;
     width: 900px;
   }
+
+  div.retailers {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  button.apple-tv-button,
+  button.amazon-prime-video-button,  
+  button.vudu-button,
+  button.google-play-button,
+  button.youtube-button {
+    margin-left: 15px;
+  }
+
+  button.apple-tv-button,
+  button.amazon-prime-video-button {
+    margin-top: 20%;
+  }
+
+  button.vudu-button,
+  button.google-play-button,
+  button.youtube-button {
+    margin-top: 5%;
+  }  
+
+  a.retailerLink.physical {
+    margin-top: 10%;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 40px;
+  border: 1px solid #888;
+  width: 55%; /* Could be more or less, depending on screen size */
+  border-radius: 25px;  
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
