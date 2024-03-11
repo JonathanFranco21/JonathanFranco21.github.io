@@ -41,7 +41,10 @@ a.retailerLink.physical:visited {
 .dropdown:hover .dropbtn, 
 .dropdown-content a, h1,  
 h2, h3, h4, p, li, 
-ul {
+ul, a:visited, 
+p.overview,
+a.reference:link,
+a.reference:visited {
   color: white;  
 }
 
@@ -82,8 +85,6 @@ p, p.overview, button,
 a.retailerLink.physical {
   text-align: center;
 }
-
-
 
 .navbar a {
   text-decoration: none;
@@ -250,7 +251,6 @@ button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
 button.youtube-button,
-a.retailerLink,
 a.retailerLink:visited,
 a.retailerLink.physical:visited {
   color: black;
@@ -402,15 +402,6 @@ img.imax {
   top: 4px;
   border-radius: 7px;
   box-shadow: 0px 2px 5px red;
-}
-
-button,
-button a:link,
-button a:visited,
-a:visited, .overview,
-a.reference:link,
-a.reference:visited {
-  color: white;  
 }
 
 @media screen and (min-width: 500px) {
