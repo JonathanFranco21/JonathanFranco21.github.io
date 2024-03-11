@@ -165,6 +165,22 @@ div.dropdown-content {
 
 div.dropdown-content a, 
 div.dropdown-content a:visited,
+h2.retailersHeading,
+button.disney-plus-button,
+button.amc-plus-button,
+button.amc-button,
+button.philo-button,
+button.apple-tv-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:link,
+a.retailerLink:active,
+a.retailerLink:visited,
+a.retailerLink.physical:link,
+a.retailerLink.physical:active,
+a.retailerLink.physical:visited,
 span.close:hover,
 span.close:focus {
   color: black;
@@ -334,7 +350,6 @@ button.google-play-button,
 button.youtube-button,
 a.retailerLink:visited,
 a.retailerLink.physical:visited {
-  color: black;
   text-shadow: none;
   margin-top: 5%;
 }
