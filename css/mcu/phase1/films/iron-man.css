@@ -328,13 +328,20 @@ button#retailerButton {
   font-weight: 700;
 }
 
-div.rating-areas,
+div.rating-areas {
+  margin-top: 5%;
+}
+
 div.retailers,
 div.retailer,
 a.retailerLink.physical {
   display: flex;
   flex-direction: column;
-  margin-top: 5%;
+}
+
+div.retailers,
+div.retailer {
+  margin-top: 5%;  
 }
 
 h2.retailersHeading,
@@ -351,14 +358,6 @@ a.retailerLink:visited,
 a.retailerLink.physical:visited {
   text-shadow: none;
   margin-top: 5%;
-}
-
-div.target-button {
-  margin-top: 4%;
-}
-
-div.barnes-and-noble-button {
-  margin-top: 10%;
 }
 
 a.retailerLink.physical {
@@ -414,6 +413,7 @@ img.walmart-logo {
 
 img.amazon-logo {
   height: 55px;
+  margin-top: 15%;    
 }
 
 button.Stark, 
@@ -512,16 +512,11 @@ span.close:focus {
   }
 
   div.retailer {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
   }
 
-  img.barnes-and-noble-logo,
-  img.walmart-logo {
-    margin-top: 11%;
-  }
-
-  img.amazon-logo {
-    margin-top: 15%;  
+  img.barnes-and-noble-logo {
+    margin-top: 5%;
   }
 
   a.retailerLink.physical {
@@ -555,24 +550,33 @@ span.close:focus {
     font-size: 20pt;
   }
 
-  div.rating-areas {
-    flex-direction: row;
+  div.retailer,
+  img.amazon-logo {
+    margin: auto;    
+  }
+
+  div.rating-areas,  
+  div.retailer,
+  div.retailerRow {
+    display: flex;
+   flex-direction: row;    
   }
 
   div.retailer {
-    flex-direction: row;
-    margin: auto;
     margin-top: 20pt;
   }
 
-  div.retailerRow {
-    display: flex;
-    flex-direction: row;
-  }  
-  
   button.apple-tv-button,
   button.amazon-prime-video-button {
     margin-top: 20%;
+  }
+
+  div.target-button {
+    margin-top: 4%;
+  }
+
+  div.barnes-and-noble-button {
+    margin-top: 10%;
   }
 }
 
