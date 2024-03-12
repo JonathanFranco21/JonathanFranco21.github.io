@@ -13,12 +13,12 @@ div.TIH {
 }
 
 div.IM  {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/35B7F58526D0EBEE5E7B2914315B2E2EC97B6B9AA95F77DC9FE44BEFEF6A55A4");  
+  background-image: url("/images/wallpaper/mcu/phase1/films/Iron-Man-Wallpaper.png");  
   padding-bottom: 32px;  
 }
 
 div.TIH {
-  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/388A7D6509E4133B25F9FDF5335B790BE862F4FBF9D4BF299517AA4AD716B613");
+  background-image: url("/images/wallpaper/mcu/phase1/films/The-Incredible-Hulk-Wallpaper.png");
   padding-bottom: 200px;
 }
 
@@ -129,7 +129,6 @@ button.target-button,
 button.walmart-button,
 button.amazon-button,
 button.barnes-and-noble-button,
-button.disney-store-button,
 a.retailerLink:visited,
 a.retailerLink.physical:visited,
 button.Stark, 
