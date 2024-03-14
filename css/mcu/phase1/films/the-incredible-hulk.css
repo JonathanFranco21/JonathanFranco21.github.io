@@ -1,22 +1,3 @@
-
-
-.the-incredible-hulk-logo {
-  height: 250px;
-  width: 450px;
-}
-
-
-
-
-@media screen and (min-width: 1000px) {
-  .the-incredible-hulk-logo {
-    height: 290px;
-    width: 500px;
-  }
-}
-
-
-
 body,
 div.dropdown button.dropbtn,
 button#retailerButton {
@@ -150,6 +131,7 @@ button.amc-plus-button,
 button.amc-button,
 button.philo-button,
 button.apple-tv-button,
+button.microsoft-store-button,
 button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
@@ -158,7 +140,6 @@ button.target-button,
 button.walmart-button,
 button.amazon-button,
 button.barnes-and-noble-button,
-button.disney-store-button,
 a.retailerLink:visited,
 a.retailerLink.physical:visited,
 button.Hulk, 
@@ -200,6 +181,7 @@ button.amc-plus-button,
 button.amc-button,
 button.philo-button,
 button.apple-tv-button,
+button.microsoft-store-button,
 button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
@@ -236,6 +218,7 @@ button.amc-plus-button,
 button.amc-button,
 button.philo-button,
 button.apple-tv-button,
+button.microsoft-store-button,
 button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
@@ -246,6 +229,7 @@ img.amc-plus-logo,
 img.amc-logo,
 img.philo-logo,
 img.apple-TV-logo,
+img.microsoft-store-logo,
 img.amazon-prime-video-logo,
 img.vudu-logo,
 img.google-play-logo,
@@ -330,6 +314,7 @@ h2.retailerHeader {
 button.contentHider,
 button#retailerButton,
 button.apple-tv-button,
+button.microsoft-store-button,
 button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
@@ -373,6 +358,7 @@ div.retailer {
 
 h2.retailersHeading,
 button.apple-tv-button,
+button.microsoft-store-button,
 button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
@@ -397,11 +383,10 @@ a.retailerLink {
   font-size: 13pt;
 }
 
-
-
 img.disneyplus,
 img.disney-plus-logo,
 img.apple-TV-logo,
+img.microsoft-store-logo,
 img.amazon-prime-video-logo,
 img.vudu-logo,
 img.google-play-logo,
@@ -568,6 +553,10 @@ span.close:focus {
     margin: auto;    
   }
 
+  img.vudu-logo {
+    margin-top: 20%;
+  } 
+
   div.rating-areas,  
   div.retailer,
   div.retailerRow {
@@ -580,16 +569,22 @@ span.close:focus {
   }
 
   button.apple-tv-button,
+  button.microsoft-store-button,
+  button.vudu-button,
   button.amazon-prime-video-button {
     margin-top: 20%;
   }
 
-  div.target-button {
-    margin-top: 4%;
+  a.retailerLink.physical:first-child {
+    margin-top: 0;
+  }
+
+  a.retailerLink.physical {
+    margin-top: 10pt;
   }
 
   div.barnes-and-noble-button {
-    margin-top: 20%;
+    margin-top: 23%;
   }
 }
 
@@ -616,6 +611,7 @@ span.close:focus {
   }
 
   button.apple-tv-button,
+  button.microsoft-store-button,
   button.amazon-prime-video-button,  
   button.vudu-button,
   button.google-play-button,
@@ -627,7 +623,6 @@ span.close:focus {
     margin-top: 10%;
   }  
 
-  button.vudu-button,
   button.google-play-button,
   button.youtube-button {
     margin-top: 5%;
