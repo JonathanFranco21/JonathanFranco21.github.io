@@ -229,6 +229,7 @@ img.amc-plus-logo,
 img.amc-logo,
 img.philo-logo,
 img.apple-TV-logo,
+img.microsoft-store-logo,
 img.amazon-prime-video-logo,
 img.vudu-logo,
 img.google-play-logo,
@@ -317,6 +318,7 @@ button.amc-plus-button,
 button.amc-button,
 button.philo-button,
 button.apple-tv-button,
+button.microsoft-store-button,
 button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
@@ -365,6 +367,7 @@ button.amc-plus-button,
 button.amc-button,
 button.philo-button,
 button.apple-tv-button,
+button.microsoft-store-button,
 button.amazon-prime-video-button,
 button.vudu-button,
 button.google-play-button,
@@ -396,6 +399,7 @@ img.amc-plus-logo,
 img.amc-logo,
 img.philo-logo,
 img.apple-TV-logo,
+img.microsoft-store-logo,
 img.amazon-prime-video-logo,
 img.vudu-logo,
 img.google-play-logo,
@@ -582,16 +586,26 @@ span.close:focus {
   }
 
   button.apple-tv-button,
+  button.microsoft-store-button,
+  button.vudu-button,
   button.amazon-prime-video-button {
     margin-top: 20%;
   }
 
+  a.retailerLink.physical:first-child {
+    margin-top: 0;
+  }
+
+  a.retailerLink.physical {
+    margin-top: 10pt;
+  }
+
   div.target-button {
-    margin-top: 4%;
+    margin-top: 6%;
   }
 
   div.barnes-and-noble-button {
-    margin-top: 10%;
+    margin-top: 2%;
   }
 }
 
@@ -617,11 +631,16 @@ span.close:focus {
     margin-bottom: 0%;
   }
 
+  img.vudu-logo {
+    margin-top: 15%;
+  }
+
   button.disney-plus-button,
   button.amc-plus-button,
   button.amc-button,
   button.philo-button,
   button.apple-tv-button,
+  button.microsoft-store-button,
   button.amazon-prime-video-button,  
   button.vudu-button,
   button.google-play-button,
@@ -639,7 +658,8 @@ span.close:focus {
   }  
 
   button.amc-button,
-  button.philo-button {
+  button.philo-button,
+  div.barnes-and-noble-button {
     margin-top: 7%;
   }
 

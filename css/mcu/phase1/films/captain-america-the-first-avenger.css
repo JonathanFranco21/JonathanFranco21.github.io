@@ -1,0 +1,638 @@
+body,
+div.dropdown button.dropbtn,
+button#retailerButton {
+  margin: 0;
+}
+
+div.CATFA,
+div.TA,
+div.T {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 20px;
+}
+
+div.CATFA {
+  background-image: url("/images/wallpaper/mcu/phase1/films/Captain-America-The-First-Avenger-Wallpaper.png");
+  padding-bottom: 32px;
+}
+
+div.TA,
+div.T {
+  padding-bottom: 200px;   
+}
+
+div.TA {
+  background-image: url("/images/wallpaper/mcu/phase1/films/The-Avengers-Wallpaper.png");
+}
+
+div.T  {
+  background-image: url("/images/wallpaper/mcu/phase1/films/Thor-Wallpaper.png");  
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, h1,  
+h2, h3, h4, p, li, 
+ul, button,
+button a:link,
+button a:visited,
+a:visited, .overview,
+a.reference:link,
+a.reference:visited, 
+a.retailerLink:visited,
+a.retailerLink.physical, 
+a.retailerLink.physical:visited {
+  font-family: avenir-light;    
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, 
+h1, h2, h3, h4, p, li, 
+ul, a:visited, 
+p.overview,
+a.reference:link,
+a.reference:visited,
+button.Star a,
+button.next a,
+button.contentHider,
+button#retailerButton {
+  color: white;  
+}
+
+div.navbar a, 
+div.dropdown,
+div.dropdown-content a {
+  float: left;
+}
+
+div.dropdown-content a, 
+div.dropdown:hover div.dropdown-content,
+img.captain-america-the-first-avenger-logo,
+img.the-avengers-logo,
+img.thor-logo,
+iframe, img.pg-13-rating,
+button.next {
+  display: block;
+}
+
+div.navbar, 
+div.dropdown {
+  overflow: hidden;  
+}
+
+div.navbar, 
+div.modal {
+  width: 100%;  
+}
+
+div.navbar {
+  background-color: #333;
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  font-size: 16px;  
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  padding: 14px 16px;
+}
+
+div.navbar a, h1, h2, h3, 
+p, p.overview, button,
+a.retailerLink.physical {
+  text-align: center;
+}
+
+span.close:hover,
+span.close:focus,
+div.navbar a {
+  text-decoration: none;
+}
+
+div.dropdown button.dropbtn { 
+  outline: none;
+  background-color: inherit; 
+}
+
+div.dropdown button.dropbtn,
+button.contentHider,
+button#retailerButton,
+button.disney-plus-button,
+button.amc-plus-button,
+button.amc-button,
+button.philo-button,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+button.target-button,
+button.walmart-button,
+button.amazon-button,
+button.barnes-and-noble-button,
+a.retailerLink:visited,
+a.retailerLink.physical:visited,
+button.Star, 
+button.next {
+  border: none;  
+}
+
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn {
+  background-color: red;
+}
+
+div.dropdown-content,
+div.modal {
+  z-index: 1;  
+}
+
+div.dropdown-content,
+#violenceAndDisturbingContentArea,
+#suggestiveContentArea,
+#drinkingDrugAndGamblingContentArea,
+#languageArea,
+div.modal {
+  display: none;
+}
+
+div.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+div.dropdown-content a, 
+div.dropdown-content a:visited,
+h2.retailersHeading,
+button.disney-plus-button,
+button.amc-plus-button,
+button.amc-button,
+button.philo-button,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:link,
+a.retailerLink:active,
+a.retailerLink:visited,
+a.retailerLink.physical:link,
+a.retailerLink.physical:active,
+a.retailerLink.physical:visited,
+span.close:hover,
+span.close:focus {
+  color: black;
+}
+
+div.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+div.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+img.captain-america-the-first-avenger-logo,
+img.the-avengers-logo,
+img.thor-logo,
+iframe, img.pg-13-rating,
+button.next,
+button.disney-plus-button,
+button.amc-plus-button,
+button.amc-button,
+button.philo-button,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+img.disneyplus,
+img.disney-plus-logo,
+img.amc-plus-logo,
+img.amc-logo,
+img.philo-logo,
+img.apple-TV-logo,
+img.microsoft-store-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo,
+img.target-logo,
+img.walmart-logo,
+img.amazon-logo,
+img.barnes-and-noble-logo {
+  margin: auto;
+}
+
+img.captain-america-the-first-avenger-logo,
+img.the-avengers-logo,
+img.thor-logo {
+  height: 150px;  
+  width: 260px;
+}
+
+img.the-avengers-logo,
+img.thor-logo {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+p.overview {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ul, li, 
+p, h2, 
+button {
+  margin: 0 20px auto;
+}
+
+h1, h2, h3, 
+p.overview, 
+p, ul, li,
+button.contentHider,
+button#retailerButton {
+  text-shadow: 0px 2px 5px red;  
+}
+
+h1, 
+p.overview {
+  margin-bottom: 30pt;  
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+h2,
+button.Star,
+button.next,
+button#retailerButton {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+
+p.age {
+  font-size: 15pt;
+  margin-top: 0;
+  margin-bottom: 20pt;  
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px red;
+  width: 260px;
+  height: 145px;
+}
+
+h2.retailerHeader {
+  margin: 20pt 0 20pt 0;
+}
+
+button.contentHider,
+button#retailerButton,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+button.target-button,
+button.walmart-button,
+button.amazon-button,
+button.barnes-and-noble-button,
+a.retailerLink:visited,
+a.retailerLink.physical:visited {
+  background: none;
+  text-decoration: underline;
+}
+
+button.contentHider {
+  font-size: 40px;  
+  font-weight: 900;  
+  margin: 40px 0;  
+}
+
+button#retailerButton {
+  padding: 0;
+  font-weight: 700;
+}
+
+div.rating-areas {
+  margin-top: 5%;
+}
+
+div.retailers,
+div.retailer,
+a.retailerLink.physical {
+  display: flex;
+  flex-direction: column;
+}
+
+div.retailers,
+div.retailer {
+  margin-top: 5%;  
+}
+
+h2.retailersHeading,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited,
+a.retailerLink.physical:visited {
+  text-shadow: none;
+  margin-top: 5%;
+}
+
+a.retailerLink.physical {
+  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2.retailersHeading.physical {
+  margin-top: 80px;
+}
+
+a.retailerLink {
+  font-size: 13pt;
+}
+
+img.disneyplus,
+img.disney-plus-logo,
+img.apple-TV-logo,
+img.microsoft-store-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo,
+img.target-logo,
+img.walmart-logo,
+img.amazon-logo,
+img.barnes-and-noble-logo,
+a.retailerLink:visited {
+  width: 150px;
+}
+
+img.disneyplus {
+  position: relative;   
+  bottom: -22px;
+}  
+
+img.amazon-prime-video-logo {
+  border-radius: 25px;
+}
+
+img.google-play-logo {
+  height: 30px;
+  margin-top: 4%;
+}
+
+img.walmart-logo {
+  height: 65px;
+}
+
+img.amazon-logo {
+  height: 55px;
+  margin-top: 15%;    
+}
+
+button.Star, 
+button.next {
+  background-color: red;  
+  border-radius: 10px;
+}
+
+button.Star a, 
+button.next a {
+  text-decoration: none;
+}
+
+button.next {
+  margin-top: 100px;
+}
+
+a:link.reference {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover.reference, 
+a:active.reference {
+  text-decoration: underline;
+}
+
+a:visited.reference {
+  color: white;
+}
+
+div.rating-areas {
+  flex-direction: column;
+  margin: 30px 0 50px auto;
+}
+
+div.original-rating-area, 
+div.proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
+}
+
+img.pg-13-rating {
+  position: relative;
+  right: 5px;
+  bottom: 55px;
+  width: 250px;
+  height: 250px;
+  filter: invert(1);
+  object-fit: cover;
+}
+
+div.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+
+div.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 40px;
+  width: 55%;
+  border-radius: 25px;  
+}
+
+span.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+span.close:hover,
+span.close:focus {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    width: 460px;
+    height: 260px;
+  }
+
+  div.retailer {
+    margin-bottom: 10%;
+  }
+
+  img.barnes-and-noble-logo {
+    margin-top: 5%;
+  }
+
+  a.retailerLink.physical {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  div.rating-areas {
+    flex-direction: row;
+  }
+
+  div.retailer {
+    margin-bottom: 10%;
+  }  
+}
+
+@media screen and (min-width: 800px) {
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+
+  p.overview {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  h3 {
+    font-size: 20pt;
+  }
+
+  div.retailer,
+  img.amazon-logo {
+    margin: auto;    
+  }
+
+  img.vudu-logo {
+    margin-top: 20%;
+  } 
+
+  div.rating-areas,  
+  div.retailer,
+  div.retailerRow {
+    display: flex;
+   flex-direction: row;    
+  }
+
+  div.retailer {
+    margin-top: 20pt;
+  }
+
+  button.apple-tv-button,
+  button.microsoft-store-button,
+  button.vudu-button,
+  button.amazon-prime-video-button {
+    margin-top: 20%;
+  }
+
+  a.retailerLink.physical:first-child {
+    margin-top: 0;
+  }
+
+  a.retailerLink.physical {
+    margin-top: 10pt;
+  }
+
+  div.target-button {
+    margin-top: 6%;
+  }
+
+  div.barnes-and-noble-button {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  img.captain-america-the-first-avenger-logo,
+  img.the-avengers-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  img.thor-logo {
+    height: 290px;
+    width: 500px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  div.retailers {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  button.apple-tv-button,
+  button.microsoft-store-button,
+  button.amazon-prime-video-button,  
+  button.vudu-button,
+  button.google-play-button,
+  button.youtube-button {
+    margin-left: 15px;
+  }
+
+  a.retailerLink.physical {
+    margin-top: 10%;
+  }  
+
+  div.barnes-and-noble-button {
+    margin-top: 7%;
+  }
+
+  button.google-play-button,
+  button.youtube-button {
+    margin-top: 5%;
+  }  
+}

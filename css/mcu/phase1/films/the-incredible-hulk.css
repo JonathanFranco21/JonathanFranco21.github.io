@@ -628,3 +628,9 @@ span.close:focus {
     margin-top: 5%;
   }  
 }
+
+@media screen and (min-width: 1000px) {
+  img.barnes-and-noble-logo {
+    margin-top: 0;
+  }
+}
