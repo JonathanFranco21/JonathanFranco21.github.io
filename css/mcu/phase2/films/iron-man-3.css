@@ -24,7 +24,7 @@ div.TA {
 }
 
 div.TTDW {
-  background-image: url("/images/wallpaper/mcu/phase1/films/Thor-Wallpaper.png");
+  background-image: url("/images/wallpaper/mcu/phase2/films/Thor-The-Dark-World-Wallpaper.png");
 }
 
 div.TA {
@@ -75,8 +75,8 @@ div.dropdown-content a {
 div.dropdown-content a, 
 div.dropdown:hover div.dropdown-content,
 img.iron-man-3-logo,
-img.thor-logo,
-img.the-incredible-hulk-logo,
+img.thor-the-dark-world-logo,
+img.the-avengers-logo,
 iframe, img.pg-13-rating,
 button.next {
   display: block;
@@ -209,8 +209,8 @@ div.dropdown-content a:hover {
 }
 
 img.iron-man-3-logo,
-img.thor-logo,
-img.the-incredible-hulk-logo,
+img.thor-the-dark-world-logo,
+img.the-avengers-logo,
 iframe, img.pg-13-rating,
 button.next,
 button.disney-plus-button,
@@ -242,14 +242,14 @@ img.barnes-and-noble-logo {
 }
 
 img.iron-man-3-logo,
-img.thor-logo,
-img.the-incredible-hulk-logo {
+img.thor-the-dark-world-logo,
+img.the-avengers-logo {
   height: 150px;  
   width: 260px;
 }
 
-img.thor-logo,
-img.the-incredible-hulk-logo {
+img.thor-the-dark-world-logo,
+img.the-avengers-logo {
   padding-top: 200px;
   padding-bottom: 50px;
 }
@@ -611,13 +611,9 @@ span.close:focus {
 
 @media screen and (min-width: 1000px) {
   img.iron-man-3-logo,
-  img.thor-logo {
+  img.thor-the-dark-world-logo,
+  img.the-avengers-logo {
     height: 300px;
-    width: 500px;
-  }
-
-  img.the-incredible-hulk-logo {
-    height: 290px;
     width: 500px;
   }
 

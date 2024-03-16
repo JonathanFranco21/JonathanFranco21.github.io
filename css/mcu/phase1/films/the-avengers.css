@@ -595,8 +595,7 @@ span.close:focus {
 @media screen and (min-width: 1000px) {
   img.the-avengers-logo,
   img.iron-man-3-logo,  
-  img.captain-america-the-first-avenger-logo
- {
+  img.captain-america-the-first-avenger-logo {
     height: 300px;
     width: 500px;
   }
