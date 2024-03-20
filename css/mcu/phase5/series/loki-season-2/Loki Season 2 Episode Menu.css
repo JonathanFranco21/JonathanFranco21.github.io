@@ -290,11 +290,6 @@ img {
     font-size: 50pt;
   }
 
-  .row {
-    display: flex;
-    flex-direction: row;
-  }
-
   div.item {
     width: 49%;
   }

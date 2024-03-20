@@ -1,0 +1,502 @@
+body,
+div.dropdown button.dropbtn,
+button#retailerButton {
+  margin: 0;
+}
+
+body {
+  background-image: url("/images/wallpaper/x-men/series/X-Men-Evolution-Wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  padding-bottom: 32px;   
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, 
+h1, h2, button,
+span.caption,
+button a:link,
+button a:visited {
+  font-family: avenir-light;    
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, 
+h1, h2, 
+span.caption,
+a:visited, 
+button.x-men-evolution-season a,
+button.x-men-evolution a,
+button.x-men-evolution a:visited,
+button.contentHider,
+button#retailerButton {
+  color: white;  
+}
+
+div.navbar a, 
+div.dropdown,
+div.dropdown-content a {
+  float: left;
+}
+
+div.dropdown-content a, 
+div.dropdown:hover div.dropdown-content,
+img.x-men-evolution-logo,
+span.caption,
+button.x-men-evolution-season,
+button.x-men-evolution {
+  display: block;
+}
+
+div.navbar, 
+div.dropdown {
+  overflow: hidden;  
+}
+
+div.navbar, 
+div.modal {
+  width: 100%;  
+}
+
+div.navbar {
+  background-color: #333;
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  font-size: 16px;  
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  padding: 14px 16px;
+}
+
+div.navbar a, h1, h2,
+div.item, button,
+a.retailerLink.physical {
+  text-align: center;
+}
+
+span.close:hover,
+span.close:focus,
+div.navbar a,
+button.x-men-evolution-season a,
+button.x-men-evolution a {
+  text-decoration: none;
+}
+
+div.dropdown button.dropbtn { 
+  outline: none;
+  background-color: inherit; 
+}
+
+div.dropdown button.dropbtn,
+button.contentHider,
+button#retailerButton,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited,
+button.x-men-evolution-season,
+button.x-men-evolution {
+  border: none;  
+}
+
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn,
+button.x-men-evolution {
+  background-color: red;
+}
+
+button.x-men-evolution-season {
+  background-color: blue;
+}
+
+div.dropdown-content,
+div.modal {
+  z-index: 1;  
+}
+
+div.dropdown-content,
+#violenceAndDisturbingContentArea,
+#suggestiveContentArea,
+#drinkingDrugAndGamblingContentArea,
+#languageArea,
+div.modal {
+  display: none;
+}
+
+div.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+div.dropdown-content a, 
+div.dropdown-content a:visited,
+h2.retailersHeading,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:link,
+a.retailerLink:active,
+a.retailerLink:visited,
+span.close:hover,
+span.close:focus {
+  color: black;
+}
+
+div.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+div.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+img.x-men-evolution-logo,
+button.x-men-evolution-season,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+img.disneyplus,
+img.apple-TV-logo,
+img.microsoft-store-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo,
+img.target-logo,
+img.walmart-logo,
+img.amazon-logo,
+img.barnes-and-noble-logo {
+  margin: auto;
+}
+
+img.x-men-evolution-logo,
+img.disneyplus,
+img.apple-TV-logo,
+img.microsoft-store-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo {
+  box-shadow: none;  
+}
+
+img.x-men-evolution-logo {
+  height: 150px;  
+  width: 260px;
+}
+
+h1, h2, 
+button {
+  margin: 0 20px auto;
+}
+
+h1, h2,  
+button.contentHider,
+button#retailerButton {
+  text-shadow: 0px 2px 5px blue;  
+}
+
+h1 {
+  margin-bottom: 30pt;  
+  font-size: 30pt;
+}
+
+h2,
+button.x-men-evolution-season,
+button.x-men-evolution,
+button#retailerButton {
+  font-size: 25pt;
+}
+
+h2.retailerHeader {
+  margin: 20pt 0 20pt 0;
+}
+
+div.item,
+div.item.x-men-evolution-s1e13 {
+  width: 100%;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  align-content: center;
+  margin: 32px 0 auto;
+}
+
+img.thumbnail {
+  width: 250px;
+  height: 135px;
+  box-shadow: 0px 2px 25px blue;
+}
+
+span.caption {
+  display: block;
+  font-size: large;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px blue;
+}
+
+button.contentHider,
+button#retailerButton,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited {
+  background: none;
+  text-decoration: underline;
+}
+
+button.x-men-evolution-season {
+  margin-bottom: 30pt;
+}
+
+button.contentHider {
+  font-size: 40px;  
+  font-weight: 900;  
+  margin: 40px 0;  
+}
+
+button#retailerButton {
+  padding: 0;
+  font-weight: 700;
+}
+
+div.retailers,
+div.retailer,
+button.x-men-evolution-season, 
+a.retailerLink.physical {
+  display: flex;
+  flex-direction: column;
+}
+
+div.retailers,
+div.retailer {
+  margin-top: 5%;  
+}
+
+h2.retailersHeading,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited {
+  text-shadow: none;
+  margin-top: 5%;
+}
+
+h2.retailersHeading.digital {
+  margin-top: 80px;
+}
+
+a.retailerLink {
+  font-size: 13pt;
+}
+
+img.disneyplus,
+img.apple-TV-logo,
+img.microsoft-store-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo,
+a.retailerLink:visited {
+  width: 150px;
+}
+
+img.disneyplus {
+  position: relative;   
+  bottom: -17px;
+  height: 75px;
+}  
+
+img.amazon-prime-video-logo {
+  border-radius: 25px;
+}
+
+img.google-play-logo {
+  height: 30px;
+  margin-top: 4%;
+}
+
+img,
+button.x-men-evolution,
+button.x-men-evolution-season { 
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+div.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+
+div.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 40px;
+  width: 55%;
+  border-radius: 25px;  
+}
+
+span.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+span.close:hover,
+span.close:focus {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  div.retailer {
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  div.retailer {
+    margin-bottom: 10%;
+  }  
+}
+
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: 20pt;
+  }
+
+  img.thumbnail {
+    width: 325px;
+    height: 185px;
+  }  
+
+  div.item {
+    width: 49%;
+  }
+
+  div.retailer {
+    margin: auto;    
+  }
+
+  img.vudu-logo {
+    margin-top: 20%;
+  } 
+
+  div.rating-areas,  
+  div.retailer,
+  div.retailerRow {
+    display: flex;
+   flex-direction: row;    
+  }
+
+  div.retailer {
+    margin-top: 20pt;
+  }
+
+  button.apple-tv-button,
+  button.microsoft-store-button,
+  button.vudu-button,
+  button.amazon-prime-video-button {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  img.x-men-evolution-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img.thumbnail {
+    width: 400px;
+    height: 225px;
+  }  
+
+  div.retailers {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  img.vudu-logo {
+    margin-top: 15%;
+  }
+
+  button.apple-tv-button,
+  button.microsoft-store-button,
+  button.amazon-prime-video-button,  
+  button.vudu-button,
+  button.google-play-button,
+  button.youtube-button {
+    margin-left: 15px;
+  }
+
+  button.google-play-button,
+  button.youtube-button {
+    margin-top: 5%;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+  div.item {
+    width: 33%;
+  }
+
+  img.thumbnail {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img.thumbnail {
+    width: 450px;
+    height: 250px;
+  }
+}

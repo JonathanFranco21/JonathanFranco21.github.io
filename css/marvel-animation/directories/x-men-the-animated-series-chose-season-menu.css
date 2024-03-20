@@ -1,0 +1,457 @@
+body,
+div.dropdown button.dropbtn,
+button#retailerButton {
+  margin: 0;
+}
+
+div.XMTAS,
+div.XM97 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+div.XMTAS {
+  background-image: url("/images/wallpaper/x-men/series/X-Men-The-Animated-Series-Wallpaper.png");  
+  padding-bottom: 32px;    
+}
+
+div.XM97 {
+  background-image: url("/images/wallpaper/x-men/series/X-Men-97-New-Wallpaper.png");
+  padding-bottom: 200px;
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, 
+h1, h2, p, li, 
+ul, button,
+button a:link,
+button a:visited {
+  font-family: avenir-light;    
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, 
+h1, h2, p, li, 
+ul, a:visited, 
+button.x-men-tas-season a,
+button.x-men-tas,
+button.next,
+button.contentHider,
+button#retailerButton {
+  color: white;  
+}
+
+div.navbar a, 
+div.dropdown,
+div.dropdown-content a {
+  float: left;
+}
+
+div.dropdown-content a, 
+div.dropdown:hover div.dropdown-content,
+img.x-men-tas-logo,
+img.x-men-97-logo,
+button.x-men-tas-season,
+button.x-men-tas,
+button.next {
+  display: block;
+}
+
+div.navbar, 
+div.dropdown {
+  overflow: hidden;  
+}
+
+div.navbar, 
+div.modal {
+  width: 100%;  
+}
+
+div.navbar {
+  background-color: #333;
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  font-size: 16px;  
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  padding: 14px 16px;
+}
+
+div.navbar a, h1, h2, h3, 
+p, p.overview, button,
+a.retailerLink.physical {
+  text-align: center;
+}
+
+span.close:hover,
+span.close:focus,
+div.navbar a,
+button.x-men-tas-season a,
+button.x-men-tas a,
+button.next {
+  text-decoration: none;
+}
+
+button.next {
+  margin-top: 100px;
+}
+
+div.dropdown button.dropbtn { 
+  outline: none;
+  background-color: inherit; 
+}
+
+div.dropdown button.dropbtn,
+button.contentHider,
+button#retailerButton,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited,
+button.x-men-tas-season,
+button.x-men-tas,
+button.next {
+  border: none;  
+}
+
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn,
+button.x-men-tas,
+button.next {
+  background-color: red;
+}
+
+button.x-men-tas-season {
+  background-color: blue;
+}
+
+div.dropdown-content,
+div.modal {
+  z-index: 1;  
+}
+
+div.dropdown-content,
+#violenceAndDisturbingContentArea,
+#suggestiveContentArea,
+#drinkingDrugAndGamblingContentArea,
+#languageArea,
+div.modal {
+  display: none;
+}
+
+div.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+div.dropdown-content a, 
+div.dropdown-content a:visited,
+h2.retailersHeading,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:link,
+a.retailerLink:active,
+a.retailerLink:visited,
+span.close:hover,
+span.close:focus {
+  color: black;
+}
+
+div.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+div.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+img.x-men-tas-logo,
+img.x-men-97-logo,
+button.x-men-tas-season,
+button.next,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+img.disneyplus,
+img.apple-TV-logo,
+img.microsoft-store-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo,
+img.target-logo,
+img.walmart-logo,
+img.amazon-logo,
+img.barnes-and-noble-logo {
+  margin: auto;
+}
+
+img.x-men-tas-logo,
+img.x-men-97-logo {
+  height: 150px;  
+  width: 260px;
+  box-shadow: none;
+}
+
+img.x-men-tas-logo {
+  padding-top: 30pt;  
+  padding-bottom: 30pt;
+}
+
+img.x-men-97-logo {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+h1, h2, 
+button {
+  margin: 0 20px auto;
+}
+
+h1, h2,  
+button.contentHider,
+button#retailerButton {
+  text-shadow: 0px 2px 5px blue;  
+}
+
+h1 {
+  margin-bottom: 30pt;  
+  font-size: 30pt;
+}
+
+h2,
+button.x-men-tas-season,
+button.x-men-tas,
+button.next,
+button#retailerButton {
+  font-size: 25pt;
+}
+
+h2.retailerHeader {
+  margin: 20pt 0 20pt 0;
+}
+
+button.contentHider,
+button#retailerButton,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited {
+  background: none;
+  text-decoration: underline;
+}
+
+button.x-men-tas-season {
+  margin-bottom: 30pt;
+}
+
+button.contentHider {
+  font-size: 40px;  
+  font-weight: 900;  
+  margin: 40px 0;  
+}
+
+button#retailerButton {
+  padding: 0;
+  font-weight: 700;
+}
+
+div.retailers,
+div.retailer,
+button.x-men-tas-season, 
+a.retailerLink.physical {
+  display: flex;
+  flex-direction: column;
+}
+
+div.retailers,
+div.retailer {
+  margin-top: 5%;  
+}
+
+h2.retailersHeading,
+button.apple-tv-button,
+button.microsoft-store-button,
+button.amazon-prime-video-button,
+button.vudu-button,
+button.google-play-button,
+button.youtube-button,
+a.retailerLink:visited {
+  text-shadow: none;
+  margin-top: 5%;
+}
+
+h2.retailersHeading.digital {
+  margin-top: 80px;
+}
+
+a.retailerLink {
+  font-size: 13pt;
+}
+
+img.disneyplus,
+img.apple-TV-logo,
+img.microsoft-store-logo,
+img.amazon-prime-video-logo,
+img.vudu-logo,
+img.google-play-logo,
+img.youtube-logo,
+a.retailerLink:visited {
+  width: 150px;
+}
+
+img.disneyplus {
+  position: relative;   
+  bottom: -22px;
+}  
+
+img.amazon-prime-video-logo {
+  border-radius: 25px;
+}
+
+img.google-play-logo {
+  height: 30px;
+  margin-top: 4%;
+}
+
+button.x-men-tas,
+button.x-men-tas-season,
+button.next { 
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+div.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+
+div.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 40px;
+  width: 55%;
+  border-radius: 25px;  
+}
+
+span.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+span.close:hover,
+span.close:focus {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  div.retailer {
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  div.retailer {
+    margin-bottom: 10%;
+  }  
+}
+
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: 20pt;
+  }
+
+  div.retailer {
+    margin: auto;    
+  }
+
+  img.vudu-logo {
+    margin-top: 20%;
+  } 
+
+  div.rating-areas,  
+  div.retailer,
+  div.retailerRow {
+    display: flex;
+    flex-direction: row;    
+  }
+
+  div.retailer {
+    margin-top: 20pt;
+  }
+
+  button.apple-tv-button,
+  button.microsoft-store-button,
+  button.vudu-button,
+  button.amazon-prime-video-button {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  img.x-men-tas-logo,
+  img.x-men-97-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  div.retailers {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  img.vudu-logo {
+    margin-top: 15%;
+  }
+
+  button.apple-tv-button,
+  button.microsoft-store-button,
+  button.amazon-prime-video-button,  
+  button.vudu-button,
+  button.google-play-button,
+  button.youtube-button {
+    margin-left: 15px;
+  }
+
+  button.google-play-button,
+  button.youtube-button {
+    margin-top: 5%;
+  }  
+}
