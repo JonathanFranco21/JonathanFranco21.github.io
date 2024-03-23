@@ -4,7 +4,7 @@ body {
   background-color: black;  
 }
 
-.ACOC {
+.A {
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,6 +16,7 @@ body {
 .dropdown:hover .dropbtn, 
 .dropdown-content a,  
 h2, h3, h4, p, button,
+button a,
 button a:visited {
   font-family: avenir-light;  
   color: white;  
@@ -28,7 +29,7 @@ button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
-.agatha-darkhold-diaries-logo {
+.agatha-logo {
   display: block;
 }
 
@@ -136,7 +137,7 @@ button a:hover, a:active {
   text-decoration: underline;
 }
 
-.agatha-darkhold-diaries-logo {
+.agatha-logo {
   height: 160px;
   width: 280px;
   padding-top: 50px;
@@ -145,7 +146,7 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 500px) {
-  .agatha-darkhold-diaries-logo {
+  .agatha-logo {
     height: 190px;
     width: 360px;
     padding-bottom: 280px;
@@ -153,7 +154,7 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 800px) {
-  .agatha-darkhold-diaries-logo {
+  .agatha-logo {
     height: 280px;
     width: 500px;
     padding-bottom: 220px;
@@ -161,7 +162,7 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 1000px) {
-  .agatha-darkhold-diaries-logo {
+  .agatha-logo {
     height: 270px;
     width: 500px;
     padding-bottom: 200px;

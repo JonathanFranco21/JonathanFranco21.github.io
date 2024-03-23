@@ -86,6 +86,9 @@ b {
   width: 250px;
   box-shadow: none;
   padding-bottom: 50pt;
+  margin: auto;
+  display: block;
+  padding-top: 50pt;
 }
 
 img {

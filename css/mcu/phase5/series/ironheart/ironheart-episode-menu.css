@@ -1,0 +1,166 @@
+body {
+  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
+  margin: auto;
+}
+
+div.I {
+  background-color: black;
+  background-size: cover;  
+  padding: 0 20px;
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a,
+button a:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.ironheart-logo {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, 
+h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+img.ironheart-logo {
+  height: 175px;
+  width: 280px;  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+h2, h3, h4, p {
+  text-shadow: 0px 2px 5px red;
+}
+
+p {
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+}
+
+h2, h4 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 50pt;
+}
+
+img.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
+}
+
+button.Ironheart {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 500px) {
+  img.ironheart-logo {
+    height: 300px;
+    width: 460px;  
+  }  
+}
+
+@media screen and (min-width: 800px) {
+  img.ironheart-logo {
+    height: 300px;
+    width: 500px;  
+  } 
+}
+
+@media screen and (min-width: 1000px) {
+  img.ironheart-logo {
+    padding-top: 10px;
+    padding-bottom: 80px; 
+  }
+}

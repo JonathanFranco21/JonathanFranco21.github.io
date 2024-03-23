@@ -1,0 +1,349 @@
+body,
+div.dropdown button.dropbtn {
+  margin: 0;
+}
+
+div.XM97E2, 
+div.XM97E3,
+div.XM97E1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 20px;
+}
+
+div.XM97E2  {
+  background-image: url("/images/thumbnails/x-men/x-men-97/X-Men-97-Episode-2.png");  
+  padding-bottom: 32px;  
+}
+
+div.XM97E3,
+div.XM97E1 {
+  padding-bottom: 200px;
+}
+
+div.XM97E3 {
+  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon.jpg");
+}
+
+div.XM97E1 {
+  background-image: url("/images/thumbnails/x-men/x-men-97/X-Men-97-Episode-1.png");
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, h1,  
+h2, h3, h4, p, li, 
+ul, button,
+button a:link,
+button a:visited,
+a:visited, .overview,
+a.reference:link,
+a.reference:visited {
+  font-family: avenir-light;    
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn, 
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn, 
+div.dropdown-content a, 
+h1, h2, h3, h4, p, li, 
+ul, a:visited, 
+p.overview,
+a.reference:link,
+a.reference:visited,
+button.x-men-97 a,
+button.next a,
+button.contentHider {
+  color: white;  
+}
+
+div.navbar a, 
+div.dropdown,
+div.dropdown-content a {
+  float: left;
+}
+
+div.dropdown-content a, 
+div.dropdown:hover div.dropdown-content,
+img.x-men-97-logo-top, 
+img.x-men-97-logo-bottom,
+img.x-men-the-animated-series-logo, 
+img.tv-pg-v-rating,
+img.tv-pg-lv-rating,
+button.next {
+  display: block;
+}
+
+div.navbar, 
+div.dropdown {
+  overflow: hidden;  
+}
+
+div.navbar, 
+div.modal {
+  width: 100%;  
+}
+
+div.navbar {
+  background-color: #333;
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  font-size: 16px;  
+}
+
+div.navbar a, 
+div.dropdown button.dropbtn {
+  padding: 14px 16px;
+}
+
+div.navbar a, h1, h2, h3, 
+p, p.overview, button {
+  text-align: center;
+}
+
+span.close:hover,
+span.close:focus,
+div.navbar a {
+  text-decoration: none;
+}
+
+div.dropdown button.dropbtn { 
+  outline: none;
+  background-color: inherit; 
+}
+
+div.dropdown button.dropbtn,
+button.contentHider,
+button.x-men-97, 
+button.next {
+  border: none;  
+}
+
+div.navbar a:hover, 
+div.dropdown:hover button.dropbtn {
+  background-color: red;
+}
+
+div.dropdown-content,
+div.modal {
+  z-index: 1;  
+}
+
+div.dropdown-content,
+#violenceAndDisturbingContentArea,
+#suggestiveContentArea,
+#drinkingDrugAndGamblingContentArea,
+#languageArea,
+div.modal {
+  display: none;
+}
+
+div.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+div.dropdown-content a, 
+div.dropdown-content a:visited {
+  color: black;
+}
+
+div.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+div.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+img.x-men-97-logo-top,
+img.x-men-97-logo-bottom, 
+img.x-men-the-animated-series-logo,
+img.tv-pg-v-rating,
+img.tv-pg-lv-rating,
+button.x-men-97,
+button.next,
+img.disneyplus {
+  margin: auto;
+}
+
+img.x-men-97-logo-top,
+img.x-men-97-logo-bottom,
+img.x-men-the-animated-series-logo {
+  height: 150px;  
+  width: 260px;
+}
+
+img.x-men-97-logo-top {
+  padding-top: 50pt;
+}
+
+img.x-men-97-logo-bottom,
+img.x-men-the-animated-series-logo  {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+p.overview {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ul, li, 
+p, h2, 
+button {
+  margin: 0 20px auto;
+}
+
+h1, h2, h3, 
+p.overview, 
+p, ul, li,
+button.contentHider {
+  text-shadow: 0px 2px 5px blue;  
+}
+
+h1, 
+h2.synopsisHeader,
+h3 {
+  margin-bottom: 0;  
+}
+ 
+h1 {
+  font-size: 30pt;
+}
+
+h2, 
+p.overview {
+  margin-bottom: 30pt;  
+}
+
+h2,
+button.x-men-97,
+button.next,
+button#retailerButton {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 18pt;
+
+}
+
+p.age {
+  font-size: 15pt;
+  margin-top: 0;
+  margin-bottom: 20pt;  
+}
+
+h2.retailerHeader {
+  margin: 20pt 0 20pt 0;
+}
+
+button.contentHider {
+  background: none;
+  text-decoration: underline;
+  font-size: 40px;  
+  font-weight: 900;  
+  margin: 40px 0;  
+}
+
+div.rating-areas {
+  margin-top: 5%;
+}
+
+img.disneyplus {
+  width: 150px;
+  position: relative;   
+  bottom: -22px;
+}  
+
+button.x-men-97, 
+button.next {
+  background-color: red;  
+  border-radius: 10px;
+}
+
+button.x-men-97 a, 
+button.next a {
+  text-decoration: none;
+}
+
+button.next {
+  margin-top: 100px;
+}
+
+a:link.reference {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover.reference, 
+a:active.reference {
+  text-decoration: underline;
+}
+
+a:visited.reference {
+  color: white;
+}
+
+div.rating-areas {
+  flex-direction: column;
+  margin: 30px 0 50px auto;
+}
+
+div.original-rating-area, 
+div.proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
+}
+
+img.tv-pg-v-rating, 
+img.tv-pg-lv-rating {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 0px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  div.rating-areas {
+    flex-direction: row;
+  } 
+}
+
+@media screen and (min-width: 800px) {
+  p.overview {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  h3 {
+    font-size: 20pt;
+  }
+
+  div.rating-areas {
+    display: flex;
+    flex-direction: row;    
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  img.x-men-97-logo-top,
+  img.x-men-97-logo-bottom,
+  img.x-men-the-animated-series-logo {
+    height: 300px;
+    width: 500px;
+  }
+}
