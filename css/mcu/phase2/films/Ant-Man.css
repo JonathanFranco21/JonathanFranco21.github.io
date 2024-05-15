@@ -42,7 +42,7 @@ h2, h3, h4, p, li,
 ul, button,
 button a:link,
 button a:visited,
-a:visited, .overview,
+a:visited, p.overview,
 a.reference:link,
 a.reference:visited, 
 a.retailerLink:visited,
@@ -129,9 +129,11 @@ div.dropdown button.dropbtn,
 button.contentHider,
 button#retailerButton,
 button.disney-plus-button,
-button.amc-plus-button,
-button.amc-button,
-button.philo-button,
+button.hulu-button,
+button.abc-button,
+button.fxnow-button,
+button.sling-TV-button,
+button.fuboTV-button,
 button.apple-tv-button,
 button.microsoft-store-button,
 button.amazon-prime-video-button,
@@ -179,9 +181,11 @@ div.dropdown-content a,
 div.dropdown-content a:visited,
 h2.retailersHeading,
 button.disney-plus-button,
-button.amc-plus-button,
-button.amc-button,
-button.philo-button,
+button.hulu-button,
+button.abc-button,
+button.fxnow-button,
+button.sling-TV-button,
+button.fuboTV-button,
 button.apple-tv-button,
 button.microsoft-store-button,
 button.amazon-prime-video-button,
@@ -216,9 +220,11 @@ img.avengers-age-of-ultron-logo,
 iframe, img.pg-13-rating,
 button.next,
 button.disney-plus-button,
-button.amc-plus-button,
-button.amc-button,
-button.philo-button,
+button.hulu-button,
+button.abc-button,
+button.fxnow-button,
+button.sling-TV-button,
+button.fuboTV-button,
 button.apple-tv-button,
 button.microsoft-store-button,
 button.amazon-prime-video-button,
@@ -227,9 +233,11 @@ button.google-play-button,
 button.youtube-button,
 img.disneyplus,
 img.disney-plus-logo,
-img.amc-plus-logo,
-img.amc-logo,
-img.philo-logo,
+img.hulu-logo,
+img.abc-logo,
+img.fxnow-logo,
+img.sling-TV-logo,
+img.fuboTV-logo,
 img.apple-TV-logo,
 img.microsoft-store-logo,
 img.amazon-prime-video-logo,
@@ -315,6 +323,12 @@ h2.retailerHeader {
 
 button.contentHider,
 button#retailerButton,
+button.disney-plus-button,
+button.hulu-button,
+button.abc-button,
+button.fxnow-button,
+button.sling-TV-button,
+button.fuboTV-button,
 button.apple-tv-button,
 button.microsoft-store-button,
 button.amazon-prime-video-button,
@@ -359,6 +373,12 @@ div.retailer {
 }
 
 h2.retailersHeading,
+button.disney-plus-button,
+button.hulu-button,
+button.abc-button,
+button.fxnow-button,
+button.sling-TV-button,
+button.fuboTV-button,
 button.apple-tv-button,
 button.microsoft-store-button,
 button.amazon-prime-video-button,
@@ -387,6 +407,11 @@ a.retailerLink {
 
 img.disneyplus,
 img.disney-plus-logo,
+img.hulu-logo,
+img.abc-logo,
+img.fxnow-logo,
+img.sling-TV-logo,
+img.fuboTV-logo,
 img.apple-TV-logo,
 img.microsoft-store-logo,
 img.amazon-prime-video-logo,
@@ -406,6 +431,9 @@ img.disneyplus {
   bottom: -22px;
 }  
 
+img.fxnow-logo,
+img.sling-TV-logo,
+img.fuboTV-logo,
 img.amazon-prime-video-logo {
   border-radius: 25px;
 }
@@ -551,6 +579,10 @@ span.close:focus {
     margin: auto;    
   }
 
+  img.hulu-logo {
+    margin-top: 5%;
+  }
+
   img.vudu-logo {
     margin-top: 20%;
   } 
@@ -559,13 +591,25 @@ span.close:focus {
   div.retailer,
   div.retailerRow {
     display: flex;
-   flex-direction: row;    
+    flex-direction: row;    
   }
 
   div.retailer {
     margin-top: 20pt;
   }
 
+  button.disney-plus-button {
+    margin-top: 10%;
+  }
+
+  button.hulu-button {
+    margin-top: 10%;
+  }
+
+  button.abc-button,
+  button.fxnow-button,
+  button.sling-TV-button,
+  button.fuboTV-button,
   button.apple-tv-button,
   button.microsoft-store-button,
   button.vudu-button,
