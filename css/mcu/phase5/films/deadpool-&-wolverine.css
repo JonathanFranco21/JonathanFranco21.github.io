@@ -1,11 +1,11 @@
 body {
-  /* background-image: url(https://wallpaperaccess.com/full/1186033.jpg); */
+  background-image: url("https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6354e7fa-270a-4abc-8b91-ef132e6a9a5e/compose?"); 
   background-color: black;
   background-size: cover;
   margin: 0;
 }
 
-.DP3 {
+.DP&W {
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -119,8 +119,8 @@ h3 {
   font-size: 50pt;
 }
 
-.deadpool-3-logo {
-  height: 160px;
+.deadpool-and-wolverine-logo {
+  height: 140px;
   width: 300px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -166,14 +166,14 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 400px) {
-	.deadpool-3-logo {
+	.deadpool-and-wolverine-logo {
 		height: 180px;
 		width: 350px;
 	}
 }
 
 @media screen and (min-width: 500px) {
-	.deadpool-3-logo {
+	.deadpool-and-wolverine-logo {
 		height: 230px;
 		width: 440px;				
 	}
@@ -185,7 +185,7 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 800px) {
-  .deadpool-3-logo {
+  .deadpool-and-wolverine-logo {
     height: 280px;
     width: 520px;
   }	
@@ -197,7 +197,7 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 1000px) {
-  .deadpool-3-logo {
+  .deadpool-and-wolverine-logo {
     height: 300px;
     width: 580px;
   }
@@ -209,14 +209,14 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 1200px) {
-  .deadpool-3-logo {
+  .deadpool-and-wolverine-logo {
     height: 340px;
     width: 640px;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .deadpool-3-logo {
+  .deadpool-and-wolverine-logo {
     height: 360px;
     width: 700px;
   }
