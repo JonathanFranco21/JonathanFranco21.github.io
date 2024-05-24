@@ -2,15 +2,37 @@ body {
   margin: auto;
 }
 
-.E {
+.E, .DAW, .WIS2, .WIS2E9 {
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0 20px;  
 }
 
 .E {
   background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9ECB3D60E83CB81C826471BB0550F7A541EF93311252A1F362D48158404778B0");
   padding-bottom: 32px;
+}
+
+.EE1 {
+  background-image: url("");
+}
+
+.DAW {
+  background-image: url("/images/wallpaper/mcu/phase5/films/Deadpool-And-Wolverine-Wallpaper.png");
+}
+
+.WIS2 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/71F9CDE799C548C0B092B49BB9DF95F64796BC1141079EA2EAEBF7BD0361FCC6");
+}
+
+.WIS2E9 {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CD602FA558DEC8488CF5A9C22D7AE43B884FA3B8EC837B6569C84DE56FA4EBC7");
+}
+
+
+.EE1, .DAW, .WIS2, .WIS2E9 {
+  padding-bottom: 200px;
 }
 
 .navbar a, .dropdown .dropbtn, 
@@ -19,7 +41,7 @@ body {
 .dropdown-content a,  
 h2, h3, h4, p, .caption, 
 button, button a:visited {
-  font-family: avenir-light;  
+  font-family: avenir-light;   
   color: white;  
 }
 
@@ -30,7 +52,9 @@ button, button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
-.echo-logo {
+.echo-logo,
+.deadpool-and-wolverine-logo,
+.what-if-season-2-logo {
   display: block;
 }
 
@@ -82,7 +106,8 @@ button, button a:visited {
 }
 
 .dropdown-content a, 
-.dropdown-content a:visited {
+.dropdown-content a:visited,
+h2.deadpool-and-wolverine-header {
   color: black;
 }
 
@@ -97,7 +122,9 @@ button, button a:visited {
   background-color: #ddd;
 }
 
-.echo-logo {
+.echo-logo,
+.deadpool-and-wolverine-logo,
+.what-if-season-2-logo {
   height: 160px;
   width: 280px;  
   padding-top: 50px;
@@ -123,15 +150,9 @@ h3 {
   font-size: 50pt;
 }
 
-.disneyplus, .hulu, .echo-logo-small {
+.disneyplus {
   position: relative;
   box-shadow: none;
-}
-
-.disneyplus, .hulu {
-  width: 150px;  
-  height: 91.07px;  
-  bottom: -22px;  
 }
 
 .disneyplus {
@@ -142,19 +163,9 @@ h3 {
   box-shadow: none;
 }
 
-.hulu {
-  padding: 0 10px; 
-  top: 30px;
-}
-
-.echo-logo-small {
-  width: 200px;
-  height: 110px;
-  padding: 0 10px; 
-  top: 35px;
-}
-
-.echo-logo {
+.echo-logo,
+.deadpool-and-wolverine-logo,
+.what-if-season-2-logo {
   border-radius: 0;
   box-shadow: none;
 }
@@ -202,7 +213,7 @@ img {
   text-shadow: 0px 2px 5px white;
 }
 
-.echo {
+.echo, .next {
   font-size: xx-large;
   background-color: red;
   border: none;
@@ -213,6 +224,11 @@ img {
   text-align: center;
   margin-top: 32px;  
   margin-left: 20px;
+}
+
+.next {
+  display: block;
+  margin: auto;
 }
 
 a:link {
@@ -253,7 +269,9 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 500px) {
-  .echo-logo {
+  .echo-logo,
+  .deadpool-and-wolverine-logo,
+  .what-if-season-2-logo {
     height: 280px;
     width: 460px;  
   }  
@@ -270,7 +288,9 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 800px) {
-  .echo-logo {
+  .echo-logo,
+  .deadpool-and-wolverine-logo,
+  .what-if-season-2-logo {
     height: 300px;
     width: 500px;  
   } 
@@ -298,12 +318,26 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 1000px) {
+
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  h3 {
+    font-size: 40pt;
+  }
   iframe {
     height: 500px;
     width: 900px;
   }
 
-  .echo-logo {
+  .echo-logo,
+  .deadpool-and-wolverine-logo,
+  .what-if-season-2-logo {
     padding: 50px 0px; 
   }
 

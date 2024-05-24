@@ -1,10 +1,10 @@
 body {
-  background-image: url("https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6354e7fa-270a-4abc-8b91-ef132e6a9a5e/compose?"); 
   background-size: cover;
   margin: 0;
 }
 
-.DP&W {
+.DPAW {
+  background-image: url("https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/6354e7fa-270a-4abc-8b91-ef132e6a9a5e/compose?");   
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;

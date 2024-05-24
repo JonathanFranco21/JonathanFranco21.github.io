@@ -239,7 +239,8 @@ img {
   text-shadow: 0px 2px 5px red;
 }
 
-.item.deadpool-and-wolverine {
+div.item.deadpool-and-wolverine,
+div.item.avengers-sw {
   width: 100%;
 }
 
@@ -286,7 +287,7 @@ img {
   }*/
   
   div.item.spider-man-ffh,
-  div.item.daredevil-ba,
+  div.item.ironheart,
   div.item.what-if-s3 {
     width: 100%;
   }
@@ -323,16 +324,14 @@ img {
 
 @media screen and (min-width: 1200px) {
   div.item.avengers-endgame, 
-  div.item.what-if-s2 {
+  div.item.what-if-s2,
+  div.item.vision-quest {
     width: 55%;
-  }
-  
-  div.item.avengers-sw  {
-    width: 100%;
   }
 
   div.item,
-  div.item.what-if-s3 {
+  div.item.what-if-s3,
+  div.item.avengers-sw {
     width: 33%;
   }
 

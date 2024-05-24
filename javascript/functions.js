@@ -1,13 +1,6 @@
-var countDownDate1 = new Date("Apr 3, 2024 00:00:00").getTime();
-//var countDownDate1 = new Date("Apr 10, 2024 00:00:00").getTime();
-//var countDownDate1 = new Date("Apr 17, 2024 00:00:00").getTime();
-//var countDownDate1 = new Date("Apr 24, 2024 00:00:00").getTime();
-//var countDownDate1 = new Date("May 1, 2024 00:00:00").getTime();
-//var countDownDate1 = new Date("May 8, 2024 00:00:00").getTime();
-//var countDownDate1 = new Date("May 15, 2024 00:00:00").getTime();
-//var countDownDate1 = new Date("May 22, 2024 00:00:00").getTime();
-var countDownDate2 = new Date("Apr 9, 2024 00:00:00").getTime();
-var countDownDate3 = new Date("Jul 26, 2024 00:00:00").getTime();
+var countDownDate1 = new Date("Jul 26, 2024 00:00:00").getTime();
+var countDownDate2 = new Date("Sep 19, 2024 00:00:00").getTime();
+var countDownDate3 = new Date("Dec 31, 2024 00:00:00").getTime();
 
 var timer1 = document.getElementById("timer1");
 var timer2 = document.getElementById("timer2");

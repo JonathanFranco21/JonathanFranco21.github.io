@@ -1,0 +1,192 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjsq_11bqXgjjAf3pFPn05tiqAJxKAUwOzw&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin-bottom: 64px;
+}
+
+.Cerebro {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+p {
+  font-family: arial;
+  font-size: large;
+  color: white;
+  text-align: justify;
+  text-shadow: 0px 2px 5px red;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin: 0;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 3%;
+  text-shadow: 0px 2px 5px red;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cerebro {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .item.item.the-new-mutants, .item.item.astonishing-x-men {
+    width: 100%;
+  }
+
+  .item.gifted {
+    width: 49%;
+  }
+
+  .item.legion {
+    width: 50%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 50pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.legion {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .item.gifted {
+    width: 33%;
+  }
+
+  .item.the-new-mutants, .item.astonishing-x-men {
+    width: 100%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
+}
