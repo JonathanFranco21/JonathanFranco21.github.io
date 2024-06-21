@@ -119,7 +119,7 @@ h3 {
 }
 
 .deadpool-and-wolverine-logo {
-  height: 140px;
+  height: 130px;
   width: 300px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -166,14 +166,14 @@ button a:hover, a:active {
 
 @media screen and (min-width: 400px) {
 	.deadpool-and-wolverine-logo {
-		height: 180px;
+		height: 150px;
 		width: 350px;
 	}
 }
 
 @media screen and (min-width: 500px) {
 	.deadpool-and-wolverine-logo {
-		height: 230px;
+		height: 180px;
 		width: 440px;				
 	}
 
@@ -185,7 +185,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 800px) {
   .deadpool-and-wolverine-logo {
-    height: 280px;
+    height: 220px;
     width: 520px;
   }	
 
@@ -197,7 +197,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 1000px) {
   .deadpool-and-wolverine-logo {
-    height: 300px;
+    height: 250px;
     width: 580px;
   }
 
@@ -209,14 +209,14 @@ button a:hover, a:active {
 
 @media screen and (min-width: 1200px) {
   .deadpool-and-wolverine-logo {
-    height: 340px;
+    height: 280px;
     width: 640px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .deadpool-and-wolverine-logo {
-    height: 360px;
+    height: 300px;
     width: 700px;
   }
 }
