@@ -1,0 +1,203 @@
+body {
+  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
+  margin: auto;
+  background-color: #ffefdc;  
+}
+
+.FF {
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 20px;
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:visited {
+  font-family: avenir-light;  
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+button,
+button a:visited { 
+  color: white;  
+}
+ 
+h2, h3, h4, p {
+  color: #008faa;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.agatha-coven-of-chaos-logo {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: #008faa;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+h2, h3, h4, p {
+  text-shadow: 0px 2px 5px #008faa;
+}
+
+p {
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+}
+
+h2, h4 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 50pt;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px;
+}
+
+.fantastic-four{
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+
+.fantastic-four-logo {
+  height: 180px;
+  width: 280px;
+  padding-top: 50px;
+  padding-bottom: 180px;
+  margin: auto;
+	display: block
+}
+
+@media screen and (min-width: 400px) {
+	.fantastic-four-logo {
+		height: 200px;
+		width: 320px;
+		padding-bottom: 200px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.fantastic-four-logo {
+		height: 250px;
+		width: 420px;
+		padding-bottom: 220px;				
+	}
+}
+
+@media screen and (min-width: 800px) {
+  .fantastic-four-logo {
+    height: 300px;
+    width: 500px;
+    padding-bottom: 100px;
+  }	
+}
+
+@media screen and (min-width: 1000px) {
+  .fantastic-four-logo {
+    height: 350px;
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fantastic-four-logo {
+    height: 370px;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .fantastic-four-logo {
+    height: 400px;
+    width: 650px;
+  }
+}

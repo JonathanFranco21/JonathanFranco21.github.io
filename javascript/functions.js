@@ -1,6 +1,5 @@
-var countDownDate1 = new Date("Jul 26, 2024 00:00:00").getTime();
-var countDownDate2 = new Date("Sep 19, 2024 00:00:00").getTime();
-var countDownDate3 = new Date("Dec 31, 2024 00:00:00").getTime();
+var countDownDate1 = new Date("Sep 19, 2024 00:00:00").getTime();
+var countDownDate2 = new Date("Dec 31, 2024 00:00:00").getTime();
 
 var timer1 = document.getElementById("timer1");
 var timer2 = document.getElementById("timer2");

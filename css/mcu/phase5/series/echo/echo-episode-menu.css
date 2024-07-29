@@ -318,7 +318,6 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 1000px) {
-
   b {
     font-size: 50pt;
   }
@@ -330,6 +329,7 @@ button a:hover, a:active {
   h3 {
     font-size: 40pt;
   }
+  
   iframe {
     height: 500px;
     width: 900px;
