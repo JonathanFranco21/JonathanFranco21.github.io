@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <link href="Marvel Cinematic Universe One Shots.css" rel="stylesheet" type="text/css" />
+  <link href="/css/mcu/directories/Marvel Cinematic Universe One Shots.css" rel="stylesheet" type="text/css" />
   <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
   <title>
     Marvel Cinematic Universe One Shot
@@ -19,19 +19,14 @@
   <br />
   <br />
 
-  <center>
-    <h2 class="timer_message">
-      MARVEL STUDIOS' BLACK PANTHER: WAKANDA FOREVER RELEASES ON DISNEY+ IN:
-    </h2>
-    <p id="timer1"></p>
-  </center>
+  <h2 class="timer_message">MARVEL TELEVISION'S AGATHA ALL ALONG EPISODES 1-2 RELEASES ON DISNEY+ IN:</h2>
+  <p id="timer1"></p> 
+  
+  <h2 class="timer_message">MARVEL ANIMATION'S YOUR FRIENDLY NEIGHBORHOOD SPIDER-MAN EPISODE 1-2 RELEASES ON DISNEY+ IN:</h2>
+  <p id="timer2"></p> 
 
-  <center>
-    <h2 class="timer_message">
-      MARVEL STUDIOS' ANT-MAN AND THE WASP: QUANTUMANIA RELEASES IN THEATERS:
-    </h2>
-    <p id="timer2"></p>
-  </center>
+  <h2 class="timer_message">MARVEL STUDIOS' CAPTAIN AMERICA: BRAVE NEW WORLD RELEASES IN THEATERS IN:</h2>
+  <p id="timer3"></p> 
 
   <center>
     <button class="review-schedule">
@@ -145,36 +140,6 @@
   </button>
 </body>
 
-<script>
-  var countDownDate1 = new Date("Feb 1, 2023 00:00:00").getTime();
-  var countDownDate2 = new Date("Feb 17, 2023 00:00:00").getTime();
-  
-  var timer1= document.getElementById("timer1")
-  var timer2= document.getElementById("timer2")
-  
-  function countdown(finish_date, timer){
-    var x = setInterval(function() {
-  
-      var now = new Date().getTime();
-  
-      var distance = finish_date - now;
-  
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-      timer.innerHTML = days + " day(s), " + hours + " hour(s), " + minutes + " minute(s), " + seconds + " second(s)";
-  
-  
-      if (distance < 0) {
-        clearInterval(x);
-        timer.innerHTML = "NOW AVAILABLE";
-        }
-      }, 1000);
-    }
-  
-    countdown(countDownDate1, timer1)
-    countdown(countDownDate2, timer2)
+  <script src="/javascript/functions.js">
   </script>
 </html>
