@@ -1,4 +1,4 @@
-var countDownDate1 = new Date("Sep 19, 2024 00:00:00").getTime();
+var countDownDate1 = new Date("Oct 9, 2024 18:00:00").getTime();
 var countDownDate2 = new Date("Dec 31, 2024 00:00:00").getTime();
 var countDownDate3 = new Date("Feb 14, 2025 00:00:00").getTime();
 
@@ -28,9 +28,9 @@ function countdown(finish_date, timer){
     if (distance < 0) {
       clearInterval(x);
       timer.innerHTML = "NOW AVAILABLE";
-      }
-    }, 1000);
-  }
+    }
+  }, 1000);
+}
 
 countdown(countDownDate1, timer1)
 countdown(countDownDate2, timer2)
