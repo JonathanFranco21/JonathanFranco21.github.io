@@ -1,10 +1,9 @@
 body {
-  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
   margin: auto;
-  background-color: black;  
 }
 
-.B {
+.CABNW {
+  background-image: url("/images/wallpaper/mcu/phase5/films/Captain-America-Brave-New-World-Wallpaper.png");  
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;

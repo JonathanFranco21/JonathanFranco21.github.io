@@ -1,10 +1,9 @@
 body {
-  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
   margin: auto;
-  background-color: black;  
 }
 
 .T {
+  background-image: url("/images/wallpaper/mcu/phase5/films/Thunderbolts-Wallpaper.png");  
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -140,7 +139,7 @@ button a:hover, a:active {
 }
 
 .thunderbolts-logo {
-  height: 160px;
+  height: 40px;
   width: 280px;
   padding-top: 50px;
   padding-bottom: 180px;
@@ -149,7 +148,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 400px) {
 	.thunderbolts-logo {
-		height: 180px;
+		height: 45px;
 		width: 320px;
 		padding-bottom: 250px;
 	}
@@ -157,7 +156,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 500px) {
 	.thunderbolts-logo {
-		height: 230px;
+		height: 60px;
 		width: 420px;
 		padding-bottom: 280px;				
 	}
@@ -165,7 +164,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 800px) {
   .thunderbolts-logo {
-    height: 280px;
+    height: 65px;
     width: 500px;
     padding-bottom: 290px;
   }	
@@ -173,7 +172,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 1000px) {
   .thunderbolts-logo {
-    height: 300px;
+    height: 70px;
     width: 550px;
     padding-bottom: 270px;
   }
@@ -181,7 +180,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 1200px) {
   .thunderbolts-logo {
-    height: 340px;
+    height: 80px;
     width: 600px;
     padding-bottom: 230px;
   }
@@ -189,7 +188,7 @@ button a:hover, a:active {
 
 @media screen and (min-width: 1400px) {
   .thunderbolts-logo {
-    height: 360px;
+    height: 90px;
     width: 650px;
     padding-bottom: 200px;
   }

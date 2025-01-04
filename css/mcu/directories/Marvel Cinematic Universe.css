@@ -129,7 +129,7 @@ p {
 
 #timer1, #timer2, #timer3, 
 #timer4, #timer5, #timer6,
-#timer7 {
+#timer7, #timer8 {
   font-family: avenir-light;
   font-size: 35px;
   color: white;
@@ -239,7 +239,7 @@ img {
   text-shadow: 0px 2px 5px red;
 }
 
-div.item.what-if-s3,
+div.item.yfn-spider-man,
 div.item.ironheart {
   width: 100%;
 }
@@ -318,7 +318,7 @@ div.item.ironheart {
 
 @media screen and (min-width: 1200px) {
   div.item.avengers-endgame, 
-  div.item.thunderbolts,
+  div.item.aaa,
   div.item.vision-quest,
   div.item.blade {
     width: 55%;
@@ -326,15 +326,9 @@ div.item.ironheart {
 
   div.item,
   div.item.spider-man-ffh,
-  div.item.ironheart,
-
+  div.item.what-if-s3,
   div.item.avengers-sw {
     width: 33%;
-  }
-
-  div.item.aaa,
-  div.item.what-if-s3 {
-    width: 100%;
   }
 
   img {

@@ -1,6 +1,12 @@
-var countDownDate1 = new Date("Oct 9, 2024 18:00:00").getTime();
-var countDownDate2 = new Date("Dec 31, 2024 00:00:00").getTime();
-var countDownDate3 = new Date("Feb 14, 2025 00:00:00").getTime();
+var countDownDate1 = new Date("Jan 29, 2025 18:00:00").getTime();
+var countDownDate2 = new Date("Feb 14, 2025 00:00:00").getTime();
+var countDownDate3 = new Date("Mar 4, 2025 00:00:00").getTime();
+var countDownDate4 = new Date("May 2, 2025 18:00:00").getTime();
+var countDownDate5 = new Date("Jun 24, 2025 00:00:00").getTime();
+var countDownDate6 = new Date("Jul 25, 2025 00:00:00").getTime();
+var countDownDate7 = new Date("Aug 6, 2025 18:00:00").getTime();
+var countDownDate8 = new Date("Oct 3, 2025 00:00:00").getTime();
+
 
 var timer1 = document.getElementById("timer1");
 var timer2 = document.getElementById("timer2");
@@ -9,6 +15,7 @@ var timer4 = document.getElementById("timer4");
 var timer5 = document.getElementById("timer5");
 var timer6 = document.getElementById("timer6");
 var timer7 = document.getElementById("timer7");
+var timer8 = document.getElementById("timer8");
 
 function countdown(finish_date, timer){
   var x = setInterval(function() {
@@ -39,6 +46,7 @@ countdown(countDownDate4, timer4)
 countdown(countDownDate5, timer5)
 countdown(countDownDate6, timer6)
 countdown(countDownDate7, timer7)
+countdown(countDownDate8, timer8)
 
 function phase1hider() {
   var x = document.getElementById("phase1");
