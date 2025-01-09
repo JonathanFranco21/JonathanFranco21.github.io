@@ -1,38 +1,349 @@
 body {
-  background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  margin: 0;
+}
+
+.YFNSM, .WIS3, .WIS3E1, .E, .EE1, .TM {
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 20px;
 }
 
-b {
-  font-family: arial;
-  font-size: 50pt;
-  color: white;
+.YFNSM {
+  background-image: url("/images/wallpaper/mcu/phase5/series/Your-Friendly-Neighbordhood-Spider-Man-Wallpaper.png");
+  padding-bottom: 32px; 
 }
 
-img {
-  height: 230px;
-  width: 500px;
+.WIS3 {
+  background-image: url("/images/wallpaper/mcu/phase5/series/What-If-Season-3-Wallpaper.png");
 }
 
-.Spidey {
-  font-family: arial;
+.WIS3E1 {
+  background-image: url("/images/thumbnails/mcu/phase5/what-if-season-3/What-If-S3E1.png");
+}
+
+.E {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9ECB3D60E83CB81C826471BB0550F7A541EF93311252A1F362D48158404778B0");
+}
+
+.EE1 {
+  background-image: url("https://i.ytimg.com/vi/0jcVmmqtKQI/maxresdefault.jpg");
+}
+
+.TM {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/83BE23C45F654325CFC68EE5A8162820601E647A86BAC1944A771F36A8F07500");
+}
+
+.WIS3E1, .E, .EE1, .TM {
+  padding-bottom: 200px;
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, button,
+button a:link,
+button a:visited {
+  font-family: avenir-light;  
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+.what-if-season-2-logo,
+.what-if-season-2-bottom-logo,
+.echo-logo,
+.the-marvels-logo, iframe {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.what-if-season-2-logo,
+.echo-logo,
+.what-if-season-2-bottom-logo,
+.the-marvels-logo {
+  height: 155px;
+  width: 260px;
+  box-shadow: none;
+}
+
+.what-if-season-2-logo,
+.echo-logo,
+.what-if-season-2-bottom-logo,
+.the-marvels-logo, iframe {
+  margin: auto;
+}
+
+.echo-logo, 
+.what-if-season-2-bottom-logo,
+.the-marvels-logo {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.what-if-season-2-logo,
+.what-if-season-2-bottom-logo {
+  padding-left: 10px;
+}
+
+h2, h3, p {
+  text-shadow: 0px 2px 5px red;
+}
+
+h2, h4 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 30pt;
+}
+
+.disneyplus {
+  height: 75px;
+  width: 130px;
+  position: relative;
+  bottom: -17px;
+  box-shadow: none;
+}
+
+.what-if, .next {
   font-size: xx-large;
   background-color: red;
   border: none;
-  text-transform: uppercase;
-  color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-p {
-  font-family: arial;
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
-  color: white;
+.next {
+  display: block;
+  margin: auto;
 }
 
-h2 {
-  font-family: arial;
-  font-size: 25pt;
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px red;
+  height: 150px;
+  width: 260px;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px red;
+}
+
+.item {
+  margin: 0 32px auto;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.caption {
+  display: block;
+  font-family: avenir-light;
+  font-size: large;
   color: white;
+  margin-top: 3%;
+  text-shadow: 0px 2px 5px red;
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }  
+}
+
+@media screen and (min-width: 500px) {
+  .what-if-season-2-logo,
+  .echo-logo,
+  .what-if-season-2-bottom-logo,
+  .the-marvels-logo {
+    height: 200px;
+    width: 350px;
+  }
+
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .what-if-season-2-logo,
+  .echo-logo,
+  .what-if-season-2-bottom-logo,
+  .the-marvels-logo {
+    height: 260px;
+    width: 450px;
+  }
+
+  .item {
+    width: 49%;
+  }
+
+  .item.what-if-s2e9 {
+    width: 100%;
+  }
+
+  img {
+    width: 330px;
+    height: 185px;
+  }
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  h3 {
+    font-size: 40pt;
+  }
+
+  .what-if-season-2-logo,
+  .echo-logo,
+  .what-if-season-2-bottom-logo,
+  .the-marvels-logo {
+    height: 300px;
+    width: 500px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div.item {
+    width: 33%;
+  }
+
+  .item.what-if-s3e7 {
+    width: 55%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  img {
+    width: 450px;
+    height: 250px;
+  }
 }
