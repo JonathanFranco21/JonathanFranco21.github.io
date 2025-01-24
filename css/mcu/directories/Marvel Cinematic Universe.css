@@ -239,10 +239,6 @@ img {
   text-shadow: 0px 2px 5px red;
 }
 
-div.item.yfn-spider-man {
-  width: 100%;
-}
-
 .back {
   font-family: avenir-light;
   font-size: xx-large;
@@ -281,7 +277,8 @@ div.item.yfn-spider-man {
 
 @media screen and (min-width: 800px) { 
   div.item.spider-man-ffh,
-  div.item.what-if-s3 {
+  div.item.cabnw,
+  div.item.ironheart {
     width: 100%;
   }
 
@@ -317,7 +314,6 @@ div.item.yfn-spider-man {
 
 @media screen and (min-width: 1200px) {
   div.item.avengers-endgame, 
-  div.item.aaa,
   div.item.vision-quest,
   div.item.blade {
     width: 55%;
@@ -325,13 +321,9 @@ div.item.yfn-spider-man {
 
   div.item,
   div.item.spider-man-ffh,
-  div.item.what-if-s3,
+  div.item.ironheart,
   div.item.avengers-sw {
     width: 33%;
-  }
-
-  div.item.ironheart {
-    width: 100%;
   }
 
   img {

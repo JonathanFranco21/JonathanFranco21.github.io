@@ -2,20 +2,48 @@ body {
   margin: auto;
 }
 
-.CABNW {
-  background-image: url("/images/wallpaper/mcu/phase5/films/Captain-America-Brave-New-World-Wallpaper.png");  
+.CABNW, .AAA, .AAAE1, .E, .EE1 {
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0 20px;  
+}
+
+div.CABNW {
+  background-image: url("/images/wallpaper/mcu/phase5/films/Captain-America-Brave-New-World-Wallpaper.png");
+  padding-bottom: 32px;
+}
+
+div.AAA,
+div.AAAE1,
+div.E,
+div.EE5 {
+  padding-bottom: 200px;   
+}
+
+div.AAA {
+  background-image: url("/images/wallpaper/mcu/phase5/series/Agatha-All-Along-Wallpaper.png");
+}
+
+div.AAAE1 {
+  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon-Alternative.webp");
+}
+
+div.E {
+  background-image: url("/images/wallpaper/mcu/phase5/series/Echo-Wallpaper.png");
+}
+
+div.EE5 {
+  background-image: url("/images/thumbnails/");
 }
 
 .navbar a, .dropdown .dropbtn, 
 .navbar a:hover, 
 .dropdown:hover .dropbtn, 
 .dropdown-content a,  
-h2, h3, h4, p, button,
-button a:visited {
-  font-family: avenir-light;  
+h2, h3, h4, p, .caption, 
+button, button a:visited {
+  font-family: avenir-light;   
   color: white;  
 }
 
@@ -26,7 +54,9 @@ button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
-.agatha-coven-of-chaos-logo {
+img.captain-america-brave-new-world-logo,  
+img.agatha-all-along-logo,
+img.echo-logo {
   display: block;
 }
 
@@ -65,7 +95,7 @@ button a:visited {
 
 .navbar a:hover, 
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: gray;
 }
 
 .dropdown-content {
@@ -78,7 +108,8 @@ button a:visited {
 }
 
 .dropdown-content a, 
-.dropdown-content a:visited {
+.dropdown-content a:visited,
+h2.captain-america-brave-new-world-header {
   color: black;
 }
 
@@ -93,12 +124,26 @@ button a:visited {
   background-color: #ddd;
 }
 
-h2, h3, h4, p, button {
-  margin: 0 20px;  
+img.captain-america-brave-new-world-logo,  
+img.agatha-all-along-logo,
+img.echo-logo {
+  height: 160px;
+  width: 280px;  
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+img.captain-america-brave-new-world-logo {
+  padding-top: 50px;  
+}
+
+img.agatha-all-along-logo,
+img.echo-logo {
+  padding-top: 200px;
 }
 
 h2, h3, h4, p {
-  text-shadow: 0px 2px 5px red;
+  text-shadow: 0px 2px 5px white;
 }
 
 p {
@@ -116,18 +161,92 @@ h3 {
 }
 
 .disneyplus {
-  width: 150px;
   position: relative;
-  bottom: -22px;
+  box-shadow: none;
 }
 
-.cap4 {
+.disneyplus {
+  height: 75px;
+  width: 130px;
+  position: relative;
+  bottom: -17px;
+  box-shadow: none;
+}
+
+img.captain-america-brave-new-world-logo,  
+img.agatha-all-along-logo,
+img.echo-logo {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 5px 20px white;
+  margin: auto;
+  display: flex;
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px white;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px white;  
+}
+
+.caption {
+  display: block;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px white;
+}
+
+.agatha, .next {
   font-size: xx-large;
   background-color: red;
   border: none;
+  color: white;
   border-radius: 10px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-top: 32px;  
+  margin-left: 20px;
+}
+
+.next {
+  display: block;
+  margin: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
 }
 
 button a:link {
@@ -137,59 +256,133 @@ button a:link {
 button a:hover, a:active {
   text-decoration: underline;
 }
-
-.captain-america-brave-new-world-logo {
-  height: 80px;
-  width: 280px;
-  padding-top: 50px;
-  padding-bottom: 150px;
-  margin: auto;
-	display: block
+.item {
+  margin-bottom: 32px;
 }
 
-@media screen and (min-width: 400px) {
-	.captain-america-brave-new-world-logo {
-		height: 90px;
-		width: 320px;
-		padding-bottom: 140px;
-	}
+@media screen and (min-width: 300px) {
+  iframe {
+    height: 155px;
+    width: 280px;
+  } 
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
 }
 
 @media screen and (min-width: 500px) {
-	.captain-america-brave-new-world-logo {
-		height: 120px;
-		width: 420px;
-		padding-bottom: 200px;				
-	}
+  img.captain-america-brave-new-world-logo,  
+  img.agatha-all-along-logo,
+  img.echo-logo {
+    height: 280px;
+    width: 460px;  
+  }  
+
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
 }
 
 @media screen and (min-width: 800px) {
-  .captain-america-brave-new-world-logo {
-    height: 140px;
-    width: 500px;
-    padding-bottom: 230px;
-  }	
+  img.captain-america-brave-new-world-logo,  
+  img.agatha-all-along-logo,
+  img.echo-logo {
+    height: 300px;
+    width: 500px;  
+  } 
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+
+  .item.episode-9 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-  .captain-america-brave-new-world-logo {
-    height: 160px;
-    width: 550px;
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  h3 {
+    font-size: 40pt;
+  }
+  
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .captain-america-brave-new-world-logo {
-    height: 180px;
-    width: 600px;
-    padding-bottom: 300px;
+  .item.episode-4 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .item.episode-9 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 33%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .captain-america-brave-new-world-logo {
-    height: 200px;
-    width: 650px;
-    padding-bottom: 300px;
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
   }
 }
