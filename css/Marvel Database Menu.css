@@ -14,7 +14,8 @@ body {
 h2,  .timer_message,
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
-#timer7, .review-schedule,
+#timer7, #timer8, 
+.review-schedule,
 .universe,p, button,
 button a:link,
 a:visited {
@@ -25,7 +26,8 @@ a:visited {
 .navbar a, h2, .timer_message,
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
-#timer7, .review-schedule,
+#timer7, #timer8, 
+.review-schedule,
 .universe, p, button {
   text-align: center;
 }
@@ -33,7 +35,8 @@ a:visited {
 h2, .timer_message,
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
-#timer7, .review-schedule,
+#timer7, #timer8,
+.review-schedule,
 .universe {
   text-shadow: 0px 2px 5px red;  
 }
@@ -122,7 +125,7 @@ h2.timer_message {
 
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
-#timer7 {
+#timer7, #timer8 {
   font-size: 25pt;
   margin: 16px 64px auto;
   margin-bottom: 64px;

@@ -1,11 +1,10 @@
-var countDownDate1 = new Date("Jan 29, 2025 18:00:00").getTime();
-var countDownDate2 = new Date("Feb 14, 2025 00:00:00").getTime();
-var countDownDate3 = new Date("Mar 4, 2025 00:00:00").getTime();
-var countDownDate4 = new Date("May 2, 2025 18:00:00").getTime();
-var countDownDate5 = new Date("Jun 24, 2025 00:00:00").getTime();
-var countDownDate6 = new Date("Jul 25, 2025 00:00:00").getTime();
-var countDownDate7 = new Date("Aug 6, 2025 18:00:00").getTime();
-var countDownDate8 = new Date("Oct 3, 2025 00:00:00").getTime();
+var countDownDate1 = new Date("Feb 19, 2025 00:00:00").getTime();
+var countDownDate2 = new Date("Mar 4, 2025 18:00:00").getTime();
+var countDownDate3 = new Date("May 2, 2025 00:00:00").getTime();
+var countDownDate4 = new Date("Jun 24, 2025 00:00:00").getTime();
+var countDownDate5 = new Date("Jul 25, 2025 00:00:00").getTime();
+var countDownDate6 = new Date("Aug 6, 2025 18:00:00").getTime();
+var countDownDate7 = new Date("Oct 3, 2025 00:00:00").getTime();
 
 
 var timer1 = document.getElementById("timer1");
