@@ -2,12 +2,392 @@ body {
   margin: auto;
 }
 
-.T {
-  background-image: url("/images/wallpaper/mcu/phase5/films/Thunderbolts-Wallpaper.png");  
+div.T, div.IH, div.IHE1, div.DDBA, div.DDBAS1E9 {
   background-size: cover;  
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0 20px;  
 }
+
+div.T {
+  background-image: url("/images/wallpaper/mcu/phase5/films/Thunderbolts-Wallpaper.png");
+  padding-bottom: 32px;
+}
+
+div.IH,
+div.IHE1, 
+div.DDBA,
+div.DDBAS1E9 {
+  padding-bottom: 200px;   
+}
+
+div.IH, div.IHE1 {
+  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon-Alternative.webp");
+}
+
+div.AAAE1 {
+  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon-Alternative.webp");
+}
+
+div.DDBA {
+  background-image: url("/images/wallpaper/mcu/phase5/series/Daredevil-Born-Again-Wallpaper.png");
+}
+
+div.EE5 {
+  background-image: url("/images/thumbnails/");
+}
+
+.navbar a, .dropdown .dropbtn, 
+.navbar a:hover, 
+.dropdown:hover .dropbtn, 
+.dropdown-content a,  
+h2, h3, h4, p, .caption, 
+button, button a:visited {
+  font-family: avenir-light;   
+  color: white;  
+}
+
+.navbar a, .dropdown,
+.dropdown-content a {
+  float: left;
+}
+
+.dropdown-content a, 
+.dropdown:hover .dropdown-content,
+img.deadpool-and-wolverine-logo,  
+img.agatha-all-along-logo,
+img.echo-logo {
+  display: block;
+}
+
+.navbar, .dropdown {
+  overflow: hidden;  
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  font-size: 16px;  
+}
+
+.navbar a, 
+.dropdown .dropbtn {
+  padding: 14px 16px;
+}
+
+.navbar a, h2, h3, h4, p, button {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, 
+.dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, 
+.dropdown-content a:visited,
+h2.deadpool-and-wolverine-header {
+  color: black;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+img.deadpool-and-wolverine-logo,  
+img.agatha-all-along-logo,
+img.echo-logo {
+  height: 160px;
+  width: 280px;  
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+img.deadpool-and-wolverine-logo {
+  padding-top: 50px;  
+}
+
+img.agatha-all-along-logo,
+img.echo-logo {
+  padding-top: 200px;
+}
+
+h2, h3, h4, p {
+  text-shadow: 0px 2px 5px white;
+}
+
+p {
+  font-size: xx-large;
+  text-align: justify;
+  width: [width of img];
+}
+
+h2, h4 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 50pt;
+}
+
+.disneyplus {
+  position: relative;
+  box-shadow: none;
+}
+
+.disneyplus {
+  height: 75px;
+  width: 130px;
+  position: relative;
+  bottom: -17px;
+  box-shadow: none;
+}
+
+img.deadpool-and-wolverine-logo,  
+img.agatha-all-along-logo,
+img.echo-logo {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 5px 20px white;
+  margin: auto;
+  display: flex;
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px white;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px white;  
+}
+
+.caption {
+  display: block;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px white;
+}
+
+.agatha, .next {
+  font-size: xx-large;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-top: 32px;  
+  margin-left: 20px;
+}
+
+.next {
+  display: block;
+  margin: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+button a:hover, a:active {
+  text-decoration: underline;
+}
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 300px) {
+  iframe {
+    height: 155px;
+    width: 280px;
+  } 
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  img.deadpool-and-wolverine-logo,  
+  img.agatha-all-along-logo,
+  img.echo-logo {
+    height: 280px;
+    width: 460px;  
+  }  
+
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  img.deadpool-and-wolverine-logo,  
+  img.agatha-all-along-logo,
+  img.echo-logo {
+    height: 300px;
+    width: 500px;  
+  } 
+
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+
+  .item.episode-9 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  h3 {
+    font-size: 40pt;
+  }
+  
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.episode-4 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .item.episode-9 {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 33%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
+}
+
+
 
 .navbar a, .dropdown .dropbtn, 
 .navbar a:hover, 
