@@ -175,9 +175,18 @@ h3 {
 
 img.deadpool-and-wolverine-logo,  
 img.agatha-all-along-logo,
-img.echo-logo {
+img.echo-logo,
+img.thunderbolts-logo {
   border-radius: 0;
   box-shadow: none;
+}
+
+.thunderbolts-logo {
+  height: 40px;
+  width: 280px;
+  padding-top: 50px;
+  padding-bottom: 180px;
+  margin: auto;
 }
 
 iframe {
@@ -274,6 +283,14 @@ button a:hover, a:active {
   }
 }
 
+@media screen and (min-width: 400px) {
+  .thunderbolts-logo {
+		height: 45px;
+		width: 320px;
+		padding-bottom: 250px;
+	}
+}
+
 @media screen and (min-width: 500px) {
   img.deadpool-and-wolverine-logo,  
   img.agatha-all-along-logo,
@@ -301,25 +318,15 @@ button a:hover, a:active {
     width: 500px;  
   } 
 
+  .thunderbolts-logo {
+    height: 65px;
+    width: 500px;
+    padding-bottom: 290px;
+  }	
+
   iframe {
     height: 420px;
     width: 750px;
-  }
-
-  .item.episode-9 {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 100%;
-  }
-
-  div.item {
-    width: 49%;
-  }
-
-  img {
-    width: 350px;
-    height: 185px;
   }
 }
 
@@ -341,8 +348,10 @@ button a:hover, a:active {
     width: 900px;
   }
 
-  div.item {
-    width: 49%;
+  .thunderbolts-logo {
+    height: 70px;
+    width: 550px;
+    padding-bottom: 270px;
   }
 
   img {
@@ -352,217 +361,15 @@ button a:hover, a:active {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.episode-4 {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 55%;
-  }
-  
-  .item.episode-9 {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 33%;
-  }
-
-  div.item {
-    width: 33%;
-  }
-
-  img {
-    width: 350px;
-    height: 200px;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  div.item {
-    width: 33%;
-  }
-
-  img {
-    width: 450px;
-    height: 250px;
-  }
-}
-
-
-
-.navbar a, .dropdown .dropbtn, 
-.navbar a:hover, 
-.dropdown:hover .dropbtn, 
-.dropdown-content a,  
-h2, h3, h4, p, button,
-button a:visited {
-  font-family: avenir-light;  
-  color: white;  
-}
-
-.navbar a, .dropdown,
-.dropdown-content a {
-  float: left;
-}
-
-.dropdown-content a, 
-.dropdown:hover .dropdown-content,
-.thunderbolts-logo {
-  display: block;
-}
-
-.navbar, .dropdown {
-  overflow: hidden;  
-}
-
-.navbar {
-  background-color: #333;
-  width: 100%;
-}
-
-.navbar a, .dropdown .dropbtn {
-  font-size: 16px;  
-}
-
-.navbar a, 
-.dropdown .dropbtn {
-  padding: 14px 16px;
-}
-
-.navbar a, h2, h3, h4, p, button {
-  text-align: center;
-}
-
-.navbar a {
-  text-decoration: none;
-}
-
-.dropdown .dropbtn { 
-  border: none;
-  outline: none;
-  background-color: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, 
-.dropdown:hover .dropbtn {
-  background-color: yellow;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a, 
-.dropdown-content a:visited {
-  color: black;
-}
-
-.dropdown-content a {
-  float: none;
-  padding: 12px 16px;
-  text-decoration: none;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-h2, h3, h4, p, button {
-  margin: 0 20px;  
-}
-
-h2, h3, h4, p {
-  text-shadow: 0px 2px 5px yellow;
-}
-
-p {
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
-}
-
-h2, h4 {
-  font-size: 25pt;
-}
-
-h3 {
-  font-size: 50pt;
-}
-
-.disneyplus {
-  width: 150px;
-  position: relative;
-  bottom: -22px;
-}
-
-.thunderbolts {
-  font-size: xx-large;
-  background-color: red;
-  border: none;
-  border-radius: 10px;
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
-button a:link {
-  text-decoration: none;
-}
-
-button a:hover, a:active {
-  text-decoration: underline;
-}
-
-.thunderbolts-logo {
-  height: 40px;
-  width: 280px;
-  padding-top: 50px;
-  padding-bottom: 180px;
-  margin: auto;
-}
-
-@media screen and (min-width: 400px) {
-	.thunderbolts-logo {
-		height: 45px;
-		width: 320px;
-		padding-bottom: 250px;
-	}
-}
-
-@media screen and (min-width: 500px) {
-	.thunderbolts-logo {
-		height: 60px;
-		width: 420px;
-		padding-bottom: 280px;				
-	}
-}
-
-@media screen and (min-width: 800px) {
-  .thunderbolts-logo {
-    height: 65px;
-    width: 500px;
-    padding-bottom: 290px;
-  }	
-}
-
-@media screen and (min-width: 1000px) {
-  .thunderbolts-logo {
-    height: 70px;
-    width: 550px;
-    padding-bottom: 270px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .thunderbolts-logo {
     height: 80px;
     width: 600px;
     padding-bottom: 230px;
+  }
+  
+  img {
+    width: 350px;
+    height: 200px;
   }
 }
 
