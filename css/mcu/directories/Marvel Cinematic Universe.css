@@ -277,7 +277,6 @@ img {
 
 @media screen and (min-width: 800px) { 
   div.item.spider-man-ffh,
-  div.item.thunderbolts,
   div.item.ironheart {
     width: 100%;
   }
@@ -314,8 +313,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   div.item.avengers-endgame, 
-  div.item.cabnw,
-  div.item.vision-quest,
+  div.item.punisher,
   div.item.blade {
     width: 55%;
   }
