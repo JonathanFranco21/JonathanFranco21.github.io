@@ -33,8 +33,8 @@ div.DDBA {
   background-image: url("/images/wallpaper/mcu/phase5/series/Daredevil-Born-Again-Wallpaper.png");
 }
 
-div.EE5 {
-  background-image: url("/images/thumbnails/");
+div.DDBAS1E9 {
+  background-image: url("/images/thumbnails/mcu/phase5/daredevil-born-again-season-1/Daredevil-Born-Again-S1E9.png");
 }
 
 .navbar a, .dropdown .dropbtn, 
@@ -54,9 +54,9 @@ button, button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
-img.deadpool-and-wolverine-logo,  
-img.agatha-all-along-logo,
-img.echo-logo {
+img.thunderbolts-logo,
+img.ironheart-logo,  
+img.daredevil-born-again-logo {
   display: block;
 }
 
@@ -124,21 +124,21 @@ h2.deadpool-and-wolverine-header {
   background-color: #ddd;
 }
 
-img.deadpool-and-wolverine-logo,  
-img.agatha-all-along-logo,
-img.echo-logo {
+img.thunderbolts-logo,
+img.ironheart-logo,  
+img.daredevil-born-again-logo {
   height: 160px;
   width: 280px;  
   padding-bottom: 50px;
   margin: auto;
 }
 
-img.deadpool-and-wolverine-logo {
+img.thunderbolts-logo {
   padding-top: 50px;  
 }
 
-img.agatha-all-along-logo,
-img.echo-logo {
+img.ironheart-logo,
+img.daredevil-born-again-logo {
   padding-top: 200px;
 }
 

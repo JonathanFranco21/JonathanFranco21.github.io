@@ -91,8 +91,8 @@ function phase5hider() {
   }
 }
 
-function phase5NextHider() {
-  var x = document.getElementById("phase5Next");
+function phase6NextHider() {
+  var x = document.getElementById("phase6Next");
   if (x.style.display == "block") {
     x.style.display = "none";
   } else {
@@ -100,8 +100,8 @@ function phase5NextHider() {
   }
 }
 
-function phase5UpcomingHider() {
-  var x = document.getElementById("phase5Upcoming");
+function phase6UpcomingHider() {
+  var x = document.getElementById("phase6Upcoming");
   if (x.style.display == "block") {
     x.style.display = "none";
   } else {
