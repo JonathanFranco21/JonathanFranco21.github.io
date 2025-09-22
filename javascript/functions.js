@@ -1,9 +1,5 @@
-var countDownDate1 = new Date("Apr 1, 2025 00:00:00").getTime();
-var countDownDate2 = new Date("May 2, 2025 00:00:00").getTime();
-var countDownDate3 = new Date("Jun 24, 2025 00:00:00").getTime();
-var countDownDate4 = new Date("Jul 25, 2025 00:00:00").getTime();
-var countDownDate5 = new Date("Aug 6, 2025 18:00:00").getTime();
-var countDownDate6 = new Date("Oct 3, 2025 00:00:00").getTime();
+var countDownDate1 = new Date("Aug 1, 2025 18:00:00").getTime();
+var countDownDate2 = new Date("Oct 3, 2025 00:00:00").getTime();
 
 
 var timer1 = document.getElementById("timer1");
@@ -91,6 +87,15 @@ function phase5hider() {
   }
 }
 
+function phase6hider() {
+  var x = document.getElementById("phase6");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 function phase6NextHider() {
   var x = document.getElementById("phase6Next");
   if (x.style.display == "block") {
@@ -102,15 +107,6 @@ function phase6NextHider() {
 
 function phase6UpcomingHider() {
   var x = document.getElementById("phase6Upcoming");
-  if (x.style.display == "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-function phase6Hider() {
-  var x = document.getElementById("phase6");
   if (x.style.display == "block") {
     x.style.display = "none";
   } else {

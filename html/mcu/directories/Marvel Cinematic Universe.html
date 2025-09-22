@@ -54,20 +54,13 @@
     <h1>MARVEL CINEMATIC UNIVERSE</h1>
 
     <br />
-    <br />  
+    <br />    
 
-    
-    <h2 class="timer_message">MARVEL TELEVISION'S IRONHEART EPISODES 1-3 RELEASES ON DISNEY+ IN:</h2>
-    <p id="timer3"></p>    
-
-    <h2 class="timer_message">MARVEL STUDIOS' THE FANTASTIC FOUR: FIRST STEPS RELEASES IN THEATERS IN:</h2>
-    <p id="timer4"></p> 
-
-    <h2 class="timer_message">MARVEL ANIMATION'S EYES OF WAKANDA EPISODE 1 RELEASES ON DISNEY+ IN:</h2>
-    <p id="timer5"></p>      
+    <h2 class="timer_message">MARVEL ANIMATION'S EYES OF WAKANDA RELEASES ON DISNEY+ IN:</h2>
+    <p id="timer1"></p>      
     
     <h2 class="timer_message">MARVEL ANIMATION'S MARVEL ZOMBIES EPISODE 1 RELEASES ON DISNEY+ IN:</h2>
-    <p id="timer6"></p>    
+    <p id="timer2"></p>    
 
     <center>
       <button class="review-schedule">
@@ -86,7 +79,9 @@
     </button>            
   
     <div id="phase1">
-      <button id="ironManBtn"></button>      
+      <button id="ironManBtn">
+        
+      </button>      
         <div class="item">
           <img src="/images/banners/mcu/phase1/films/Iron-Man-Banner.png"
             alt="Marvel Studios' Iron Man" 
@@ -669,13 +664,11 @@
       </div>         
     </div>
 
-    <h2 class="next-installment">NEXT MCU INSTALLMENT</h2>
-      
-    <button class="contentHider next" onclick="phase6NextHider();">
+    <button class="contentHider" onclick="phase6hider();">
       PHASE 6
-    </button>          
+    </button>    
 
-    <div id="phase6Next">
+    <div id="phase6">
       <div class="item tfffs">
         <a href="/html/mcu/phase6/films/the-fantastic-four-first-steps.html">
           <img src="/images/banners/mcu/phase6/films/The-Fantastic-Four-First-Steps-Banner.png"
@@ -683,26 +676,26 @@
             title="Marvel Studios' The Fantastic Four: First Steps" />
         </a>
         <span class="caption">Marvel Studios' The Fantastic Four: First Steps</span>
-      </div>
-    </div>
-
-    <h2 class="coming-soon">COMING SOON</h2>
-
-    <button class="contentHider" onclick="phase6Hider();">
-      PHASE 6
-    </button>     
-    
-    <div id="phase6">
+      </div> 
+      
       <div class="item eyes-of-wakanda">
         <a href="/html/mcu/phase6/series/eyes-of-wakanda/eyes-of-wakanda-episode-menu.html">
           <img
-            src="/images/banners/mcu/phase6/series/Eyes-Of-Wakanda-Banner.jpg"
+            src="/images/banners/mcu/phase6/series/Eyes-Of-Wakanda-Banner.png"
             alt="Marvel Animation's Eyes of Wakanda" 
             title="Marvel Animation's Eyes of Wakanda" />
         </a>
         <span class="caption">Marvel Animation's Eyes of Wakanda</span>
-      </div>      
+      </div>        
+    </div>
 
+    <h2 class="next-installment">NEXT MCU INSTALLMENT</h2>
+ 
+    <button class="contentHider next" onclick="phase6NextHider();">
+      PHASE 6
+    </button>          
+
+    <div id="phase6Next">
       <div class="item marvel-zombies">
         <a href="/html/mcu/phase6/series/marvel-zombies/marvel-zombies-episode-menu.html">
           <img src="/images/banners/mcu/phase6/series/Marvel-Zombies-Banner.jpg"
@@ -710,8 +703,16 @@
             title="Marvel Animation's Marvel Zombies" />
         </a>
         <span class="caption">Marvel Animation's Marvel Zombies</span>
-      </div>     
-      
+      </div>  
+    </div>
+
+    <h2 class="coming-soon">COMING SOON</h2>
+
+    <button class="contentHider" onclick="phase6UpcomingHider();">
+      PHASE 6
+    </button>     
+    
+    <div id="phase6Upcoming">
       <div class="item marvel-zombies">
         <a href="/html/mcu/phase6/series/wonder-man/wonder-man-episode-menu.html">
           <img src="/images/banners/mcu/phase6/series/Wonder-Man-Banner.jpg"
