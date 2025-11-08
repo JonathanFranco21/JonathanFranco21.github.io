@@ -1,12 +1,13 @@
 body {
-  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
   margin: auto;
 }
 
 div.MZ {
-  background-color: black;
+  background-image: url("/images/wallpaper/mcu/phase6/series/Marvel-Zombies-Wallpaper.png");
   background-size: cover;  
-  padding: 0 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 20px;  
 }
 
 .navbar a, .dropdown .dropbtn, 

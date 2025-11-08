@@ -264,7 +264,7 @@ img {
   margin-bottom: 32px;
 }
 
-div.item.tfffs {
+div.item.wonder-man {
   width: 100%;
 }
 
@@ -280,7 +280,9 @@ div.item.tfffs {
 }
 
 @media screen and (min-width: 800px) { 
-  div.item.spider-man-ffh {
+  div.item.spider-man-ffh,
+  div.item.marvel-zombies,
+  div.item.avengers-sw {
     width: 100%;
   }
 
@@ -322,6 +324,7 @@ div.item.tfffs {
 
   div.item,
   div.item.spider-man-ffh,
+  div.item.marvel-zombies,
   div.item.avengers-sw {
     width: 33%;
   }
