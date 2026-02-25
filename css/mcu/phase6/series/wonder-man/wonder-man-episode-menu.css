@@ -1,9 +1,9 @@
 body {
-  /*background-image: url("https://www.fg-a.com/wallpapers/2020-black-crystalline-peaks-image.jpg");*/
   margin: auto;
 }
 
 div.WM {
+  background-image: url("/images/wallpaper/mcu/phase6/series/Wonder-Man-Wallpaper.png");
   background-color: black;
   background-size: cover;  
   padding: 0 20px;
