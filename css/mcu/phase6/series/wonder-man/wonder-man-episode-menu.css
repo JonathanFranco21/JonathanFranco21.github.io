@@ -1,12 +1,33 @@
 body {
-  margin: auto;
+  margin: 0;
 }
 
-div.WM {
-  background-image: url("/images/wallpaper/mcu/phase6/series/Wonder-Man-Wallpaper.png");
-  background-color: black;
-  background-size: cover;  
+.WM, .WME1, .T, .CABNW, .WIS3, .WIS3E8 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 0 20px;
+}
+
+.WM {
+  background-image: url("/images/wallpaper/mcu/phase6/series/Wonder-Man-Wallpaper.png");
+  padding-bottom: 32px; 
+}
+
+.WME1 {
+  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon-Alternative.webp");
+}
+
+.DDBA {
+  background-image: url("/images/wallpaper/mcu/phase5/films/Thunderbolts-Wallpaper.png");
+}
+
+.CABNW {
+  background-image: url("/images/wallpaper/mcu/phase5/films/Captain-America-Brave-New-World-Wallpaper.png");
+}
+
+.WME1, .DDBA, .CABNW {
+  padding-bottom: 200px;
 }
 
 .navbar a, .dropdown .dropbtn, 
@@ -14,7 +35,7 @@ div.WM {
 .dropdown:hover .dropbtn, 
 .dropdown-content a,  
 h2, h3, h4, p, button,
-button a,
+button a:link,
 button a:visited {
   font-family: avenir-light;  
   color: white;  
@@ -27,7 +48,11 @@ button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
-.wonder-man-logo {
+.daredevil-born-again-logo,
+.daredevil-born-again-bottom-logo,
+.captain-america-brave-new-world-logo,
+.thunderbolts-logo,
+iframe {
   display: block;
 }
 
@@ -94,22 +119,55 @@ button a:visited {
   background-color: #ddd;
 }
 
-.wonder-man-logo {
-  height: 175px;
-  width: 280px;  
-  padding-top: 50px;
-  padding-bottom: 150px;
+.daredevil-born-again-logo,
+.daredevil-born-again-bottom-logo,
+.thunderbolts-logo,
+.captain-america-brave-new-world-logo {
+  width: 260px;
+  box-shadow: none;
+}
+
+.daredevil-born-again-logo,
+.daredevil-born-again-bottom-logo,
+.thunderbolts-logo {
+  height: 100px;
+}
+
+.thunderbolts-logo,
+.captain-america-brave-new-world-logo {
+  height: 75px;
+}
+
+.daredevil-born-again-logo,
+.daredevil-born-again-bottom-logo,
+.captain-america-brave-new-world-logo,
+.thunderbolts-logo, iframe {
   margin: auto;
 }
 
-h2, h3, h4, p {
-  text-shadow: 0px 2px 5px yellow;
+.daredevil-born-again-logo,
+.daredevil-born-again-bottom-logo,
+.captain-america-brave-new-world-logo,
+.thunderbolts-logo {
+  padding-bottom: 50px;
 }
 
-p {
-  font-size: xx-large;
-  text-align: justify;
-  width: [width of img];
+.daredevil-born-again-bottom-logo,
+.captain-america-brave-new-world-logo,
+.thunderbolts-logo {
+  padding-top: 200px;
+}
+
+.daredevil-born-again-logo {
+  padding-top: 50px;
+}
+
+.thunderbolts-logo {
+  padding-left: 10px;
+}
+
+h2, h3, p {
+  text-shadow: 0px 2px 5px yellow;
 }
 
 h2, h4 {
@@ -117,22 +175,29 @@ h2, h4 {
 }
 
 h3 {
-  font-size: 50pt;
+  font-size: 30pt;
 }
 
 .disneyplus {
-  width: 150px;
+  height: 75px;
+  width: 130px;
   position: relative;
-  bottom: -22px;
+  bottom: -17px;
+  box-shadow: none;
 }
 
-.wakanda {
+.what-if, .next {
   font-size: xx-large;
   background-color: yellow;
   border: none;
   border-radius: 10px;
   margin-top: 50px;
   margin-bottom: 30px;
+}
+
+.next {
+  display: block;
+  margin: auto;
 }
 
 button a:link {
@@ -143,30 +208,160 @@ button a:hover, a:active {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 500px) {
-  .wonder-man-logo {
-    height: 300px;
-    width: 460px;  
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px yellow;
+  height: 150px;
+  width: 260px;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px yellow;
+}
+
+.item {
+  margin: 0 32px auto;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.caption {
+  display: block;
+  font-family: avenir-light;
+  font-size: large;
+  color: white;
+  margin-top: 3%;
+  text-shadow: 0px 2px 5px yellow;
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
   }  
 }
 
-@media screen and (min-width: 800px) {
-  .wonder-man-logo {
-    height: 300px;
-    width: 500px;  
-  } 
+@media screen and (min-width: 500px) {
+  .daredevil-born-again-logo,
+  .daredevil-born-again-bottom-logo,
+  .captain-america-brave-new-world-logo,
+  .thunderbolts-logo {
+    width: 500px;
+  }
+
+  .daredevil-born-again-logo,
+  .daredevil-born-again-bottom-logo,
+  .thunderbolts-logo {
+    height: 200px;
+  }
+
+  .captain-america-brave-new-world-logo {
+    height: 150px;
+  }
+
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
 }
 
-@media screen and (min-width: 1000px) {
-  .wonder-man-logo {
-    padding-top: 10px;
-    padding-bottom: 250px; 
+@media screen and (min-width: 800px) {
+  .item {
+    width: 49%;
+  }
+
+  img {
+    width: 330px;
+    height: 185px;
+  }
+
+  iframe {
+    height: 420px;
+    width: 750px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .wonder-man-logo {
-    padding-top: 10px;
-    padding-bottom: 350px; 
+  b {
+    font-size: 50pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  h3 {
+    font-size: 40pt;
+  }
+
+  .daredevil-born-again-logo,
+  .daredevil-born-again-bottom-logo,
+  .captain-america-brave-new-world-logo,
+  .thunderbolts-logo {
+    width: 500px;
+  }
+
+  .daredevil-born-again-logo,
+  .daredevil-born-again-bottom-logo,
+  .thunderbolts-logo {
+    height: 200px;
+  }
+
+  .captain-america-brave-new-world-logo {
+    height: 150px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div.item {
+    width: 33%;
+  }
+
+  .item.daredevil-born-again-episode-10 {
+    width: 100%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  img {
+    width: 450px;
+    height: 250px;
   }
 }
