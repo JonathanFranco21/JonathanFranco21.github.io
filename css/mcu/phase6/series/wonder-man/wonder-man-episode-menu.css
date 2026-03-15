@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.WM, .WME1, .T, .CABNW, .WIS3, .WIS3E8 {
+.WM, .WME1, .DDBAS2, .DDBAS2E1, .MZ, .MZE4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
 }
 
 .WME1 {
-  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon-Alternative.webp");
+  background-image: url("/images/thumbnails/mcu/phase6/wonder-man/Wonder-Man-Episode-1.png");
 }
 
 .DDBA {
@@ -48,10 +48,10 @@ button a:visited {
 
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
+.wonder-man-logo,
+.wonder-man-bottom-logo
 .daredevil-born-again-logo,
-.daredevil-born-again-bottom-logo,
-.captain-america-brave-new-world-logo,
-.thunderbolts-logo,
+.marvel-zombies-logo,
 iframe {
   display: block;
 }
@@ -119,17 +119,20 @@ iframe {
   background-color: #ddd;
 }
 
+.wonder-man-logo,
+.wonder-man-bottom-logo,
 .daredevil-born-again-logo,
-.daredevil-born-again-bottom-logo,
-.thunderbolts-logo,
-.captain-america-brave-new-world-logo {
+.marvel-zombies-logo {
   width: 260px;
   box-shadow: none;
 }
 
+.wonder-man-bottom-logo {
+  width: 250px;
+}
+
 .daredevil-born-again-logo,
-.daredevil-born-again-bottom-logo,
-.thunderbolts-logo {
+.marvel-zombies-logo{
   height: 100px;
 }
 
@@ -138,32 +141,37 @@ iframe {
   height: 75px;
 }
 
+.wonder-man-logo {
+  height: 60px;
+}
+
+.wonder-man-bottom-logo {
+  height: 50px;
+}
+
+.wonder-man-logo,
+.wonder-man-bottom-logo,
 .daredevil-born-again-logo,
-.daredevil-born-again-bottom-logo,
-.captain-america-brave-new-world-logo,
-.thunderbolts-logo, iframe {
+.marvel-zombies-logo, iframe {
   margin: auto;
 }
 
+.wonder-man-logo,
+.wonder-man-bottom-logo,
 .daredevil-born-again-logo,
 .daredevil-born-again-bottom-logo,
-.captain-america-brave-new-world-logo,
-.thunderbolts-logo {
+.marvel-zombies-logo {
   padding-bottom: 50px;
 }
 
-.daredevil-born-again-bottom-logo,
+.wonder-man-bottom-logo,
 .captain-america-brave-new-world-logo,
 .thunderbolts-logo {
   padding-top: 200px;
 }
 
-.daredevil-born-again-logo {
+.wonder-man-logo {
   padding-top: 50px;
-}
-
-.thunderbolts-logo {
-  padding-left: 10px;
 }
 
 h2, h3, p {
