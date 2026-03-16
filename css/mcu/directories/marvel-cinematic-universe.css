@@ -264,7 +264,7 @@ img {
   margin-bottom: 32px;
 }
 
-div.item.daredevil-ba-s2 {
+div.item.punisher {
   width: 100%;
 }
 
@@ -318,6 +318,8 @@ div.item.daredevil-ba-s2 {
 
 @media screen and (min-width: 1200px) {
   div.item.avengers-endgame, 
+  div.item.wonder-man,
+  div.item.avengers-d,
   div.item.blade {
     width: 55%;
   }
@@ -329,8 +331,7 @@ div.item.daredevil-ba-s2 {
     width: 33%;
   }
 
-  div.item.ironheart,
-  div.item.wonder-man {
+  div.item.ironheart {
     width: 100%;
   }
 

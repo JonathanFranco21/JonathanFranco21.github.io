@@ -18,15 +18,23 @@ body {
   background-image: url("/images/thumbnails/mcu/phase6/wonder-man/Wonder-Man-Episode-1.png");
 }
 
-.DDBA {
-  background-image: url("/images/wallpaper/mcu/phase5/films/Thunderbolts-Wallpaper.png");
+.DDBAS2 {
+  background-image: url("/images/wallpaper/mcu/phase6/series/Daredevil-Born-Again-Season-2-Wallpaper.png");
 }
 
-.CABNW {
-  background-image: url("/images/wallpaper/mcu/phase5/films/Captain-America-Brave-New-World-Wallpaper.png");
+.DDBAS2E1 {
+  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon-Alternative.webp")
 }
 
-.WME1, .DDBA, .CABNW {
+.MZ {
+  background-image: url("/images/wallpaper/mcu/phase6/series/Marvel-Zombies-Wallpaper.png");
+}
+
+.MZE4 {
+  background-image: url("/images/thumbnails/mcu/phase6/marvel-zombies/Marvel-Zombies-Episode-4.png");
+}
+
+.WME1, .DDBAS2, .DDBAS2E1, .MZ, .MZE4 {
   padding-bottom: 200px;
 }
 
@@ -49,7 +57,7 @@ button a:visited {
 .dropdown-content a, 
 .dropdown:hover .dropdown-content,
 .wonder-man-logo,
-.wonder-man-bottom-logo
+.wonder-man-bottom-logo,
 .daredevil-born-again-logo,
 .marvel-zombies-logo,
 iframe {
@@ -131,14 +139,12 @@ iframe {
   width: 250px;
 }
 
-.daredevil-born-again-logo,
-.marvel-zombies-logo{
-  height: 100px;
+.daredevil-born-again-logo {
+  height: 125px;
 }
 
-.thunderbolts-logo,
-.captain-america-brave-new-world-logo {
-  height: 75px;
+.marvel-zombies-logo {
+  height: 150px;
 }
 
 .wonder-man-logo {
@@ -165,8 +171,8 @@ iframe {
 }
 
 .wonder-man-bottom-logo,
-.captain-america-brave-new-world-logo,
-.thunderbolts-logo {
+.daredevil-born-again-logo,
+.marvel-zombies-logo {
   padding-top: 200px;
 }
 
@@ -321,20 +327,17 @@ img {
   }
 
   .daredevil-born-again-logo,
-  .daredevil-born-again-bottom-logo,
-  .captain-america-brave-new-world-logo,
-  .thunderbolts-logo {
-    width: 500px;
+  .marvel-zombies-logo {
+    width: 400px;
   }
 
-  .daredevil-born-again-logo,
-  .daredevil-born-again-bottom-logo,
-  .thunderbolts-logo {
-    height: 200px;
+  .marvel-zombies-logo {
+    height: 225px;
   }
 
-  .captain-america-brave-new-world-logo {
-    height: 150px;
+  .wonder-man-logo {
+    height: 125px;
+    width: 525px;
   }
 
   iframe {
@@ -357,8 +360,8 @@ img {
     width: 33%;
   }
 
-  .item.daredevil-born-again-episode-10 {
-    width: 100%;
+  div.item.episode-7 {
+    width: 55%;
   }
 
   img {
