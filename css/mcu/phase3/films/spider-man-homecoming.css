@@ -14,20 +14,20 @@ div.GOTGV2 {
 }
 
 div.SMH {
-  background-image: url("/images/wallpaper/mcu/phase3/films/Guardians-Of-The-Galaxy-Vol-2-Wallpaper.png");
+  background-image: url("/images/wallpaper/mcu/phase3/films/Spider-Man-Homecoming-Wallpaper.png");
   padding-bottom: 32px;  
 }
 
-div.SMH,
-div.DS {
+div.TR,
+div.GOTGV2 {
   padding-bottom: 200px;   
 }
 
-div.SMH {
-  background-image: url("/images/wallpaper/mcu/phase3/films/Spider-Man-Homecoming-Wallpaper.png");
+div.TR {
+  background-image: url("/images/wallpaper/mcu/phase3/films/Thor-Ragnarok-Wallpaper.jpeg");
 }
 
-div.DS  {
+div.GOTGV2  {
   background-image: url("/images/wallpaper/mcu/phase3/films/Doctor-Strange-Wallpaper.png");  
 }
 
@@ -256,7 +256,7 @@ img.doctor-strange-logo {
   width: 260px;
 }
 
-img.spider-man-homecoming-logo,
+img.thor-ragnarok-logo,
 img.doctor-strange-logo {
   padding-top: 200px;
   padding-bottom: 50px;

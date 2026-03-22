@@ -155,7 +155,6 @@ button a:hover, a:active {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }

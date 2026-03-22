@@ -15,7 +15,7 @@ body {
 }
 
 .DDBAS1E1 {
-  background-image: url("/images/thumbnails/Disney-Plus-Coming-Soon-Alternative.webp");
+  background-image: url("/images/thumbnails/mcu/phase5/daredevil-born-again-season-1/Daredevil-Born-Again-S1E1.png");
 }
 
 .T {
@@ -166,7 +166,7 @@ iframe {
   padding-left: 10px;
 }
 
-h2, h3, p {
+h2, h3, h4, p {
   text-shadow: 0px 2px 5px red;
 }
 
@@ -186,7 +186,7 @@ h3 {
   box-shadow: none;
 }
 
-.what-if, .next {
+.born-again, .next {
   font-size: xx-large;
   background-color: red;
   border: none;
@@ -259,17 +259,20 @@ img {
   .daredevil-born-again-bottom-logo,
   .captain-america-brave-new-world-logo,
   .thunderbolts-logo {
-    width: 500px;
+    width: 400px;
   }
 
   .daredevil-born-again-logo,
-  .daredevil-born-again-bottom-logo,
-  .thunderbolts-logo {
+  .daredevil-born-again-bottom-logo {
     height: 200px;
   }
 
+  .thunderbolts-logo {
+    height: 90px;
+  }
+
   .captain-america-brave-new-world-logo {
-    height: 150px;
+    height: 100px;
   }
 
   iframe {
@@ -286,6 +289,10 @@ img {
 @media screen and (min-width: 800px) {
   .item {
     width: 49%;
+  }
+
+  div.item.episode-9 {
+    width: 100%;
   }
 
   img {
@@ -312,21 +319,17 @@ img {
     font-size: 40pt;
   }
 
-  .daredevil-born-again-logo,
-  .daredevil-born-again-bottom-logo,
   .captain-america-brave-new-world-logo,
   .thunderbolts-logo {
     width: 500px;
   }
 
-  .daredevil-born-again-logo,
-  .daredevil-born-again-bottom-logo,
   .thunderbolts-logo {
-    height: 200px;
+    height: 115px;
   }
 
   .captain-america-brave-new-world-logo {
-    height: 150px;
+    height: 125px;
   }
 
   iframe {
@@ -345,12 +348,9 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  div.item {
+  div.item,
+  div.item.episode-9 {
     width: 33%;
-  }
-
-  .item.daredevil-born-again-episode-10 {
-    width: 100%;
   }
 
   img {
@@ -363,5 +363,10 @@ img {
   img {
     width: 450px;
     height: 250px;
+  }
+
+  .thunderbolts-logo,
+  .captain-america-brave-new-world-logo {
+    padding-bottom: 150px;
   }
 }
