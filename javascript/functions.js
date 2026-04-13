@@ -1,4 +1,4 @@
-var countDownDate1 = new Date("Mar 31, 2026 18:00:00").getTime();
+var countDownDate1 = new Date("Apr 14, 2026 18:00:00").getTime();
 var countDownDate2 = new Date("May 12, 2026 00:00:00").getTime();
 var countDownDate3 = new Date("May 27, 2026 00:00:00").getTime();
 var countDownDate4 = new Date("Jul 31, 2026 00:00:00").getTime();
