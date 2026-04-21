@@ -174,18 +174,6 @@ a:visited {
   color: white;
 }
 
-div#phase1,
-div#phase2,
-div#phase3,
-div#phase4,
-div#phase5,
-div#phase6Next,
-div#phase6Upcoming,
-div#phase6,
-div#phaseUnknown {
-  display: none;
-}
-
 button.contentHider {
   font-family: avenir-light;
   color: white;
