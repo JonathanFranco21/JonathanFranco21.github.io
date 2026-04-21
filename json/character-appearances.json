@@ -6,11 +6,86 @@
     "resultType": "movie",
     "title": "Marvel Studios' The Incredible Hulk",
     "href": "/html/mcu/phase1/films/the-incredible-hulk.html",
-    "image": "/images/wallpaper/mcu/phase1/films/The-Incredible-Hulk-Wallpaper.jpg",
+    "image": "/images/banners/mcu/phase1/films/The-Incredible-Hulk-Banner.png",
     "alt": "Marvel Studios' The Incredible Hulk",
     "caption": "Marvel Studios' The Incredible Hulk",
     "keywords": [
-      "Hulk"
+      "Hulk",
+      "Bruce Banner"
+    ]
+  },
+  {
+    "id": "the-avengers",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "movie",
+    "title": "Marvel Studios' The Avengers",
+    "href": "/html/mcu/phase1/films/the-avengers.html",
+    "image": "/images/banners/mcu/phase1/films/The-Avengers-Banner.png",
+    "alt": "Marvel Studios' The Avengers",
+    "caption": "Marvel Studios' The Avengers",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ]
+  },
+    {
+    "id": "iron-man-3",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "movie",
+    "title": "Marvel Studios' Iron Man 3",
+    "href": "/html/mcu/phase2/films/iron-man-3.html",
+    "image": "/images/banners/mcu/phase2/films/Iron-Man-3-Banner.png",
+    "alt": "Marvel Studios' Iron Man 3",
+    "caption": "Marvel Studios' Iron Man 3",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ]
+  },
+    {
+    "id": "avengers-age-of-ultron",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "movie",
+    "title": "Marvel Studios' Avengers: Age of Ultron",
+    "href": "/html/mcu/phase2/films/avengers-age-of-ultron.html",
+    "image": "/images/banners/mcu/phase2/films/Avengers-Age-of-Ultron-Banner.png",
+    "alt": "Marvel Studios' Avengers: Age of Ultron",
+    "caption": "Marvel Studios' Avengers: Age of Ultron",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ]
+  },
+    {
+    "id": "thor-ragnarok",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "movie",
+    "title": "Marvel Studios' Thor: Ragnarok",
+    "href": "/html/mcu/phase3/films/thor-ragnarok.html",
+    "image": "/images/banners/mcu/phase3/films/Thor-Ragnarok-Banner.png",
+    "alt": "Marvel Studios' Thor: Ragnarok",
+    "caption": "Marvel Studios' Thor: Ragnarok",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ]
+  },
+  {
+    "id": "avengers-endgame",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "movie",
+    "title": "Marvel Studios' Avengers: Endgame",
+    "href": "/html/mcu/phase3/films/avengers-endgame.html",
+    "image": "/images/banners/mcu/phase3/films/Avengers-Endgame-Banner.png",
+    "alt": "Marvel Studios' Avengers: Endgame",
+    "caption": "Marvel Studios' Avengers: Endgame",
+    "keywords": [
+      "Hulk",
       "Bruce Banner"
     ]
   }

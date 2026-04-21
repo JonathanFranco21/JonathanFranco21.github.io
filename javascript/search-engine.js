@@ -9,7 +9,7 @@ fetch("/json/character-appearances.json")
 
 function createEntryCard(item) {
   return `
-    <div class="item>
+    <div class="item">
       <a href="${item.href}">
         <img src="${item.image}" 
               alt="${item.alt}"
@@ -20,8 +20,8 @@ function createEntryCard(item) {
   `;
 }
 
-document.getElementById("character-search").addEventListener("input", function () {
-  const query = this.value.toLowerCase().trin();
+function searchCharacter() {
+  const query = document.getElementById("character-search").value.toLowerCase().trim();
   const resultsContainer = document.getElementById("search-results");
   resultsContainer.innerHTML = "";
 
@@ -36,7 +36,7 @@ document.getElementById("character-search").addEventListener("input", function (
       item.alias,
       item.title,
       item.caption,
-      ...item(item.keywords || [])
+      ...(item.keywords || [])
     ].join(" ").toLowerCase();
 
     return searchableText.includes(query);
@@ -49,4 +49,6 @@ document.getElementById("character-search").addEventListener("input", function (
 
   resultsContainer.innerHTML = matches.map(createEntryCard).join("");
 
-});
+}
+
+document.getElementById("character-search").addEventListener("input", searchCharacter);
