@@ -264,7 +264,7 @@ img {
   margin-bottom: 32px;
 }
 
-div.item.punisher {
+div.item.spider-man-bnd {
   width: 100%;
 }
 
@@ -318,8 +318,6 @@ div.item.punisher {
 
 @media screen and (min-width: 1200px) {
   div.item.avengers-endgame, 
-  div.item.wonder-man,
-  div.item.avengers-d,
   div.item.blade {
     width: 55%;
   }
