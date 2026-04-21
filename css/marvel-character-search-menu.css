@@ -268,12 +268,6 @@ div.item.spider-man-bnd {
 }
 
 @media screen and (min-width: 800px) { 
-  div.item.spider-man-ffh,
-  div.item.marvel-zombies,
-  div.item.avengers-sw {
-    width: 100%;
-  }
-
   div.item {
     width: 49%;
   }
@@ -305,20 +299,8 @@ div.item.spider-man-bnd {
 }
 
 @media screen and (min-width: 1200px) {
-  div.item.avengers-endgame, 
-  div.item.blade {
-    width: 55%;
-  }
-
-  div.item,
-  div.item.spider-man-ffh,
-  div.item.marvel-zombies,
-  div.item.avengers-sw {
+  div.item {
     width: 33%;
-  }
-
-  div.item.ironheart {
-    width: 100%;
   }
 
   img {
