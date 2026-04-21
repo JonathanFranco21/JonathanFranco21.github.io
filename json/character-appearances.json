@@ -88,5 +88,20 @@
       "Hulk",
       "Bruce Banner"
     ]
+  },
+  {
+    "id": "she-hulk-attorney-at-law",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "series",
+    "title": "Marvel Studios' She-Hulk: Attorney At Law",
+    "href": "/html/mcu/phase4/series/she-hulk-attorney-at-law/she-hulk-attorney-at-law.html",
+    "image": "/images/banners/mcu/phase4/series/She-Hulk-Attorney-At-Law-Banner.png",
+    "alt": "Marvel Studios' She-Hulk: Attorney At Law",
+    "caption": "Marvel Studios' She-Hulk: Attorney At Law",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ]
   }
 ]
