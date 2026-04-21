@@ -46,6 +46,55 @@ function searchCharacter() {
     resultsContainer.innerHTML = "<p>No results found. Please try a different character name.</p>";
     return;
   }
+  
+  const movies = matches.filter(item => item.resultType === "movie");
+  const series = matches.filter(item => item.resultType === "series");
+  const specials = matches.filter(item => item.resultType === "specials");
+  const shorts = matches.filter(item => item.resultType === "shorts");
+  
+  if (movies.length > 0) {
+    html += '
+      <section class = "results-section">
+        <h2>Movies<h2>
+        <div class = "results-grid">
+          ${series.map(createEntryCard).join("")}
+        </div>
+      </section>
+    ';
+  }
+  
+  if (series.length > 0) {
+    html += '
+      <section class = "results-section">
+        <h2>Series<h2>
+        <div class = "results-grid">
+          ${series.map(createEntryCard).join("")}
+        </div>
+      </section>
+    ';
+  }
+  
+  if (specials.length > 0) {
+    html += '
+      <section class = "results-section">
+        <h2>Specials<h2>
+        <div class = "results-grid">
+          ${series.map(createEntryCard).join("")}
+        </div>
+      </section>
+    ';
+  }
+  
+  if (shorts.length > 0) {
+    html += '
+      <section class = "results-section">
+        <h2>Shorts<h2>
+        <div class = "results-grid">
+          ${series.map(createEntryCard).join("")}
+        </div>
+      </section>
+    ';
+  }
 
   resultsContainer.innerHTML = matches.map(createEntryCard).join("");
 
