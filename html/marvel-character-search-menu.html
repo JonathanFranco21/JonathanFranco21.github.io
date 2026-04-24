@@ -54,16 +54,18 @@
 
     <h1>THE MARVEL DATABASE</h1>   
     
-    <h2>SEARCH YOUR CHARACTER'S APPEARANCE HERE!</h2> 
+    <h2>SEARCH YOUR CHARACTER'S <br> APPEARANCE HERE!</h2> 
 
-    <input type="text" id="character-search" placeholder="Search for a Marvel character..." />
+    <div class="search-container">
+      <input type="text" id="character-search" placeholder="Search for a Marvel character..." />
+      <button class="search-button" type="button" onclick="searchCharacter()">
+        SEARCH
+      </button>      
+    </div>
+
     <div id="search-results"></div>
-
-    <button class="search-button" type="button" onclick="searchCharacter()">
-      SEARCH
-    </button>
      
-    <button class="database">
+    <button class="universe">
       <a href="/html/marvel-database-menu.html">BACK</a>
     </button>
 
