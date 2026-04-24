@@ -52,52 +52,42 @@ function searchCharacter() {
   const specials = matches.filter(item => item.resultType === "specials");
   const shorts = matches.filter(item => item.resultType === "shorts");
   
+  let html = "";
+
   if (movies.length > 0) {
-    html += '
-      <section class = "results-section">
-        <h2>Movies<h2>
-        <div class = "results-grid">
-          ${series.map(createEntryCard).join("")}
+    html += `
+      <section class="results-section">
+        <h2>Movies</h2>
+        <div class="results-grid">
+          ${movies.map(createEntryCard).join("")}
         </div>
       </section>
-    ';
+    `;
   }
-  
+
   if (series.length > 0) {
-    html += '
-      <section class = "results-section">
-        <h2>Series<h2>
-        <div class = "results-grid">
+    html += `
+      <section class="results-section">
+        <h2>Series</h2>
+        <div class="results-grid">
           ${series.map(createEntryCard).join("")}
         </div>
       </section>
-    ';
+    `;
   }
-  
-  if (specials.length > 0) {
-    html += '
-      <section class = "results-section">
-        <h2>Specials<h2>
-        <div class = "results-grid">
-          ${series.map(createEntryCard).join("")}
-        </div>
-      </section>
-    ';
-  }
-  
+
   if (shorts.length > 0) {
-    html += '
-      <section class = "results-section">
-        <h2>Shorts<h2>
-        <div class = "results-grid">
-          ${series.map(createEntryCard).join("")}
+    html += `
+      <section class="results-section">
+        <h2>Shorts</h2>
+        <div class="results-grid">
+          ${shorts.map(createEntryCard).join("")}
         </div>
       </section>
-    ';
+    `;
   }
 
-  resultsContainer.innerHTML = matches.map(createEntryCard).join("");
-
+  resultsContainer.innerHTML = html;
 }
 
 document.getElementById("character-search").addEventListener("input", searchCharacter);
