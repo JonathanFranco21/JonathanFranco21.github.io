@@ -239,6 +239,8 @@ img {
   flex: 0 0 auto;
 }
 
+
+
 @media screen and (min-width: 500px) {
   b, h2 {
     font-size: 50px;
