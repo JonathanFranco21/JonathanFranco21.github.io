@@ -52,8 +52,13 @@ function searchCharacter() {
   const specials = matches.filter(item => item.resultType === "specials");
   const shorts = matches.filter(item => item.resultType === "shorts");
   
+<<<<<<< HEAD
   let html = "";
 
+=======
+  let html = " ";
+  
+>>>>>>> cf1666a8455f7e559e1fb3534481d266f5874d9e
   if (movies.length > 0) {
     html += `
       <section class="results-section">
@@ -75,6 +80,20 @@ function searchCharacter() {
       </section>
     `;
   }
+<<<<<<< HEAD
+=======
+  
+  if (specials.length > 0) {
+    html += `
+      <section class="results-section">
+        <h2>Specials</h2>
+        <div class="results-grid">
+          ${specials.map(createEntryCard).join("")}
+        </div>
+      </section>
+    `;
+  }
+>>>>>>> cf1666a8455f7e559e1fb3534481d266f5874d9e
 
   if (shorts.length > 0) {
     html += `
@@ -86,7 +105,10 @@ function searchCharacter() {
       </section>
     `;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf1666a8455f7e559e1fb3534481d266f5874d9e
   resultsContainer.innerHTML = html;
 }
 
