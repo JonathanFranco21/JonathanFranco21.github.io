@@ -90,6 +90,36 @@
     ]
   },
   {
+    "id": "shang-chi-and-the-legend-of-the-ten-rings",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "movie",
+    "title": "Marvel Studios' Shang Chi and the Legend of the Ten Rings",
+    "href": "/html/mcu/phase4/movies/shang-chi-and-the-legend-of-the-ten-rings.html",
+    "image": "/images/banners/mcu/phase4/movies/Shang-Chi-and-the-Legend-of-the-Ten-Rings-Banner.png",
+    "alt": "Marvel Studios'  Shang Chi and the Legend of the Ten RingsLaw",
+    "caption": "Marvel Studios'  Shang Chi and the Legend of the Ten Rings",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ]
+  },
+  {
+    "id": "what-if-season-1",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "series",
+    "title": "Marvel Studios' What If...? (Season 1)",
+    "href": "/html/mcu/phase4/series/what-if-season-1/what-if-season-1-episode-menu.html",
+    "image": "/images/banners/mcu/phase4/series/What-If-Season-1-Banner.png",
+    "alt": "Marvel Studios' What If...? (Season 1)",
+    "caption": "Marvel Studios' What If...? (Season 1)",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ]
+  },
+  {
     "id": "she-hulk-attorney-at-law",
     "character": "Hulk",
     "alias": "Bruce Banner",
