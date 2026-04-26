@@ -12,7 +12,8 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": false
   },
   {
     "id": "the-avengers",
@@ -27,7 +28,8 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": false
   },
     {
     "id": "iron-man-3",
@@ -42,7 +44,8 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": true
   },
     {
     "id": "avengers-age-of-ultron",
@@ -57,7 +60,8 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": false
   },
     {
     "id": "thor-ragnarok",
@@ -72,7 +76,24 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": false
+  },
+  {
+    "id": "avengers-endgame",
+    "character": "Hulk",
+    "alias": "Bruce Banner",
+    "resultType": "movie",
+    "title": "Marvel Studios' Avengers: Infinity War",
+    "href": "/html/mcu/phase3/films/avengers-infinity-war.html",
+    "image": "/images/banners/mcu/phase3/films/Avengers-Infinity-War-Banner.png",
+    "alt": "Marvel Studios' Avengers: Infinity War",
+    "caption": "Marvel Studios' Avengers: Infinity War",
+    "keywords": [
+      "Hulk",
+      "Bruce Banner"
+    ],
+    "spoiler": false
   },
   {
     "id": "avengers-endgame",
@@ -87,7 +108,8 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": false
   },
   {
     "id": "shang-chi-and-the-legend-of-the-ten-rings",
@@ -102,7 +124,8 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": true
   },
   {
     "id": "what-if-season-1",
@@ -117,7 +140,8 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": false
   },
   {
     "id": "she-hulk-attorney-at-law",
@@ -132,6 +156,7 @@
     "keywords": [
       "Hulk",
       "Bruce Banner"
-    ]
+    ],
+    "spoiler": false
   }
 ]
