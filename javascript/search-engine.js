@@ -42,6 +42,10 @@ function searchCharacter() {
     return searchableText.includes(query);
   });
   
+  if (!showSpoilers) {
+    matches = matches.filter(item => !item.spoiler);
+  }
+  
   if (matches.length === 0) {
     resultsContainer.innerHTML = "<p>No results found. Please try a different character name.</p>";
     return;
