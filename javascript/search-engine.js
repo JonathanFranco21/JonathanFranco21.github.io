@@ -8,12 +8,16 @@ fetch("/json/character-appearances.json")
   .catch(error => console.error("Error fetching character appearances:", error));
 
 function createEntryCard(item) {
+  const spoilerClass = item.spoiler ? " spoiler-item" : "";
+  const spoilerBadge = item.spoiler ? `<div class="spoiler-badge">Spoiler</div>` : "";
+
   return `
-    <div class="item">
+    <div class="item${spoilerClass}">
+      ${spoilerBadge}
       <a href="${item.href}">
         <img src="${item.image}" 
-              alt="${item.alt}"
-              title="${item.title}" />
+             alt="${item.alt}"
+             title="${item.title}" />
       </a>
       <span class="caption">${item.caption}</span>
     </div>
@@ -22,7 +26,9 @@ function createEntryCard(item) {
 
 function searchCharacter() {
   const query = document.getElementById("character-search").value.toLowerCase().trim();
-  const resultsContainer = document.getElementById("search-results");
+  const resultsContainer = document.getElementById("results");
+  const showSpoilers = document.getElementById("spoiler-toggle").checked;
+
   resultsContainer.innerHTML = "";
 
   if (!query) {
@@ -30,7 +36,7 @@ function searchCharacter() {
     return;
   }
 
-  const matches = appearances.filter(item => {
+  let matches = appearances.filter(item => {
     const searchableText = [
       item.character,
       item.alias,
@@ -41,21 +47,20 @@ function searchCharacter() {
 
     return searchableText.includes(query);
   });
-  
+
   if (!showSpoilers) {
     matches = matches.filter(item => !item.spoiler);
   }
-  
+
   if (matches.length === 0) {
     resultsContainer.innerHTML = "<p>No results found. Please try a different character name.</p>";
     return;
   }
-  
+
   const movies = matches.filter(item => item.resultType === "movie");
   const series = matches.filter(item => item.resultType === "series");
-  const specials = matches.filter(item => item.resultType === "specials");
-  const shorts = matches.filter(item => item.resultType === "shorts");
-  
+  const shorts = matches.filter(item => item.resultType === "short");
+
   let html = "";
 
   if (movies.length > 0) {
@@ -90,6 +95,7 @@ function searchCharacter() {
       </section>
     `;
   }
+
   resultsContainer.innerHTML = html;
 }
 
