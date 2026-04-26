@@ -94,3 +94,4 @@ function searchCharacter() {
 }
 
 document.getElementById("character-search").addEventListener("input", searchCharacter);
+document.getElementById("spoiler-toggle").addEventListener("change", searchCharacter);
