@@ -49,39 +49,43 @@
       </div> 
     </div>  
 
+   
+
+    <h1>THE MARVEL DATABASE</h1>
+    <h2>SEARCH YOUR CHARACTER'S APPEARANCE HERE!</h2>
+
+    <div class="search-area">
+      <div class="search-row">
+        <input
+          type="text"
+          id="character-search"
+          placeholder="Search for a Marvel character..."
+        />
+        <button class="search-button" type="button" onclick="searchCharacter()">
+          SEARCH
+        </button>
+      </div>
+
+      <div class="spoiler-toggle-row">
+        <label for="spoiler-toggle" class="spoiler-toggle-label">Show spoiler entries</label>
+        <input type="checkbox" id="spoiler-toggle">
+      </div>
+
+      <div id="results"></div> 
+
+      <div class="universe">
+        <button
+          class="database"
+          type="button"
+          onclick="window.location.href='/html/marvel-database-menu.html'"
+        >
+          BACK
+        </button>
+      </div>
+    </div>
+
     <script src="/javascript/search-engine.js">
-    </script>     
-
-    <h1>THE MARVEL DATABASE</h1>   
-    
-    <h2>SEARCH YOUR CHARACTER'S <br> APPEARANCE HERE!</h2> 
-
-    <div class="search-container">
-      <input type="text" id="character-search" placeholder="Search for a Marvel character..." />
-      <button class="search-button" type="button" onclick="searchCharacter()">
-        SEARCH
-      </button>      
-    </div>
-    
-    <div class="spoiler-toggle-row">
-      <label class="spoiler-toggle-label">
-        <input type="checkbox" id="spoiler-toggle" />
-        Show spoiler entries
-      </label>
-    </div>
-
-    <div id="search-results"></div>
-     
-    <button class="universe">
-      <a href="/html/marvel-database-menu.html">BACK</a>
-    </button>
-
-    <!--<h2>FIND MOVIE/SHOW BY MARVEL CHARACTER APPEARANCE</h2>
-
-    <button class="universe">
-      <a href="/html/marvel-character-choose-menu.html">FIND MOVIES/SHOWS BY CHARACTER APPEARANCE</a> 
-    </button>-->    
-
-       
+    </script>  
+ 
   </body>
 </html> 

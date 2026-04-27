@@ -27,7 +27,10 @@ function createEntryCard(item) {
 function searchCharacter() {
   const query = document.getElementById("character-search").value.toLowerCase().trim();
   const resultsContainer = document.getElementById("results");
-  const showSpoilers = document.getElementById("spoiler-toggle").checked;
+  const spoilerToggle = document.getElementById("spoiler-toggle");
+  const showSpoilers = spoilerToggle.checked;
+
+  console.log("TOGGLE STATE:", showSpoilers);
 
   resultsContainer.innerHTML = "";
 
@@ -38,19 +41,24 @@ function searchCharacter() {
 
   let matches = appearances.filter(item => {
     const searchableText = [
-      item.character,
-      item.alias,
-      item.title,
-      item.caption,
+      item.character || "",
+      item.alias || "",
+      item.title || "",
+      item.caption || "",
       ...(item.keywords || [])
     ].join(" ").toLowerCase();
 
     return searchableText.includes(query);
   });
 
-  if (!showSpoilers) {
-    matches = matches.filter(item => !item.spoiler);
+  console.log("Before spoiler filter:", matches.length);
+
+  if (showSpoilers === false) {
+    matches = matches.filter(item => item.spoiler !== true);
   }
+
+  console.log("After spoiler filter:", matches.length);
+  console.log("Matching entries:", matches);
 
   if (matches.length === 0) {
     resultsContainer.innerHTML = "<p>No results found. Please try a different character name.</p>";
@@ -59,6 +67,8 @@ function searchCharacter() {
 
   const movies = matches.filter(item => item.resultType === "movie");
   const series = matches.filter(item => item.resultType === "series");
+  const episodes = matches.filter(item => item.resultType === "episode");
+  const specials = matches.filter(item => item.resultType === "special");
   const shorts = matches.filter(item => item.resultType === "short");
 
   let html = "";
@@ -85,6 +95,28 @@ function searchCharacter() {
     `;
   }
 
+  if (episodes.length > 0) {
+    html += `
+      <section class="results-section">
+        <h2>Episodes</h2>
+        <div class="results-grid">
+          ${episodes.map(createEntryCard).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  if (specials.length > 0) {
+    html += `
+      <section class="results-section">
+        <h2>Specials</h2>
+        <div class="results-grid">
+          ${specials.map(createEntryCard).join("")}
+        </div>
+      </section>
+    `;
+  }
+
   if (shorts.length > 0) {
     html += `
       <section class="results-section">
@@ -97,7 +129,22 @@ function searchCharacter() {
   }
 
   resultsContainer.innerHTML = html;
+  console.log("Movies:", movies.length, "Series:", series.length, "Shorts:", shorts.length);
 }
 
-document.getElementById("character-search").addEventListener("input", searchCharacter);
-document.getElementById("spoiler-toggle").addEventListener("change", searchCharacter);
+document.addEventListener("DOMContentLoaded", () => {
+  const searchInput = document.getElementById("character-search");
+  const spoilerToggle = document.getElementById("spoiler-toggle");
+
+  searchInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      searchCharacter();
+    }
+  });
+
+  spoilerToggle.addEventListener("change", function () {
+    if (document.getElementById("results").innerHTML.trim() !== "") {
+      searchCharacter();
+    }
+  });
+});
