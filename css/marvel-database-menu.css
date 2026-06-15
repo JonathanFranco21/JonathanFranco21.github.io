@@ -6,11 +6,7 @@ body {
   margin: 0;  
   margin-bottom: 100px;
 }
-
-.navbar a, .dropdown .dropbtn, 
-.navbar a:hover, 
-.dropdown:hover .dropbtn, 
-.dropdown-content a,  
+ 
 h2,  .timer_message,
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
@@ -23,7 +19,7 @@ a:visited {
   color: white;  
 }
 
-.navbar a, h2, .timer_message,
+a, h2, .timer_message,
 #timer1, #timer2, #timer3,
 #timer4, #timer5, #timer6,
 #timer7, #timer8, 
@@ -41,76 +37,8 @@ h2, .timer_message,
   text-shadow: 0px 2px 5px red;  
 }
 
-.navbar a, .dropdown,
-.dropdown-content a {
-  float: left;
-}
-
-.dropdown-content a, 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.navbar, .dropdown {
-  overflow: hidden;  
-}
-
-.navbar {
-  background-color: #333;
-  width: 100%;
-}
-
-.navbar a, .dropdown .dropbtn {
-  font-size: 16px;  
-}
-
-.navbar a, 
-.dropdown .dropbtn {
-  padding: 14px 16px;
-}
-
-.navbar a,
-a:link {
-  text-decoration: none;
-}
-
-.dropdown .dropbtn { 
-  border: none;
-  outline: none;
-  background-color: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, 
-.dropdown:hover .dropbtn,
-.review-schedule,
-.universe  {
+button {
   background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a, 
-.dropdown-content a:visited {
-  color: black;
-}
-
-.dropdown-content a {
-  float: none;
-  padding: 12px 16px;
-  text-decoration: none;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
 }
 
 h2 {

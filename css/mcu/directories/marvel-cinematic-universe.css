@@ -7,80 +7,6 @@ body {
   padding-bottom: 32px;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: avenir-light;
-  color: black;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: avenir-light;
-  margin: 0;
-}
-
-.navbar a:hover, 
-.dropdown:hover .dropbtn {
-  background-color: red;
-  font-family: avenir-light;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-family: avenir-light;
-}
-
-.dropdown-content a:link {
-  color: black;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown-content a:visited {
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 h1 {
   font-family: avenir-light;
   font-size: 40pt;
@@ -163,7 +89,6 @@ p {
 
 a:link {
   text-decoration: none;
-  color: white;
 }
 
 a:hover, a:active {
