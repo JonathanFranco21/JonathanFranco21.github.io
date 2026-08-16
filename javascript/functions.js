@@ -1,5 +1,5 @@
-var countDownDate1 = new Date("Jul 1, 2026 18:00:00").getTime();
-var countDownDate2 = new Date("Jul 31, 2026 00:00:00").getTime();
+var countDownDate1 = new Date("Jul 31, 2026 00:00:00").getTime();
+var countDownDate2 = new Date("Aug 5, 2026 00:00:00").getTime();
 var countDownDate3 = new Date("Sep 25, 2026 00:00:00").getTime();
 var countDownDate4 = new Date("Oct 14, 2026 00:00:00").getTime();
 var countDownDate5 = new Date("Dec 18, 2026 00:00:00").getTime();
@@ -110,6 +110,15 @@ function phase6NextHider() {
 
 function phase6UpcomingHider() {
   var x = document.getElementById("phase6Upcoming");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function phase7UpcomingHider() {
+  var x = document.getElementById("phase7Upcoming");
   if (x.style.display == "block") {
     x.style.display = "none";
   } else {

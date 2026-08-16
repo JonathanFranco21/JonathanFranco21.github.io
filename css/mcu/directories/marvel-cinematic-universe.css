@@ -104,9 +104,10 @@ div#phase2,
 div#phase3,
 div#phase4,
 div#phase5,
+div#phase6,
 div#phase6Next,
 div#phase6Upcoming,
-div#phase6,
+div#phase7Upcoming,
 div#phaseUnknown {
   display: none;
 }
@@ -189,7 +190,9 @@ img {
   margin-bottom: 32px;
 }
 
-div.item.spider-man-bnd {
+div.item.spider-man-bnd,
+div.item.vision-quest,
+div.item.avengers-sw {
   width: 100%;
 }
 
@@ -206,9 +209,13 @@ div.item.spider-man-bnd {
 
 @media screen and (min-width: 800px) { 
   div.item.spider-man-ffh,
-  div.item.marvel-zombies,
-  div.item.avengers-sw {
+  div.item.black-panther-iii,
+  div.item-armor-wars {
     width: 100%;
+  }
+
+  div.item.avengers-sw {
+    width: 49%;
   }
 
   div.item {
@@ -242,19 +249,19 @@ div.item.spider-man-bnd {
 }
 
 @media screen and (min-width: 1200px) {
-  div.item.avengers-endgame, 
-  div.item.blade {
+  div.item.avengers-endgame {
     width: 55%;
   }
 
   div.item,
   div.item.spider-man-ffh,
   div.item.marvel-zombies,
-  div.item.avengers-sw {
+  div.item.yfn-spider-man-s3 {
     width: 33%;
   }
 
-  div.item.ironheart {
+  div.item.ironheart,
+  div.item.black-panther-iii {
     width: 100%;
   }
 
@@ -265,8 +272,13 @@ div.item.spider-man-bnd {
 }
 
 @media screen and (min-width: 1400px) {
-  div.item {
+  div.item,
+  div.item.black-panther-iii {
     width: 33%;
+  }
+
+  div.item.avengers-sw {
+    width: 100%;
   }
 
   img {
